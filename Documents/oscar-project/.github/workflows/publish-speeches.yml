@@ -1,0 +1,100 @@
+name: Publicar discurso Oscar cada 10 minutos
+
+on:
+  # Cron: cada 10 minutos (GitHub Actions mínimo es 5 min)
+  schedule:
+    - cron: '*/10 * * * *'
+  
+  # Permite lanzar manualmente desde la UI de GitHub
+  workflow_dispatch:
+    inputs:
+      force_publish:
+        description: 'Forzar publicación del siguiente discurso'
+        required: false
+        default: 'false'
+
+jobs:
+  publish-speech:
+    runs-on: ubuntu-latest
+    # Evitar ejecuciones concurrentes que corrompan published.json
+    concurrency:
+      group: publish-speech
+      cancel-in-progress: false
+
+    steps:
+      # 1. Checkout con token de escritura para hacer push después
+      - name: Checkout repositorio
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      # 2. Setup Node
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # 3. Ejecutar el build de discursos
+      - name: Ejecutar build-speeches.js
+        env:
+          SITE_DOMAIN: ${{ secrets.SITE_DOMAIN || 'https://theoscar.vercel.app' }}
+          FORCE_PUBLISH: ${{ github.event.inputs.force_publish }}
+        run: node scripts/build-speeches.js
+
+      # 4. Verificar si hay cambios (si se publicó algo nuevo)
+      - name: Comprobar si hay cambios
+        id: changes
+        run: |
+          git diff --quiet && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+          git status --short
+
+      # 5. Commit y push solo si hubo cambios
+      - name: Commit y push nuevos discursos
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name  "Oscar Bot"
+          git config user.email "oscar-bot@theoscar.vercel.app"
+          git add data/published.json
+          git add discurso/
+          git add news-sitemap.xml
+          git add sitemap.xml
+          git commit -m "🎬 Publicar nuevo discurso Oscar [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+          git push
+
+      # 6. Log de estado
+      - name: Resumen de publicación
+        run: |
+          echo "## Estado de publicación" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          if [ -f data/published.json ]; then
+            COUNT=$(cat data/published.json | python3 -c "import json,sys; d=json.load(sys.stdin); print(len(d))")
+            echo "- ✅ Discursos publicados: **${COUNT}**" >> $GITHUB_STEP_SUMMARY
+            LAST=$(cat data/published.json | python3 -c "import json,sys; d=json.load(sys.stdin); print(d[-1]['headline'] if d else 'Ninguno')")
+            echo "- 📰 Último: **${LAST}**" >> $GITHUB_STEP_SUMMARY
+          fi
+          TOTAL=$(cat data/speeches.json | python3 -c "import json,sys; d=json.load(sys.stdin); print(len(d))")
+          echo "- 📋 Total en cola: **${TOTAL}**" >> $GITHUB_STEP_SUMMARY
+
+  build-static:
+    runs-on: ubuntu-latest
+    needs: publish-speech
+    if: always()
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Regenerar páginas estáticas
+        env:
+          SITE_DOMAIN: ${{ secrets.SITE_DOMAIN || 'https://theoscar.vercel.app' }}
+        run: node scripts/build-static.js
+      - name: Push si hay cambios
+        run: |
+          git config user.name "Oscar Bot"
+          git config user.email "oscar-bot@theoscar.vercel.app"
+          git add ceremonia/ pelicula/ actor/ director/ sitemap.xml
+          git diff --cached --quiet || git commit -m "🗺️ Rebuild páginas estáticas [$(date -u '+%Y-%m-%d %H:%M UTC')]" && git push

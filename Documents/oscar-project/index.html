@@ -1,0 +1,1152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>THE OSCAR — Historia completa de la Academia · 1929–2025</title>
+<meta name="description" content="Historia completa de los Oscar: todos los ganadores, discursos memorables, récords y datos de las 97 ceremonias de los Academy Awards.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
+<style>
+:root {
+  --ink: #0d0d0d; --paper: #f5f0e8; --cream: #ede8dc;
+  --gold: #c9a84c; --gold-light: #e8c96a; --red: #8b1a1a;
+  --gray: #6b6b6b; --gray-light: #c2bdb4; --white: #fff;
+  --border: #2a2a2a; --border-light: rgba(194,189,180,0.4);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--paper);color:var(--ink);font-family:'Cormorant Garamond',serif;font-size:18px;line-height:1.6;overflow-x:hidden}
+
+/* NAV */
+nav{background:var(--ink);border-bottom:2px solid var(--gold);position:sticky;top:0;z-index:200}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;padding:.7rem 3rem;max-width:1500px;margin:0 auto}
+.nav-logo{font-family:'Playfair Display',serif;font-weight:900;font-size:1.1rem;color:var(--gold);text-decoration:none;letter-spacing:.05em}
+.nav-links{display:flex;gap:2rem;list-style:none}
+.nav-links a{font-family:'DM Mono',monospace;font-size:.6rem;letter-spacing:.15em;text-transform:uppercase;color:var(--gray-light);text-decoration:none;transition:color .2s}
+.nav-links a:hover{color:var(--gold)}
+
+/* MASTHEAD */
+.masthead{background:var(--ink);color:var(--paper);position:relative;overflow:hidden;min-height:100vh;display:grid;grid-template-columns:1fr 2fr 1fr}
+.mh-col{padding:4rem 2.5rem;border-right:1px solid var(--border);display:flex;flex-direction:column;justify-content:space-between}
+.mh-col:last-child{border-right:none;justify-content:flex-end;gap:2rem}
+.issue-tag{font-family:'DM Mono',monospace;font-size:.62rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);border:1px solid var(--gold);padding:.3rem .7rem;display:inline-block}
+.mh-title{font-family:'Playfair Display',serif;font-size:clamp(4.5rem,9vw,8.5rem);font-weight:900;line-height:.88;letter-spacing:-.02em;color:var(--paper);margin:2rem 0 1.5rem}
+.mh-title em{display:block;color:var(--gold);font-style:italic;font-size:.52em}
+.mh-sub{font-size:.95rem;color:var(--gray-light);font-weight:300;letter-spacing:.04em;max-width:28ch;line-height:1.9}
+.mh-stat .big{font-family:'Playfair Display',serif;font-size:3.5rem;font-weight:700;color:var(--gold);line-height:1;display:block}
+.mh-stat .lbl{font-family:'DM Mono',monospace;font-size:.58rem;letter-spacing:.15em;text-transform:uppercase;color:var(--gray-light)}
+.gold-bar{position:absolute;bottom:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--gold),var(--gold-light),var(--gold))}
+
+/* CONTAINER */
+.container{max-width:1500px;margin:0 auto;padding:0 3rem}
+.section{padding:5rem 0}
+.sec-label{font-family:'DM Mono',monospace;font-size:.62rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);display:flex;align-items:center;gap:1rem;margin-bottom:1.5rem}
+.sec-label::after{content:'';flex:1;height:1px;background:var(--gold);opacity:.3}
+.sec-title{font-family:'Playfair Display',serif;font-size:clamp(2.2rem,4vw,3.5rem);font-weight:700;line-height:1.1;margin-bottom:1.5rem}
+
+
+/* SEARCH BAR */
+.search-wrap{background:var(--ink);padding:2rem 0;border-bottom:1px solid var(--border)}
+.search-inner{display:flex;gap:1rem;align-items:center;max-width:1500px;margin:0 auto;padding:0 3rem;flex-wrap:wrap}
+.search-input{flex:1;min-width:200px;background:transparent;border:none;border-bottom:2px solid var(--gold);padding:.6rem 0;font-family:'Cormorant Garamond',serif;font-size:1.1rem;color:var(--paper);outline:none}
+.search-input::placeholder{color:var(--gray)}
+.search-info{font-family:'DM Mono',monospace;font-size:.58rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gray);white-space:nowrap}
+.filter-row{display:flex;gap:.4rem;flex-wrap:wrap;margin-top:.5rem;width:100%}
+.ftag{font-family:'DM Mono',monospace;font-size:.55rem;letter-spacing:.1em;padding:.3rem .7rem;border:1px solid var(--border);background:transparent;cursor:pointer;color:var(--gray-light);transition:all .2s;text-transform:uppercase}
+.ftag:hover,.ftag.active{background:var(--gold);color:var(--ink);border-color:var(--gold)}
+
+/* CEREMONIES TABLE */
+.ceremonies-section{background:var(--paper)}
+.ceremonies-controls{display:grid;grid-template-columns:auto 1fr;gap:2rem;align-items:start;margin-bottom:2rem}
+.view-toggle{display:flex;gap:0}
+.view-btn{font-family:'DM Mono',monospace;font-size:.58rem;letter-spacing:.1em;padding:.4rem .9rem;border:1px solid var(--gray-light);background:transparent;cursor:pointer;color:var(--gray);transition:all .2s;text-transform:uppercase}
+.view-btn.active,.view-btn:hover{background:var(--ink);color:var(--gold);border-color:var(--ink)}
+
+/* TABLE VIEW */
+.ceremonies-table{width:100%;border-collapse:collapse;font-size:.9rem}
+.ceremonies-table th{font-family:'DM Mono',monospace;font-size:.55rem;letter-spacing:.15em;text-transform:uppercase;color:var(--gray);border-bottom:2px solid var(--ink);padding:.8rem 1rem;text-align:left;background:var(--cream)}
+.ceremonies-table td{padding:.75rem 1rem;border-bottom:1px solid var(--border-light);vertical-align:top;line-height:1.4}
+.ceremonies-table tr:hover td{background:var(--cream)}
+.ceremonies-table tr.winner-row td{background:rgba(201,168,76,.06)}
+.td-n{font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:700;color:var(--gold)}
+.td-year{font-family:'DM Mono',monospace;font-size:.65rem;letter-spacing:.1em;color:var(--gray)}
+.td-film{font-family:'Playfair Display',serif;font-style:italic;font-weight:700;font-size:1rem}
+.td-film a{color:var(--ink);text-decoration:none;border-bottom:1px dotted var(--gold)}
+.td-film a:hover{color:var(--gold)}
+.td-person{font-size:.85rem;color:var(--gray)}
+.td-person a{color:var(--gray);text-decoration:none;border-bottom:1px dotted var(--gray-light)}
+.td-person a:hover{color:var(--gold)}
+.speech-indicator{display:inline-block;width:8px;height:8px;background:var(--gold);border-radius:50%;margin-left:.4rem;cursor:pointer;vertical-align:middle;flex-shrink:0}
+.speech-indicator:hover{background:var(--gold-light)}
+.speech-row{display:none;background:#f9f6ee!important}
+.speech-row.open{display:table-row}
+.speech-cell{padding:1.2rem 1rem 1.5rem 3rem!important;font-size:.88rem;line-height:1.85;color:var(--gray);font-style:italic;border-left:3px solid var(--gold)!important;border-bottom:1px solid var(--border-light)!important}
+.speech-cell strong{display:block;font-family:'DM Mono',monospace;font-size:.55rem;letter-spacing:.15em;text-transform:uppercase;color:var(--gold);font-style:normal;margin-bottom:.5rem}
+
+/* GRID VIEW */
+.ceremonies-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));border:1px solid var(--border-light)}
+.cer-card{padding:1.8rem;border-right:1px solid var(--border-light);border-bottom:1px solid var(--border-light);cursor:pointer;transition:background .2s;position:relative}
+.cer-card:hover{background:var(--cream)}
+.cer-card.expanded{background:var(--ink);color:var(--paper)}
+.cer-n{font-family:'Playfair Display',serif;font-size:2.2rem;font-weight:900;color:var(--gold);line-height:1}
+.cer-year{font-family:'DM Mono',monospace;font-size:.6rem;letter-spacing:.12em;color:var(--gray);margin:.3rem 0 .8rem}
+.cer-film{font-family:'Playfair Display',serif;font-style:italic;font-weight:700;font-size:1rem;margin-bottom:.2rem}
+.cer-film a{color:inherit;text-decoration:none}
+.cer-film a:hover{color:var(--gold)}
+.cer-dir{font-size:.8rem;color:var(--gray)}
+.expanded .cer-dir{color:var(--gray-light)}
+.cer-detail{display:none;margin-top:1rem;padding-top:1rem;border-top:1px solid var(--border);font-size:.82rem;color:var(--gray-light);line-height:1.8}
+.expanded .cer-detail{display:block}
+.cer-detail a{color:var(--gold-light);text-decoration:none}
+.cer-detail .winner-line{margin-bottom:.3rem}
+.cer-detail .winner-label{font-family:'DM Mono',monospace;font-size:.5rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);display:block}
+
+/* SPEECHES SECTION */
+.speeches-section{background:var(--ink);color:var(--paper)}
+.speeches-hero{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--border);margin-bottom:4rem}
+.sh-text{padding:3rem;border-right:1px solid var(--border)}
+.sh-text p{font-size:.95rem;color:var(--gray-light);line-height:1.9;margin-bottom:1rem}
+.sh-quote{padding:3rem;display:flex;align-items:center}
+.sh-quote blockquote{font-family:'Playfair Display',serif;font-size:1.5rem;font-style:italic;line-height:1.45;color:var(--gold-light);border-left:3px solid var(--gold);padding-left:1.5rem}
+.sh-quote cite{display:block;font-family:'DM Mono',monospace;font-size:.55rem;letter-spacing:.13em;color:var(--gray);font-style:normal;margin-top:.8rem;text-transform:uppercase}
+
+/* SPEECH ARTICLES FEED */
+.speeches-feed{display:flex;flex-direction:column;gap:0;border:1px solid var(--border)}
+.speech-art{border-bottom:1px solid #1e1e1e;cursor:pointer}
+.speech-art:last-child{border-bottom:none}
+.speech-art-hdr{display:grid;grid-template-columns:100px 1fr 140px;align-items:center;gap:2rem;padding:1.8rem 2.5rem;transition:background .2s}
+.speech-art:hover .speech-art-hdr,.speech-art.open .speech-art-hdr{background:#111}
+.speech-art.open .speech-art-hdr{border-bottom:1px solid var(--border)}
+.art-edition{font-family:'DM Mono',monospace;font-size:.58rem;letter-spacing:.13em;color:var(--gold);text-transform:uppercase}
+.art-headline{font-family:'Playfair Display',serif;font-size:1.25rem;font-weight:700;line-height:1.2;color:var(--paper);transition:color .2s}
+.speech-art:hover .art-headline,.speech-art.open .art-headline{color:var(--gold-light)}
+.art-byline{font-family:'DM Mono',monospace;font-size:.52rem;letter-spacing:.08em;color:var(--gray);text-transform:uppercase;text-align:right}
+.art-badge{display:inline-flex;align-items:center;gap:.3rem;background:var(--gold);color:var(--ink);font-family:'DM Mono',monospace;font-size:.5rem;letter-spacing:.12em;text-transform:uppercase;padding:.25rem .6rem;margin-bottom:1rem}
+.art-badge::before{content:'▶';font-size:.45rem}
+.speech-body{display:none;padding:0 2.5rem 2.5rem;background:#111}
+.speech-art.open .speech-body{display:block}
+.speech-body-grid{display:grid;grid-template-columns:2fr 1fr;gap:4rem;padding-top:2.5rem}
+.art-lead{font-family:'Cormorant Garamond',serif;font-size:1.1rem;font-weight:600;line-height:1.75;color:var(--paper);margin-bottom:1.5rem;border-top:2px solid var(--gold);padding-top:1.2rem}
+.art-text p{font-size:.9rem;line-height:1.95;color:var(--gray-light);margin-bottom:1.1rem}
+.pull-block{position:relative}
+.pull-sticky{position:sticky;top:80px}
+.pull-quote{border-left:3px solid var(--gold);padding:1.5rem;background:#0a0a0a;margin-bottom:1.5rem}
+.pull-mark{font-family:'Playfair Display',serif;font-size:3.5rem;color:var(--gold);line-height:.5;display:block;margin-bottom:.7rem;opacity:.4}
+.pull-text{font-family:'Playfair Display',serif;font-size:1.15rem;font-style:italic;line-height:1.5;color:var(--gold-light)}
+.pull-attr{font-family:'DM Mono',monospace;font-size:.5rem;letter-spacing:.13em;text-transform:uppercase;color:var(--gray);margin-top:.8rem;display:block}
+.art-imdb-link{display:inline-flex;align-items:center;gap:.5rem;font-family:'DM Mono',monospace;font-size:.55rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);text-decoration:none;border:1px solid var(--gold);padding:.3rem .7rem;margin-top:1rem;transition:all .2s}
+.art-imdb-link:hover{background:var(--gold);color:var(--ink)}
+.art-meta-foot{display:flex;align-items:center;gap:1.2rem;margin-top:1.8rem;padding-top:1.5rem;border-top:1px solid var(--border);flex-wrap:wrap}
+.art-tag{font-family:'DM Mono',monospace;font-size:.5rem;letter-spacing:.1em;text-transform:uppercase;border:1px solid var(--border);padding:.22rem .55rem;color:var(--gray)}
+.art-read{font-family:'DM Mono',monospace;font-size:.5rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gray);margin-left:auto}
+
+/* STATS DARK */
+.stats-section{background:var(--ink);color:var(--paper)}
+.stats-grid{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--border)}
+.stat-c{padding:2.5rem 2rem;border-right:1px solid var(--border);text-align:center;position:relative;overflow:hidden}
+.stat-c:last-child{border-right:none}
+.stat-c::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:var(--gold);transform:scaleX(0);transition:transform .4s;transform-origin:left}
+.stat-c:hover::before{transform:scaleX(1)}
+.stat-big{font-family:'Playfair Display',serif;font-size:3rem;font-weight:900;color:var(--gold);line-height:1;display:block;margin-bottom:.4rem}
+.stat-desc{font-family:'DM Mono',monospace;font-size:.55rem;letter-spacing:.13em;text-transform:uppercase;color:var(--gray-light);display:block;margin-bottom:.8rem}
+.stat-note{font-size:.82rem;color:var(--gray);font-style:italic;line-height:1.6}
+
+/* AI EXPLORER */
+.explorer-section{background:var(--cream);border-top:3px solid var(--ink)}
+.explorer-grid{display:grid;grid-template-columns:1fr 2fr;gap:5rem;align-items:start}
+.exp-intro p{font-size:.95rem;color:var(--gray);line-height:1.9;margin-bottom:1.2rem}
+.query-pills{display:flex;flex-direction:column;gap:.4rem;margin-top:1.5rem}
+.qpill{font-size:.88rem;padding:.55rem 1.1rem;border:1px solid var(--gray-light);background:transparent;cursor:pointer;text-align:left;transition:all .2s;font-family:'Cormorant Garamond',serif;color:var(--gray);font-style:italic}
+.qpill:hover{background:var(--ink);color:var(--gold);border-color:var(--ink)}
+.chat-box{background:var(--white);border:1px solid var(--gray-light)}
+.chat-msgs{min-height:350px;max-height:500px;overflow-y:auto;padding:1.8rem;display:flex;flex-direction:column;gap:1.4rem}
+.msg{display:flex;flex-direction:column;gap:.25rem}
+.msg-role{font-family:'DM Mono',monospace;font-size:.52rem;letter-spacing:.18em;text-transform:uppercase}
+.msg.user .msg-role{color:var(--red)}
+.msg.ai .msg-role{color:var(--gold)}
+.msg-content{font-size:.9rem;line-height:1.85;color:var(--ink);background:var(--cream);padding:.9rem 1.1rem;border-left:2px solid var(--gray-light)}
+.msg.user .msg-content{border-left-color:var(--red)}
+.msg.ai .msg-content{border-left-color:var(--gold)}
+.chat-loading .msg-content{display:flex;align-items:center;gap:.4rem;color:var(--gray);font-style:italic}
+.dot{width:6px;height:6px;background:var(--gold);border-radius:50%;animation:pulse 1.2s ease-in-out infinite}
+.dot:nth-child(2){animation-delay:.2s}
+.dot:nth-child(3){animation-delay:.4s}
+@keyframes pulse{0%,100%{opacity:.3;transform:scale(.8)}50%{opacity:1;transform:scale(1)}}
+.chat-input-area{border-top:1px solid var(--gray-light);padding:1.2rem 1.5rem;display:flex;gap:.8rem;align-items:flex-end}
+.chat-input{flex:1;border:1px solid var(--gray-light);background:var(--paper);padding:.7rem .9rem;font-family:'Cormorant Garamond',serif;font-size:1rem;color:var(--ink);resize:none;min-height:2.5rem;max-height:8rem;outline:none;transition:border-color .2s}
+.chat-input:focus{border-color:var(--gold)}
+.chat-send{background:var(--ink);color:var(--gold);border:none;padding:.7rem 1.3rem;font-family:'DM Mono',monospace;font-size:.6rem;letter-spacing:.13em;text-transform:uppercase;cursor:pointer;transition:background .2s;white-space:nowrap}
+.chat-send:hover{background:#1a1a1a}
+.chat-send:disabled{opacity:.4;cursor:not-allowed}
+
+/* FOOTER */
+footer{background:var(--ink);color:var(--gray);padding:4rem 0 2rem;border-top:3px solid var(--gold)}
+.foot-grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:4rem;margin-bottom:3rem}
+.foot-brand{font-family:'Playfair Display',serif;font-size:2.2rem;font-weight:900;color:var(--gold);line-height:1;margin-bottom:.8rem}
+.foot-brand span{display:block;font-style:italic;font-size:.9rem;color:var(--gray-light)}
+.foot-desc{font-size:.85rem;line-height:1.9;color:var(--gray)}
+.foot-col h4{font-family:'DM Mono',monospace;font-size:.58rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-bottom:1rem}
+.foot-col ul{list-style:none;display:flex;flex-direction:column;gap:.5rem}
+.foot-col a{font-size:.88rem;color:var(--gray);text-decoration:none;transition:color .2s}
+.foot-col a:hover{color:var(--gold)}
+.foot-bottom{border-top:1px solid var(--border);padding-top:1.5rem;display:flex;justify-content:space-between}
+.foot-bottom p{font-family:'DM Mono',monospace;font-size:.52rem;letter-spacing:.08em;text-transform:uppercase;color:var(--gray)}
+
+/* RESULTS COUNT */
+.results-count{font-family:'DM Mono',monospace;font-size:.6rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gray);margin-bottom:1rem}
+.no-results{padding:3rem;text-align:center;color:var(--gray);font-style:italic}
+
+/* ORNAMENT */
+.ornament{text-align:center;color:var(--gold);font-size:1rem;margin:1rem 0;letter-spacing:.5em}
+
+/* RESPONSIVE */
+@media(max-width:900px){
+  .masthead{grid-template-columns:1fr}
+  .mh-col:first-child,.mh-col:last-child{display:none}
+  .stats-grid{grid-template-columns:1fr 1fr}
+  .explorer-grid{grid-template-columns:1fr}
+  .foot-grid{grid-template-columns:1fr}
+  .container{padding:0 1.5rem}
+  .nav-links{display:none}
+  .speeches-hero{grid-template-columns:1fr}
+  .speech-body-grid{grid-template-columns:1fr}
+  .speech-art-hdr{grid-template-columns:1fr;gap:.4rem}
+  .art-byline{text-align:left}
+  .search-inner{padding:0 1.5rem}
+  .ceremonies-controls{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-inner">
+    <a href="#top" class="nav-logo">THE OSCAR</a>
+    <ul class="nav-links">
+      <li><a href="#ceremonias">Ceremonias</a></li>
+      <li><a href="#discursos">Discursos</a></li>
+      <li><a href="#datos">Datos</a></li>
+      <li><a href="#explorador">Explorador IA</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- POSTER LIGHTBOX -->
+<div class="poster-modal-overlay" id="posterOverlay" onclick="closePosterModal()">
+  <img class="poster-modal-img" id="posterModalImg" src="" alt="">
+  <div class="poster-modal-info">
+    <h4 id="posterModalTitle"></h4>
+    <p id="posterModalMeta"></p>
+  </div>
+</div>
+
+<!-- MASTHEAD -->
+<header class="masthead" id="top">
+  <div class="mh-col">
+    <div>
+      <div class="issue-tag">Edición Especial · 97 Ceremonias</div>
+      <p style="color:var(--gray);font-size:.88rem;margin-top:2rem;line-height:1.9;font-style:italic;">"La estatuilla más reconocida<br>de la historia del cine"</p>
+    </div>
+    <p style="font-family:'DM Mono',monospace;font-size:.58rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gray)">▼ Explorar</p>
+  </div>
+  <div class="mh-col" style="border-right:1px solid var(--border)">
+    <div class="issue-tag" style="margin-bottom:2rem">Academy of Motion Picture Arts &amp; Sciences</div>
+    <h1 class="mh-title">THE<br>OSCAR<em>1929 — 2025</em></h1>
+    <p class="mh-sub">97 ceremonias. Casi un siglo de glamour, lágrimas, escándalos y obras maestras. La historia completa de los Academy Awards.</p>
+    <p style="font-family:'DM Mono',monospace;font-size:.58rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gray);margin-top:3rem">▼ Desplázate</p>
+  </div>
+  <div class="mh-col">
+    <div class="mh-stat"><span class="big">97</span><span class="lbl">Ceremonias</span></div>
+    <div class="mh-stat"><span class="big">3.1k+</span><span class="lbl">Estatuillas</span></div>
+    <div class="mh-stat"><span class="big">24</span><span class="lbl">Categorías</span></div>
+    <div class="mh-stat"><span class="big">1929</span><span class="lbl">Primera gala</span></div>
+  </div>
+  <div class="gold-bar"></div>
+</header>
+
+<!-- SEARCH -->
+<div class="search-wrap">
+  <div class="search-inner">
+    <input class="search-input" id="searchInput" placeholder="Buscar película, actor, director, año..." oninput="handleSearch()">
+    <span class="search-info" id="searchInfo">97 ceremonias · 4 categorías principales</span>
+  </div>
+  <div class="search-inner" style="padding-top:.5rem">
+    <div class="filter-row" id="filterRow">
+      <button class="ftag active" data-filter="all" onclick="setFilter(this,'all')">Todas las décadas</button>
+      <button class="ftag" data-filter="1920" onclick="setFilter(this,'1920')">1920s</button>
+      <button class="ftag" data-filter="1930" onclick="setFilter(this,'1930')">1930s</button>
+      <button class="ftag" data-filter="1940" onclick="setFilter(this,'1940')">1940s</button>
+      <button class="ftag" data-filter="1950" onclick="setFilter(this,'1950')">1950s</button>
+      <button class="ftag" data-filter="1960" onclick="setFilter(this,'1960')">1960s</button>
+      <button class="ftag" data-filter="1970" onclick="setFilter(this,'1970')">1970s</button>
+      <button class="ftag" data-filter="1980" onclick="setFilter(this,'1980')">1980s</button>
+      <button class="ftag" data-filter="1990" onclick="setFilter(this,'1990')">1990s</button>
+      <button class="ftag" data-filter="2000" onclick="setFilter(this,'2000')">2000s</button>
+      <button class="ftag" data-filter="2010" onclick="setFilter(this,'2010')">2010s</button>
+      <button class="ftag" data-filter="2020" onclick="setFilter(this,'2020')">2020s</button>
+      <button class="ftag" data-filter="speech" onclick="setFilter(this,'speech')">Con discurso destacado</button>
+      <button class="ftag" data-filter="record" onclick="setFilter(this,'record')">Récords históricos</button>
+      <button class="ftag" data-filter="historico" onclick="setFilter(this,'historico')">Hitos históricos</button>
+    </div>
+  </div>
+</div>
+
+<!-- CEREMONIES -->
+<section class="ceremonies-section section" id="ceremonias">
+  <div class="container">
+    <div class="sec-label">Base de datos completa</div>
+    <div class="ceremonies-controls">
+      <div>
+        <h2 class="sec-title" style="margin-bottom:.5rem">Todas las<br><em style="font-style:italic;color:var(--gold)">ceremonias</em></h2>
+        <p class="results-count" id="resultsCount"></p>
+      </div>
+      <div class="view-toggle" style="align-self:end">
+        <button class="view-btn active" onclick="setView('table',this)">Tabla</button>
+        <button class="view-btn" onclick="setView('grid',this)">Tarjetas</button>
+      </div>
+    </div>
+
+    <!-- TABLE -->
+    <div id="tableView">
+      <table class="ceremonies-table" id="cerTable">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Año</th>
+            <th style="width:52px">Poster</th>
+            <th>Mejor Película</th>
+            <th>Mejor Director</th>
+            <th>Mejor Actor</th>
+            <th>Mejor Actriz</th>
+            <th>IMDb</th>
+          </tr>
+        </thead>
+        <tbody id="cerTbody"></tbody>
+      </table>
+    </div>
+
+    <!-- GRID -->
+    <div id="gridView" style="display:none">
+      <div class="ceremonies-grid" id="cerGrid"></div>
+    </div>
+
+    <div class="no-results" id="noResults" style="display:none">No se encontraron resultados para esa búsqueda.</div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section class="stats-section section" id="datos">
+  <div class="container">
+    <div class="sec-label" style="color:var(--gold)">Datos globales</div>
+    <div class="stats-grid">
+      <div class="stat-c">
+        <span class="stat-big">11</span>
+        <span class="stat-desc">Máximo Oscar en una noche</span>
+        <p class="stat-note">Ben-Hur (1959), Titanic (1997) y El Retorno del Rey (2003) comparten el récord. Ninguna película lo ha superado.</p>
+      </div>
+      <div class="stat-c">
+        <span class="stat-big">4</span>
+        <span class="stat-desc">Victorias · Katharine Hepburn</span>
+        <p class="stat-note">La actriz más galardonada de la historia. John Ford como director también tiene 4. Son los únicos con este registro.</p>
+      </div>
+      <div class="stat-c">
+        <span class="stat-big">3</span>
+        <span class="stat-desc">Big Five Sweeps históricos</span>
+        <p class="stat-note">It Happened One Night (1934), One Flew Over the Cuckoo's Nest (1975) y The Silence of the Lambs (1991). Solo tres galas en 97 años.</p>
+      </div>
+      <div class="stat-c">
+        <span class="stat-big">1</span>
+        <span class="stat-desc">Film no anglófono ganador</span>
+        <p class="stat-note">Parasite (Bong Joon-ho, 2019). El único en 92 años en ganar Mejor Película. La historia más improbable de los Oscar modernos.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SPEECHES -->
+<section class="speeches-section section" id="discursos">
+  <div class="container">
+    <div class="sec-label" style="color:var(--gold)">Análisis editorial en profundidad</div>
+    <h2 class="sec-title" style="color:var(--paper);margin-bottom:.5rem">Discursos<br><em style="color:var(--gold);font-style:italic">que pasaron a la historia</em></h2>
+    <p style="color:var(--gray-light);font-size:.92rem;max-width:58ch;margin-bottom:3rem;line-height:1.9">Treinta segundos en el micrófono. La presión de cien millones de espectadores. Algunos dijeron algo que nadie olvidó. Reportajes en profundidad sobre los momentos más memorables.</p>
+
+    <div class="speeches-hero">
+      <div class="sh-text">
+        <div class="art-badge" style="margin-bottom:1.2rem">Reportaje especial · Edición histórica</div>
+        <p>Los discursos de aceptación del Oscar son piezas únicas de cultura popular. En treinta segundos se puede hacer historia, abrir un debate político, llorar por los que vinieron antes o simplemente perder el hilo. Desde Brando enviando a Sacheen Littlefeather hasta Olivia Colman sin poder creérselo, el micrófono dorado ha sido escenario de momentos que trascienden el cine.</p>
+        <p>Haz clic en el punto dorado (●) junto a cualquier ganador en la tabla de ceremonias para ver su discurso destacado. Y aquí abajo, los reportajes editoriales en profundidad sobre los más memorables.</p>
+      </div>
+      <div class="sh-quote">
+        <blockquote>
+          "You like me. Right now, you like me."
+          <cite>Sally Field · Mejor Actriz · 1985 · Places in the Heart</cite>
+        </blockquote>
+      </div>
+    </div>
+
+    <div style="display:flex;gap:.4rem;margin-bottom:2rem;flex-wrap:wrap">
+      <span style="font-family:'DM Mono',monospace;font-size:.58rem;letter-spacing:.15em;text-transform:uppercase;color:var(--gray);margin-right:.5rem;align-self:center">Filtrar:</span>
+      <button class="ftag active" style="border-color:var(--border)" data-sf="all" onclick="filterSpeeches(this,'all')">Todos</button>
+      <button class="ftag" style="border-color:var(--border)" data-sf="politico" onclick="filterSpeeches(this,'politico')">Político</button>
+      <button class="ftag" style="border-color:var(--border)" data-sf="emotivo" onclick="filterSpeeches(this,'emotivo')">Emotivo</button>
+      <button class="ftag" style="border-color:var(--border)" data-sf="iconico" onclick="filterSpeeches(this,'iconico')">Icónico</button>
+      <button class="ftag" style="border-color:var(--border)" data-sf="reciente" onclick="filterSpeeches(this,'reciente')">Reciente</button>
+      <button class="ftag" style="border-color:var(--border)" data-sf="clasico" onclick="filterSpeeches(this,'clasico')">Clásico</button>
+    </div>
+    <div class="speeches-feed" id="speechesFeed"></div>
+  </div>
+</section>
+
+<!-- AI EXPLORER -->
+<section class="explorer-section section" id="explorador">
+  <div class="container">
+    <div class="explorer-grid">
+      <div class="exp-intro">
+        <div class="sec-label">Inteligencia editorial</div>
+        <h2 class="sec-title">Explorador<br><em style="font-style:italic;color:var(--gold)">Oscar IA</em></h2>
+        <p>Pregunta sobre cualquier aspecto de la historia de los Oscar: ganadores, récords, discursos, controversias, actores, directores, tendencias por décadas...</p>
+        <p>Tiene acceso a todo el conocimiento histórico de la Academia desde 1929 hasta 2025.</p>
+        <div class="query-pills">
+          <div style="font-family:'DM Mono',monospace;font-size:.58rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-bottom:.3rem">Sugerencias</div>
+          <button class="qpill" onclick="setQ(this)">¿Qué película ha ganado más Oscar en una noche?</button>
+          <button class="qpill" onclick="setQ(this)">Los discursos políticos más impactantes de la historia</button>
+          <button class="qpill" onclick="setQ(this)">Actores que ganaron Oscar consecutivos</button>
+          <button class="qpill" onclick="setQ(this)">Las mayores sorpresas y controversias</button>
+          <button class="qpill" onclick="setQ(this)">Historia del Oscar a Película Internacional</button>
+          <button class="qpill" onclick="setQ(this)">Directores con más victorias</button>
+          <button class="qpill" onclick="setQ(this)">¿Qué pasó en la gala del sobre equivocado de 2017?</button>
+        </div>
+      </div>
+      <div>
+        <div class="chat-box">
+          <div class="chat-msgs" id="chatMsgs">
+            <div class="msg ai">
+              <span class="msg-role">Oscar IA</span>
+              <div class="msg-content">Bienvenido al Explorador Oscar. Base de datos de las 97 ceremonias cargada. Puedo responder preguntas sobre ganadores, nominados, récords, discursos y cualquier aspecto de casi un siglo de Academy Awards. ¿Qué quieres saber?</div>
+            </div>
+          </div>
+          <div class="chat-input-area">
+            <textarea class="chat-input" id="chatInput" placeholder="Pregunta sobre los Oscar..." rows="1" onkeydown="handleKey(event)"></textarea>
+            <button class="chat-send" id="sendBtn" onclick="sendMsg()">Enviar →</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="foot-grid">
+      <div>
+        <div class="foot-brand">THE OSCAR<span>Historia de la Academia · 1929–2025</span></div>
+        <p class="foot-desc">Web monográfica sobre los Academy Awards. 97 ceremonias, datos completos, discursos históricos y exploración inteligente de casi un siglo de cinematografía mundial.</p>
+      </div>
+      <div class="foot-col">
+        <h4>Secciones</h4>
+        <ul>
+          <li><a href="#ceremonias">Ceremonias</a></li>
+          <li><a href="#datos">Datos</a></li>
+          <li><a href="#discursos">Discursos</a></li>
+          <li><a href="#explorador">Explorador IA</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>Fuentes</h4>
+        <ul>
+          <li><a href="https://awardsdatabase.oscars.org" target="_blank">oscars.org</a></li>
+          <li><a href="https://www.imdb.com" target="_blank">IMDb</a></li>
+          <li><a href="https://github.com/DLu/oscar_data" target="_blank">oscar_data (GitHub)</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <p>The Oscar © Academy of Motion Picture Arts and Sciences</p>
+      <p>Web editorial no oficial · Datos históricos públicos</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+// ═══════════════════════════════════════════════
+// OSCAR COMPLETE DATABASE — 97 ceremonies
+// ═══════════════════════════════════════════════
+const DB = [
+  {n:1,year:'1929',decade:1920,venue:'Hollywood Roosevelt Hotel',picture:{film:'Wings',dir:'William Wellman',imdb:'tt0018578'},director:{name:'Frank Borzage',film:'Seventh Heaven'},actor:{name:'Emil Jannings',film:'The Last Command',imdb:'nm0001394',speech:'Recogió su estatuilla antes de la ceremonia porque regresaba a Alemania. Primer y único ganador en recibir el Oscar antes de la gala.'},actress:{name:'Janet Gaynor',film:'7th Heaven / Sunrise',imdb:'nm0310733',speech:'Ganó por tres películas simultáneamente, práctica que se eliminó enseguida.'},tags:['clasico']},
+  {n:2,year:'1930',decade:1920,venue:'Cocoanut Grove',picture:{film:'The Broadway Melody',dir:'Harry Beaumont',imdb:'tt0019762'},director:{name:'Frank Lloyd',film:'The Divine Lady'},actor:{name:'Warner Baxter',film:'In Old Arizona',imdb:'nm0000870'},actress:{name:'Mary Pickford',film:'Coquette',imdb:'nm0681933',speech:'Se rumoreó que invitó a los votantes a su mansión Pickfair antes de la ceremonia.'},tags:['clasico']},
+  {n:3,year:'1931',decade:1930,venue:'Fiesta Room, Ambassador Hotel',picture:{film:'All Quiet on the Western Front',dir:'Lewis Milestone',imdb:'tt0020629',note:'Primer film antibélico en ganar.'},director:{name:'Lewis Milestone',film:'All Quiet on the Western Front'},actor:{name:'George Arliss',film:'Disraeli',imdb:'nm0000769'},actress:{name:'Norma Shearer',film:'The Divorcee',imdb:'nm0789823'},tags:['clasico']},
+  {n:4,year:'1932',decade:1930,venue:'Biltmore Hotel',picture:{film:'Cimarron',dir:'Wesley Ruggles',imdb:'tt0021746',note:'Primer western en ganar.'},director:{name:'Norman Taurog',film:'Skippy'},actor:{name:'Lionel Barrymore',film:'A Free Soul',imdb:'nm0000867'},actress:{name:'Marie Dressler',film:'Min and Bill',imdb:'nm0237720'},tags:['clasico']},
+  {n:5,year:'1933',decade:1930,venue:'Ambassador Hotel',picture:{film:'Grand Hotel',dir:'Edmund Goulding',imdb:'tt0022958',note:'Único film en ganar sin ninguna otra nominación en la historia.'},director:{name:'Frank Borzage',film:'Bad Girl'},actor:{name:'Fredric March',film:'Dr. Jekyll and Mr. Hyde',imdb:'nm0001501',speech:'Empató con Wallace Beery. Único empate en Mejor Actor.'},actress:{name:'Helen Hayes',film:'The Sin of Madelon Claudet',imdb:'nm0001329'},tags:['clasico','record']},
+  {n:6,year:'1934',decade:1930,venue:'Fiesta Room, Ambassador Hotel',picture:{film:'Cavalcade',dir:'Frank Lloyd',imdb:'tt0023876'},director:{name:'Frank Lloyd',film:'Cavalcade'},actor:{name:'Charles Laughton',film:'The Private Life of Henry VIII',imdb:'nm0000473',speech:'Primer ganador británico.'},actress:{name:'Katharine Hepburn',film:'Morning Glory',imdb:'nm0000031',speech:'Primera de sus cuatro victorias. Llamativamente, no asistió a la ceremonia. Nunca asistió.'},tags:['clasico','record']},
+  {n:7,year:'1935',decade:1930,venue:'Biltmore Bowl',picture:{film:'It Happened One Night',dir:'Frank Capra',imdb:'tt0025316',note:'Primer Big Five Sweep de la historia. No se repetiría hasta 1975.'},director:{name:'Frank Capra',film:'It Happened One Night'},actor:{name:'Clark Gable',film:'It Happened One Night',imdb:'nm0000023',speech:'"Esto es demasiado para un tipo como yo." Consideró rechazarlo pero no lo hizo.'},actress:{name:'Claudette Colbert',film:'It Happened One Night',imdb:'nm0000092',speech:'Estaba en un tren a Nueva York. Bajó del tren, fue a la ceremonia en traje de viaje y volvió al tren. Discurso de 20 segundos.'},tags:['clasico','record','big5']},
+  {n:8,year:'1936',decade:1930,venue:'Biltmore Bowl',picture:{film:'Mutiny on the Bounty',dir:'Frank Lloyd',imdb:'tt0026752'},director:{name:'John Ford',film:'The Informer'},actor:{name:'Victor McLaglen',film:'The Informer',imdb:'nm0570960'},actress:{name:'Bette Davis',film:'Dangerous',imdb:'nm0000016',speech:'"Lo gané de consolación por no haberlo ganado el año anterior." Davis lo dijo públicamente.'},tags:['clasico']},
+  {n:9,year:'1937',decade:1930,venue:'Biltmore Bowl',picture:{film:'The Great Ziegfeld',dir:'Robert Z. Leonard',imdb:'tt0027698'},director:{name:'Frank Capra',film:'Mr. Deeds Goes to Town'},actor:{name:'Paul Muni',film:'The Story of Louis Pasteur',imdb:'nm0612050'},actress:{name:'Luise Rainer',film:'The Great Ziegfeld',imdb:'nm0707372',speech:'Primera de dos victorias consecutivas, récord que tardó décadas en igualarse.'},tags:['clasico','record']},
+  {n:10,year:'1938',decade:1930,venue:'Biltmore Bowl',picture:{film:'The Life of Emile Zola',dir:'William Dieterle',imdb:'tt0029135'},director:{name:'Leo McCarey',film:'The Awful Truth'},actor:{name:'Spencer Tracy',film:'Captains Courageous',imdb:'nm0000075',speech:'Primera de dos victorias consecutivas. En la segunda confundió "Dick Tracy" con su nombre.'},actress:{name:'Luise Rainer',film:'The Good Earth',imdb:'nm0707372',speech:'Segunda victoria consecutiva, récord absoluto de la época.'},tags:['clasico','record']},
+  {n:11,year:'1939',decade:1930,venue:'Biltmore Bowl',picture:{film:'You Can\'t Take It with You',dir:'Frank Capra',imdb:'tt0030993'},director:{name:'Frank Capra',film:'You Can\'t Take It with You'},actor:{name:'Spencer Tracy',film:'Boys Town',imdb:'nm0000075',speech:'Segunda victoria consecutiva. Spencer Tracy es el único actor en lograrlo.'},actress:{name:'Bette Davis',film:'Jezebel',imdb:'nm0000016'},tags:['clasico','record']},
+  {n:12,year:'1940',decade:1940,venue:'Cocoanut Grove',picture:{film:'Gone with the Wind',dir:'Victor Fleming',imdb:'tt0031381',note:'8 Oscar. Hattie McDaniel primera persona negra en ganar un Oscar.'},director:{name:'Victor Fleming',film:'Gone with the Wind'},actor:{name:'Robert Donat',film:'Goodbye, Mr. Chips',imdb:'nm0001152',speech:'Ganó sobre Clark Gable. Padecía asma severa y raramente asistía a actos públicos.'},actress:{name:'Vivien Leigh',film:'Gone with the Wind',imdb:'nm0000046',speech:'Primera de dos victorias. Leigh agradeció a Laurence Olivier, presente en la sala.'},tags:['clasico','record','historico']},
+  {n:13,year:'1941',decade:1940,venue:'Biltmore Bowl',picture:{film:'Rebecca',dir:'Alfred Hitchcock',imdb:'tt0032976',note:'Único Oscar de Hitchcock. Paradójicamente, él no fue nominado como director.'},director:{name:'John Ford',film:'The Grapes of Wrath'},actor:{name:'James Stewart',film:'The Philadelphia Story',imdb:'nm0000071',speech:'"Mi mejor actuación fue en Mr. Smith y no lo gané. Esto no lo entiendo."'},actress:{name:'Ginger Rogers',film:'Kitty Foyle',imdb:'nm0001691',speech:'Conocida por comedias musicales, ganó por un drama.'},tags:['clasico']},
+  {n:14,year:'1942',decade:1940,venue:'Biltmore Bowl',picture:{film:'How Green Was My Valley',dir:'John Ford',imdb:'tt0033729',note:'Derrotó a Citizen Kane. La mayor polémica de los Oscar clásicos.'},director:{name:'John Ford',film:'How Green Was My Valley'},actor:{name:'Gary Cooper',film:'Sergeant York',imdb:'nm0000007',speech:'No asistió. James Stewart recogió el premio en su nombre.'},actress:{name:'Joan Fontaine',film:'Suspicion',imdb:'nm0284516',speech:'Su hermana Olivia de Havilland estaba nominada el mismo año. Fontaine ganó. La rivalidad entre ambas fue legendaria durante décadas.'},tags:['clasico','historico']},
+  {n:15,year:'1943',decade:1940,venue:'Cocoanut Grove',picture:{film:'Mrs. Miniver',dir:'William Wyler',imdb:'tt0035093'},director:{name:'William Wyler',film:'Mrs. Miniver'},actor:{name:'James Cagney',film:'Yankee Doodle Dandy',imdb:'nm0000010',speech:'Era conocido por su incomodidad en actos públicos. Fue llevado al escenario casi a la fuerza.'},actress:{name:'Greer Garson',film:'Mrs. Miniver',imdb:'nm0000077',speech:'Discurso de entre 5 y 7 minutos. El más largo de la historia. La Academia estableció límites de tiempo directamente a causa de esto.'},tags:['clasico','record']},
+  {n:16,year:'1944',decade:1940,venue:'Grauman\'s Chinese Theatre',picture:{film:'Casablanca',dir:'Michael Curtiz',imdb:'tt0034583'},director:{name:'Michael Curtiz',film:'Casablanca'},actor:{name:'Paul Lukas',film:'Watch on the Rhine',imdb:'nm0525832'},actress:{name:'Jennifer Jones',film:'The Song of Bernadette',imdb:'nm0000019',speech:'Jones lloraba tan intensamente que apenas podía hablar. David O. Selznick había orquestado una campaña sin precedentes.'},tags:['clasico']},
+  {n:17,year:'1945',decade:1940,venue:'Grauman\'s Chinese Theatre',picture:{film:'Going My Way',dir:'Leo McCarey',imdb:'tt0036872'},director:{name:'Leo McCarey',film:'Going My Way'},actor:{name:'Bing Crosby',film:'Going My Way',imdb:'nm0000095'},actress:{name:'Ingrid Bergman',film:'Gaslight',imdb:'nm0000006',speech:'Agradeció en inglés, sueco y francés.'},tags:['clasico']},
+  {n:18,year:'1946',decade:1940,venue:'Grauman\'s Chinese Theatre',picture:{film:'The Lost Weekend',dir:'Billy Wilder',imdb:'tt0037884'},director:{name:'Billy Wilder',film:'The Lost Weekend'},actor:{name:'Ray Milland',film:'The Lost Weekend',imdb:'nm0001539',speech:'Recibió el premio en silencio absoluto, algo inusual.'},actress:{name:'Joan Crawford',film:'Mildred Pierce',imdb:'nm0000026',speech:'No asistió, alegando enfermedad. Recibió el Oscar en cama con cámaras presentes. Muchos consideraron que fue táctica de relaciones públicas.'},tags:['clasico']},
+  {n:19,year:'1947',decade:1940,venue:'Shrine Auditorium',picture:{film:'The Best Years of Our Lives',dir:'William Wyler',imdb:'tt0036868',note:'7 Oscar. Película sobre veteranos de WWII.'},director:{name:'William Wyler',film:'The Best Years of Our Lives'},actor:{name:'Fredric March',film:'The Best Years of Our Lives',imdb:'nm0001501'},actress:{name:'Olivia de Havilland',film:'To Each His Own',imdb:'nm0000014',speech:'Primera de dos victorias. Había ganado un pleito histórico contra Warner Bros. que cambió las leyes laborales de Hollywood.'},tags:['clasico']},
+  {n:20,year:'1948',decade:1940,venue:'Shrine Auditorium',picture:{film:'Gentleman\'s Agreement',dir:'Elia Kazan',imdb:'tt0039416'},director:{name:'Elia Kazan',film:'Gentleman\'s Agreement'},actor:{name:'Ronald Colman',film:'A Double Life',imdb:'nm0001057'},actress:{name:'Loretta Young',film:'The Farmer\'s Daughter',imdb:'nm0001873',speech:'Llegó con un vestido verde esmeralda que se convirtió en portada de todas las revistas.'},tags:['clasico']},
+  {n:21,year:'1949',decade:1940,venue:'Academy Award Theatre',picture:{film:'Hamlet',dir:'Laurence Olivier',imdb:'tt0040506',note:'Primer film británico en ganar Mejor Película.'},director:{name:'John Huston',film:'The Treasure of the Sierra Madre'},actor:{name:'Laurence Olivier',film:'Hamlet',imdb:'nm0000059',speech:'Ganó también como productor. Uno de los pocos en ganar actor y película el mismo año.'},actress:{name:'Jane Wyman',film:'Johnny Belinda',imdb:'nm0001875',speech:'Interpretó a una mujer sordomuda. "Gracias a todos con quienes no pude hablar."'},tags:['clasico']},
+  {n:22,year:'1950',decade:1940,venue:'RKO Pantages Theatre',picture:{film:'All the King\'s Men',dir:'Robert Rossen',imdb:'tt0041113'},director:{name:'Joseph L. Mankiewicz',film:'A Letter to Three Wives'},actor:{name:'Broderick Crawford',film:'All the King\'s Men',imdb:'nm0000264'},actress:{name:'Olivia de Havilland',film:'The Heiress',imdb:'nm0000014',speech:'Segunda victoria. La única en ganar dos veces en categoría principal durante los años 40.'},tags:['clasico']},
+  {n:23,year:'1951',decade:1950,venue:'RKO Pantages Theatre',picture:{film:'All About Eve',dir:'Joseph L. Mankiewicz',imdb:'tt0042192',note:'14 nominaciones. Récord histórico que duró hasta 1997.'},director:{name:'Joseph L. Mankiewicz',film:'All About Eve'},actor:{name:'José Ferrer',film:'Cyrano de Bergerac',imdb:'nm0001213',speech:'Primer hispano en ganar Mejor Actor.'},actress:{name:'Judy Holliday',film:'Born Yesterday',imdb:'nm0001361',speech:'Ganó sobre Bette Davis y Anne Baxter, ambas nominadas por All About Eve. Una de las mayores sorpresas de los Oscar clásicos.'},tags:['clasico','record']},
+  {n:24,year:'1952',decade:1950,venue:'RKO Pantages Theatre',picture:{film:'An American in Paris',dir:'Vincente Minnelli',imdb:'tt0043378',note:'Derrotó a A Streetcar Named Desire.'},director:{name:'George Stevens',film:'A Place in the Sun'},actor:{name:'Humphrey Bogart',film:'The African Queen',imdb:'nm0000007',speech:'"No entiendo qué es todo esto. Solo hago mi trabajo."'},actress:{name:'Vivien Leigh',film:'A Streetcar Named Desire',imdb:'nm0000046',speech:'Segunda victoria. Leigh y Brando perdieron Mejor Película pese a actuar en el mismo film.'},tags:['clasico']},
+  {n:25,year:'1953',decade:1950,venue:'RKO Pantages Theatre',picture:{film:'The Greatest Show on Earth',dir:'Cecil B. DeMille',imdb:'tt0044672',note:'Considerada la peor ganadora en encuestas de crítica.'},director:{name:'John Ford',film:'The Quiet Man'},actor:{name:'Gary Cooper',film:'High Noon',imdb:'nm0000007',speech:'No asistió. John Wayne recogió el premio.'},actress:{name:'Shirley Booth',film:'Come Back, Little Sheba',imdb:'nm0095349',speech:'Lloró durante todo el discurso. Había llegado a Hollywood desde Broadway a los 55 años.'},tags:['clasico']},
+  {n:26,year:'1954',decade:1950,venue:'RKO Pantages Theatre',picture:{film:'From Here to Eternity',dir:'Fred Zinnemann',imdb:'tt0045793',note:'8 Oscar de 13 nominaciones.'},director:{name:'Fred Zinnemann',film:'From Here to Eternity'},actor:{name:'William Holden',film:'Stalag 17',imdb:'nm0000034',speech:'"Thank you. Thank you." El discurso más corto hasta esa fecha.'},actress:{name:'Audrey Hepburn',film:'Roman Holiday',imdb:'nm0000030',speech:'Primera victoria. Había ganado también el Tony y el Emmy ese año — triple corona sin precedentes.'},tags:['clasico','record']},
+  {n:27,year:'1955',decade:1950,venue:'RKO Pantages Theatre',picture:{film:'On the Waterfront',dir:'Elia Kazan',imdb:'tt0047296',note:'8 Oscar.'},director:{name:'Elia Kazan',film:'On the Waterfront'},actor:{name:'Marlon Brando',film:'On the Waterfront',imdb:'nm0000008',speech:'Primera victoria de Brando. Elegante y breve, en contraste radical con su rechazo de 1973.'},actress:{name:'Grace Kelly',film:'The Country Girl',imdb:'nm0000038',speech:'Kelly ganó sobre Judy Garland en A Star Is Born. Considerado uno de los mayores robos de los Oscar.'},tags:['clasico']},
+  {n:28,year:'1956',decade:1950,venue:'RKO Pantages Theatre',picture:{film:'Marty',dir:'Delbert Mann',imdb:'tt0048356',note:'Primer film de bajo presupuesto en ganar. También ganó la Palma de Oro en Cannes.'},director:{name:'Delbert Mann',film:'Marty'},actor:{name:'Ernest Borgnine',film:'Marty',imdb:'nm0000308',speech:'"Mamá, conseguí el trabajo que me pediste que encontrara."'},actress:{name:'Anna Magnani',film:'The Rose Tattoo',imdb:'nm0536885',speech:'No asistió. Estaba en Roma rodando. Recibió la noticia por teléfono: "Bien. Ahora puedo dormir."'},tags:['clasico']},
+  {n:29,year:'1957',decade:1950,venue:'RKO Pantages Theatre',picture:{film:'Around the World in 80 Days',dir:'Michael Anderson',imdb:'tt0048960'},director:{name:'George Stevens',film:'Giant'},actor:{name:'Yul Brynner',film:'The King and I',imdb:'nm0000267'},actress:{name:'Ingrid Bergman',film:'Anastasia',imdb:'nm0000006',speech:'Estaba en Europa. Cary Grant recogió el premio y bromeó: "la única persona que merece esto más que ella soy yo."'},tags:['clasico']},
+  {n:30,year:'1958',decade:1950,venue:'RKO Pantages Theatre',picture:{film:'The Bridge on the River Kwai',dir:'David Lean',imdb:'tt0050212',note:'7 Oscar.'},director:{name:'David Lean',film:'The Bridge on the River Kwai'},actor:{name:'Alec Guinness',film:'The Bridge on the River Kwai',imdb:'nm0000096',speech:'Declaró después estar "ligeramente asqueado" de haber ganado por ese papel.'},actress:{name:'Joanne Woodward',film:'The Three Faces of Eve',imdb:'nm0942418',speech:'Llegó con un vestido que ella misma había cosido. La prensa de moda se escandalizó.'},tags:['clasico']},
+  {n:31,year:'1959',decade:1950,venue:'RKO Pantages Theatre',picture:{film:'Gigi',dir:'Vincente Minnelli',imdb:'tt0051658',note:'9 Oscar de 9 nominaciones. Sweep perfecto.'},director:{name:'Vincente Minnelli',film:'Gigi'},actor:{name:'David Niven',film:'Separate Tables',imdb:'nm0000555',speech:'"I really need this Oscar, unlike most people here tonight."'},actress:{name:'Susan Hayward',film:'I Want to Live!',imdb:'nm0001331',speech:'Cuarta nominación sin ganar. "Llevo 15 años peleando para que me dierais esto."'},tags:['clasico']},
+  {n:32,year:'1960',decade:1960,venue:'RKO Pantages Theatre',picture:{film:'Ben-Hur',dir:'William Wyler',imdb:'tt0052618',note:'11 Oscar de 12 nominaciones. Récord histórico compartido con Titanic y El Retorno del Rey.'},director:{name:'William Wyler',film:'Ben-Hur'},actor:{name:'Charlton Heston',film:'Ben-Hur',imdb:'nm0000032',speech:'"Supongo que esto es resultado de tener el mejor director, el mejor elenco y los mejores caballos del mundo."'},actress:{name:'Simone Signoret',film:'Room at the Top',imdb:'nm0798880',speech:'Primera actriz francesa en ganar. "Merci. Et mille fois merci." La sala estalló.'},tags:['clasico','record']},
+  {n:33,year:'1961',decade:1960,venue:'Santa Monica Civic Auditorium',picture:{film:'The Apartment',dir:'Billy Wilder',imdb:'tt0053604',note:'Última película en B&N en ganar hasta The Artist en 2012.'},director:{name:'Billy Wilder',film:'The Apartment'},actor:{name:'Burt Lancaster',film:'Elmer Gantry',imdb:'nm0000044',speech:'"Right now I feel like I even love Jack Lemmon." Lemmon había competido contra él.'},actress:{name:'Elizabeth Taylor',film:'BUtterfield 8',imdb:'nm0000072',speech:'Taylor había estado a punto de morir semanas antes. Muchos creen ganó por simpatía.'},tags:['clasico']},
+  {n:34,year:'1962',decade:1960,venue:'Santa Monica Civic Auditorium',picture:{film:'West Side Story',dir:'Robert Wise',imdb:'tt0055614',note:'10 Oscar. Récord de victorias para un musical.'},director:{name:'Robert Wise / Jerome Robbins',film:'West Side Story'},actor:{name:'Maximilian Schell',film:'Judgment at Nuremberg',imdb:'nm0001700'},actress:{name:'Sophia Loren',film:'Two Women',imdb:'nm0000047',speech:'Primera en ganar por un film en idioma extranjero. No asistió. Lloraba en Roma.'},tags:['clasico','record']},
+  {n:35,year:'1963',decade:1960,venue:'Santa Monica Civic Auditorium',picture:{film:'Lawrence of Arabia',dir:'David Lean',imdb:'tt0056172',note:'7 Oscar de 10 nominaciones.'},director:{name:'David Lean',film:'Lawrence of Arabia'},actor:{name:'Gregory Peck',film:'To Kill a Mockingbird',imdb:'nm0000060',speech:'Dedicó el Oscar a Harper Lee, autora de la novela. Lee, en la sala, subió y le abrazó.'},actress:{name:'Anne Bancroft',film:'The Miracle Worker',imdb:'nm0000842',speech:'Estaba en Broadway. Patty Duke, coprotagonista también ganadora, recogió el premio.'},tags:['clasico']},
+  {n:36,year:'1964',decade:1960,venue:'Santa Monica Civic Auditorium',picture:{film:'Tom Jones',dir:'Tony Richardson',imdb:'tt0057590'},director:{name:'Tony Richardson',film:'Tom Jones'},actor:{name:'Sidney Poitier',film:'Lilies of the Field',imdb:'nm0001632',speech:'Primer hombre negro en ganar Mejor Actor. "Dedico esto a todos los hombres que me mostraron el camino." Ovación de toda la sala.'},actress:{name:'Patricia Neal',film:'Hud',imdb:'nm0624543',speech:'Su recuperación tras un ictus fue cubierta por todos los medios.'},tags:['clasico','historico']},
+  {n:37,year:'1965',decade:1960,venue:'Santa Monica Civic Auditorium',picture:{film:'My Fair Lady',dir:'George Cukor',imdb:'tt0058385',note:'8 Oscar de 12 nominaciones.'},director:{name:'George Cukor',film:'My Fair Lady'},actor:{name:'Rex Harrison',film:'My Fair Lady',imdb:'nm0000031',speech:'"Gracias a dos grandes damas: Audrey Hepburn y Jack Warner." La ausencia de Hepburn en las nominaciones había generado polémica.'},actress:{name:'Julie Andrews',film:'Mary Poppins',imdb:'nm0000267',speech:'"Debo agradecerle a Jack Warner por hacerme posible este premio." (Hepburn interpretó Eliza en la película pero Andrews la sustituyó en el film).'},tags:['clasico']},
+  {n:38,year:'1966',decade:1960,venue:'Santa Monica Civic Auditorium',picture:{film:'The Sound of Music',dir:'Robert Wise',imdb:'tt0059742',note:'5 Oscar.'},director:{name:'Robert Wise',film:'The Sound of Music'},actor:{name:'Lee Marvin',film:'Cat Ballou',imdb:'nm0001513',speech:'Su discurso fue notoriamente desinhibido según los reportes.'},actress:{name:'Julie Christie',film:'Darling',imdb:'nm0000927',speech:'Llegó en minifalda. Fue la primera en aparecer así en los Oscar.'},tags:['clasico']},
+  {n:39,year:'1967',decade:1960,venue:'Santa Monica Civic Auditorium',picture:{film:'A Man for All Seasons',dir:'Fred Zinnemann',imdb:'tt0060665'},director:{name:'Fred Zinnemann',film:'A Man for All Seasons'},actor:{name:'Paul Scofield',film:'A Man for All Seasons',imdb:'nm0776556'},actress:{name:'Elizabeth Taylor',film:'Who\'s Afraid of Virginia Woolf?',imdb:'nm0000072',speech:'Segunda victoria. Ella y Burton nominados el mismo año por el mismo film.'},tags:['clasico']},
+  {n:40,year:'1968',decade:1960,venue:'Santa Monica Civic Auditorium',picture:{film:'In the Heat of the Night',dir:'Norman Jewison',imdb:'tt0061811'},director:{name:'Mike Nichols',film:'The Graduate'},actor:{name:'Rod Steiger',film:'In the Heat of the Night',imdb:'nm0001760',speech:'Dedicó el Oscar a Martin Luther King, asesinado dos días antes de la ceremonia.'},actress:{name:'Katharine Hepburn',film:'Guess Who\'s Coming to Dinner',imdb:'nm0000031',speech:'Segunda victoria. No asistió. "Las galas me parecen teatro de vanidad."'},tags:['clasico','historico']},
+  {n:41,year:'1969',decade:1960,venue:'Dorothy Chandler Pavilion',picture:{film:'Oliver!',dir:'Carol Reed',imdb:'tt0063385',note:'5 Oscar. Último musical en ganar hasta Chicago (2003).'},director:{name:'Carol Reed',film:'Oliver!'},actor:{name:'Cliff Robertson',film:'Charly',imdb:'nm0001678'},actress:{name:'Katharine Hepburn / Barbra Streisand',film:'The Lion in Winter / Funny Girl',imdb:'nm0000031',speech:'Empate histórico entre Hepburn y Streisand. El único en la categoría. Streisand: "Hello, gorgeous." Hepburn no asistió.'},tags:['clasico','record','historico']},
+  {n:42,year:'1970',decade:1970,venue:'Dorothy Chandler Pavilion',picture:{film:'Midnight Cowboy',dir:'John Schlesinger',imdb:'tt0064665',note:'Único film X/NC-17 en ganar Mejor Película.'},director:{name:'John Schlesinger',film:'Midnight Cowboy'},actor:{name:'John Wayne',film:'True Grit',imdb:'nm0000078',speech:'"Debí haberme puesto antes un parche en el ojo." Única victoria de Wayne. Ovación de pie.'},actress:{name:'Maggie Smith',film:'The Prime of Miss Jean Brodie',imdb:'nm0001749',speech:'Comenzó con un agudo "Oh dear!" que arrancó carcajadas.'},tags:['clasico','record']},
+  {n:43,year:'1971',decade:1970,venue:'Dorothy Chandler Pavilion',picture:{film:'Patton',dir:'Franklin J. Schaffner',imdb:'tt0065234',note:'7 Oscar.'},director:{name:'Franklin J. Schaffner',film:'Patton'},actor:{name:'George C. Scott',film:'Patton',imdb:'nm0001716',speech:'Rechazó el premio activamente, declarando que los Oscar eran "una feria de carne humana degradante". Único actor en rechazarlo en vida. Dormía en su casa cuando se anunció.'},actress:{name:'Glenda Jackson',film:'Women in Love',imdb:'nm0001413',speech:'Fue directamente al teatro a actuar después de la gala.'},tags:['clasico','historico']},
+  {n:44,year:'1972',decade:1970,venue:'Dorothy Chandler Pavilion',picture:{film:'The French Connection',dir:'William Friedkin',imdb:'tt0067116',note:'Primera clasificada R en ganar.'},director:{name:'William Friedkin',film:'The French Connection'},actor:{name:'Gene Hackman',film:'The French Connection',imdb:'nm0000432'},actress:{name:'Jane Fonda',film:'Klute',imdb:'nm0000404',speech:'Llegó con pelo corto y traje pantalón como señal de activismo. Discurso de 30 segundos.'},tags:['clasico']},
+  {n:45,year:'1973',decade:1970,venue:'Dorothy Chandler Pavilion',picture:{film:'The Godfather',dir:'Francis Ford Coppola',imdb:'tt0068646',note:'3 Oscar. Considerada frecuentemente la mejor película de la historia.'},director:{name:'Bob Fosse',film:'Cabaret'},actor:{name:'Marlon Brando',film:'The Godfather',imdb:'nm0000008',speech:'Rechazó el premio enviando a Sacheen Littlefeather. La Academia tardó 49 años en disculparse. La noche más política de la historia de los Oscar hasta ese momento.'},actress:{name:'Liza Minnelli',film:'Cabaret',imdb:'nm0000214',speech:'"Esto es para mamá." Judy Garland, su madre, nunca ganó el Oscar.'},tags:['clasico','historico','politico']},
+  {n:46,year:'1974',decade:1970,venue:'Dorothy Chandler Pavilion',picture:{film:'The Sting',dir:'George Roy Hill',imdb:'tt0070735',note:'7 Oscar.'},director:{name:'George Roy Hill',film:'The Sting'},actor:{name:'Jack Lemmon',film:'Save the Tiger',imdb:'nm0000474',speech:'Segundo Oscar de Lemmon. Una de las mayores ovaciones de la noche.'},actress:{name:'Glenda Jackson',film:'A Touch of Class',imdb:'nm0001413',speech:'Segunda victoria en cuatro años. "Los Oscar no cambiaron nada en mi vida."'},tags:['clasico']},
+  {n:47,year:'1975',decade:1970,venue:'Dorothy Chandler Pavilion',picture:{film:'The Godfather Part II',dir:'Francis Ford Coppola',imdb:'tt0071562',note:'6 Oscar. Primera secuela en ganar Mejor Película.'},director:{name:'Francis Ford Coppola',film:'The Godfather Part II'},actor:{name:'Art Carney',film:'Harry and Tonto',imdb:'nm0001023',speech:'Ganó sobre Nicholson, Pacino y Hoffman. Una de las mayores sorpresas de la historia.'},actress:{name:'Ellen Burstyn',film:'Alice Doesn\'t Live Here Anymore',imdb:'nm0000108',speech:'"Gracias a Scorsese por hacer una película sobre nosotras, las mujeres."'},tags:['clasico','record']},
+  {n:48,year:'1976',decade:1970,venue:'Dorothy Chandler Pavilion',picture:{film:'One Flew Over the Cuckoo\'s Nest',dir:'Milos Forman',imdb:'tt0073486',note:'Segundo Big Five Sweep. Solo tres en 97 años.'},director:{name:'Milos Forman',film:'One Flew Over the Cuckoo\'s Nest'},actor:{name:'Jack Nicholson',film:'One Flew Over the Cuckoo\'s Nest',imdb:'nm0000197',speech:'Primer Oscar de Nicholson. "Gracias a Fred Roos que confió en mí cuando nadie más lo hacía."'},actress:{name:'Louise Fletcher',film:'One Flew Over the Cuckoo\'s Nest',imdb:'nm0001226',speech:'Dedicó su discurso en lenguaje de signos a sus padres sordos que la estaban viendo por televisión. Uno de los momentos más emotivos de la historia de los Oscar.'},tags:['clasico','record','emotivo','big5']},
+  {n:49,year:'1977',decade:1970,venue:'Dorothy Chandler Pavilion',picture:{film:'Rocky',dir:'John G. Avildsen',imdb:'tt0075148',note:'Derrotó a Network y Taxi Driver.'},director:{name:'John G. Avildsen',film:'Rocky'},actor:{name:'Peter Finch',film:'Network',imdb:'nm0000396',speech:'Finch murió dos meses antes de la gala. Primer ganador póstumo de la historia.'},actress:{name:'Faye Dunaway',film:'Network',imdb:'nm0000386'},tags:['clasico','historico']},
+  {n:50,year:'1978',decade:1970,venue:'Dorothy Chandler Pavilion',picture:{film:'Annie Hall',dir:'Woody Allen',imdb:'tt0075686',note:'Allen venció a Star Wars. Allen ni asistió: prefirió tocar el clarinete en un club.'},director:{name:'Woody Allen',film:'Annie Hall'},actor:{name:'Richard Dreyfuss',film:'The Goodbye Girl',imdb:'nm0000401',speech:'Tenía 29 años, el más joven en ganar. Llegó al escenario "no del todo sobrio", según él mismo.'},actress:{name:'Diane Keaton',film:'Annie Hall',imdb:'nm0000424',speech:'Su look —pantalón, chaleco, corbata— se convirtió en símbolo de moda.'},tags:['clasico']},
+  {n:51,year:'1979',decade:1970,venue:'Dorothy Chandler Pavilion',picture:{film:'The Deer Hunter',dir:'Michael Cimino',imdb:'tt0077416',note:'5 Oscar.'},director:{name:'Michael Cimino',film:'The Deer Hunter'},actor:{name:'Jon Voight',film:'Coming Home',imdb:'nm0000685'},actress:{name:'Jane Fonda',film:'Coming Home',imdb:'nm0000404',speech:'Segunda victoria. La noche de Vietnam: ella, Voight, Deer Hunter. Todo alrededor de la guerra.'},tags:['clasico']},
+  {n:52,year:'1980',decade:1980,venue:'Dorothy Chandler Pavilion',picture:{film:'Kramer vs. Kramer',dir:'Robert Benton',imdb:'tt0079417',note:'5 Oscar.'},director:{name:'Robert Benton',film:'Kramer vs. Kramer'},actor:{name:'Dustin Hoffman',film:'Kramer vs. Kramer',imdb:'nm0000453',speech:'"Esta película es por todos los padres que no saben cómo decir adiós a sus hijos." Agradeció a su ex mujer en el escenario.'},actress:{name:'Sally Field',film:'Norma Rae',imdb:'nm0001236',speech:'Primera victoria de Field.'},tags:['clasico']},
+  {n:53,year:'1981',decade:1980,venue:'Dorothy Chandler Pavilion',picture:{film:'Ordinary People',dir:'Robert Redford',imdb:'tt0081283',note:'4 Oscar.'},director:{name:'Robert Redford',film:'Ordinary People'},actor:{name:'Robert De Niro',film:'Raging Bull',imdb:'nm0000134',speech:'"Este premio es para Jake LaMotta, que vive la vida en sus propios términos." Engordó 25 kilos para el papel.'},actress:{name:'Sissy Spacek',film:'Coal Miner\'s Daughter',imdb:'nm0000820'},tags:['clasico']},
+  {n:54,year:'1982',decade:1980,venue:'Dorothy Chandler Pavilion',picture:{film:'Chariots of Fire',dir:'Hugh Hudson',imdb:'tt0082158'},director:{name:'Warren Beatty',film:'Reds'},actor:{name:'Henry Fonda',film:'On Golden Pond',imdb:'nm0000437',speech:'76 años. El más mayor en ganar Mejor Actor. Gravemente enfermo. Su hija Jane Fonda recogió el premio llorando. Murió 5 meses después.'},actress:{name:'Katharine Hepburn',film:'On Golden Pond',imdb:'nm0000031',speech:'Cuarta y última victoria de Hepburn. Récord absoluto. Hepburn y Fonda ganaron el mismo año por el mismo film — algo sin precedentes en la historia.'},tags:['clasico','record','emotivo']},
+  {n:55,year:'1983',decade:1980,venue:'Dorothy Chandler Pavilion',picture:{film:'Gandhi',dir:'Richard Attenborough',imdb:'tt0083987',note:'8 Oscar.'},director:{name:'Richard Attenborough',film:'Gandhi'},actor:{name:'Ben Kingsley',film:'Gandhi',imdb:'nm0001426',speech:'"El mundo necesita a Gandhi más hoy que cuando vivía."'},actress:{name:'Meryl Streep',film:'Sophie\'s Choice',imdb:'nm0000658',speech:'Segunda victoria de Streep, pero primera como protagonista. Agradeció en polaco, el idioma de su personaje.'},tags:['clasico']},
+  {n:56,year:'1984',decade:1980,venue:'Dorothy Chandler Pavilion',picture:{film:'Terms of Endearment',dir:'James L. Brooks',imdb:'tt0086879',note:'5 Oscar.'},director:{name:'James L. Brooks',film:'Terms of Endearment'},actor:{name:'Robert Duvall',film:'Tender Mercies',imdb:'nm0000380',speech:'Había aprendido guitarra para el papel. Tocó unos acordes en el escenario.'},actress:{name:'Shirley MacLaine',film:'Terms of Endearment',imdb:'nm0000517',speech:'Quinta nominación. "I deserve this." Sin más. La sala estalló.'},tags:['clasico']},
+  {n:57,year:'1985',decade:1980,venue:'Dorothy Chandler Pavilion',picture:{film:'Amadeus',dir:'Milos Forman',imdb:'tt0086879',note:'8 Oscar.'},director:{name:'Milos Forman',film:'Amadeus'},actor:{name:'F. Murray Abraham',film:'Amadeus',imdb:'nm0000757',speech:'Agradeció a Mozart. Solo a Mozart.'},actress:{name:'Sally Field',film:'Places in the Heart',imdb:'nm0001236',speech:'"You like me. Right now, you like me." El discurso más citado de la era moderna. Field aclaró después que era una broma sobre el sistema de votación, no una petición de aprobación.'},tags:['clasico','iconico']},
+  {n:58,year:'1986',decade:1980,venue:'Dorothy Chandler Pavilion',picture:{film:'Out of Africa',dir:'Sydney Pollack',imdb:'tt0089755',note:'7 Oscar.'},director:{name:'Sydney Pollack',film:'Out of Africa'},actor:{name:'William Hurt',film:'Kiss of the Spider Woman',imdb:'nm0001385',speech:'Ganó por uno de los primeros grandes papeles LGBTQ+ del cine mainstream.'},actress:{name:'Geraldine Page',film:'The Trip to Bountiful',imdb:'nm0001587',speech:'Séptima nominación. "Está bien llegar tarde a veces."'},tags:['clasico']},
+  {n:59,year:'1987',decade:1980,venue:'Dorothy Chandler Pavilion',picture:{film:'Platoon',dir:'Oliver Stone',imdb:'tt0091763',note:'4 Oscar.'},director:{name:'Oliver Stone',film:'Platoon'},actor:{name:'Paul Newman',film:'The Color of Money',imdb:'nm0000056',speech:'Octava nominación. "Esta es mi octava vez. Gracias por vuestra persistencia." El discurso más aplaudido de la noche.'},actress:{name:'Marlee Matlin',film:'Children of a Lesser God',imdb:'nm0001508',speech:'Sorda. Discurso en lenguaje de signos. Única actriz sorda en ganar. Tenía 21 años, la más joven en ganar esa categoría.'},tags:['clasico','historico']},
+  {n:60,year:'1988',decade:1980,venue:'Shrine Auditorium',picture:{film:'The Last Emperor',dir:'Bernardo Bertolucci',imdb:'tt0093389',note:'9 Oscar de 9 nominaciones. Segundo sweep perfecto.'},director:{name:'Bernardo Bertolucci',film:'The Last Emperor'},actor:{name:'Michael Douglas',film:'Wall Street',imdb:'nm0000140',speech:'"Gracias a mi padre Kirk Douglas por enseñarme que en Hollywood, como en Wall Street, el dinero nunca duerme."'},actress:{name:'Cher',film:'Moonstruck',imdb:'nm0000333',speech:'"Cuando era niña vivía en un coche con mi madre y nunca pensé que estaría aquí."'},tags:['clasico']},
+  {n:61,year:'1989',decade:1980,venue:'Shrine Auditorium',picture:{film:'Rain Man',dir:'Barry Levinson',imdb:'tt0095953',note:'4 Oscar.'},director:{name:'Barry Levinson',film:'Rain Man'},actor:{name:'Dustin Hoffman',film:'Rain Man',imdb:'nm0000453',speech:'"Este premio es de las personas autistas con las que pasé meses investigando."'},actress:{name:'Jodie Foster',film:'The Accused',imdb:'nm0000149',speech:'Primera victoria. 26 años. Había estudiado en Yale entre rodaje y rodaje.'},tags:['clasico']},
+  {n:62,year:'1990',decade:1990,venue:'Dorothy Chandler Pavilion',picture:{film:'Driving Miss Daisy',dir:'Bruce Beresford',imdb:'tt0097239',note:'4 Oscar.'},director:{name:'Oliver Stone',film:'Born on the Fourth of July'},actor:{name:'Daniel Day-Lewis',film:'My Left Foot',imdb:'nm0000358',speech:'Primera victoria. Permaneció en silla de ruedas durante todo el rodaje. "No tengo palabras para esto."'},actress:{name:'Jessica Tandy',film:'Driving Miss Daisy',imdb:'nm0000670',speech:'80 años. La más mayor en ganar Mejor Actriz. "Soy la mujer más afortunada del mundo."'},tags:['clasico','record']},
+  {n:63,year:'1991',decade:1990,venue:'Dorothy Chandler Pavilion',picture:{film:'Dances with Wolves',dir:'Kevin Costner',imdb:'tt0099348',note:'7 Oscar. Sorpresa histórica sobre Goodfellas.'},director:{name:'Kevin Costner',film:'Dances with Wolves'},actor:{name:'Jeremy Irons',film:'Reversal of Fortune',imdb:'nm0000460'},actress:{name:'Kathy Bates',film:'Misery',imdb:'nm0000870',speech:'"No me lo esperaba. Realmente no me lo esperaba."'},tags:['clasico']},
+  {n:64,year:'1992',decade:1990,venue:'Dorothy Chandler Pavilion',picture:{film:'The Silence of the Lambs',dir:'Jonathan Demme',imdb:'tt0102926',note:'Tercer y último Big Five Sweep de la historia.'},director:{name:'Jonathan Demme',film:'The Silence of the Lambs'},actor:{name:'Anthony Hopkins',film:'The Silence of the Lambs',imdb:'nm0000164',speech:'"Gracias al público por haber soportado a Hannibal Lecter." Solo 16 minutos en pantalla.'},actress:{name:'Jodie Foster',film:'The Silence of the Lambs',imdb:'nm0000149',speech:'Segunda victoria. Dedicado a "todas las mujeres que han tenido miedo en la oscuridad y lo han superado."'},tags:['clasico','record','big5']},
+  {n:65,year:'1993',decade:1990,venue:'Dorothy Chandler Pavilion',picture:{film:'Unforgiven',dir:'Clint Eastwood',imdb:'tt0105695',note:'4 Oscar.'},director:{name:'Clint Eastwood',film:'Unforgiven'},actor:{name:'Al Pacino',film:'Scent of a Woman',imdb:'nm0000199',speech:'Séptima nominación. "Tardé mucho en llegar aquí." Ovación.'},actress:{name:'Emma Thompson',film:'Howards End',imdb:'nm0001767',speech:'Llegó con un Oscar de plástico de un programa de televisión. "Como ven, tengo práctica."'},tags:['clasico']},
+  {n:66,year:'1994',decade:1990,venue:'Dorothy Chandler Pavilion',picture:{film:'Schindler\'s List',dir:'Steven Spielberg',imdb:'tt0108052',note:'7 Oscar. Primer Oscar de Spielberg como director.'},director:{name:'Steven Spielberg',film:'Schindler\'s List'},actor:{name:'Tom Hanks',film:'Philadelphia',imdb:'nm0000158',speech:'Primer Oscar de Hanks. Agradeció a dos personas reales que le ayudaron a entender lo que significaba ser gay. Provocó una ola de artículos sobre visibilidad LGBTQ+.'},actress:{name:'Holly Hunter',film:'The Piano',imdb:'nm0001767',speech:'"Ada me enseñó que el silencio tiene su propio idioma."'},tags:['clasico','emotivo']},
+  {n:67,year:'1995',decade:1990,venue:'Shrine Auditorium',picture:{film:'Forrest Gump',dir:'Robert Zemeckis',imdb:'tt0109830',note:'6 Oscar. Derrotó a Pulp Fiction y Shawshank Redemption.'},director:{name:'Robert Zemeckis',film:'Forrest Gump'},actor:{name:'Tom Hanks',film:'Forrest Gump',imdb:'nm0000158',speech:'Segundo Oscar consecutivo. El primero en lograrlo desde Spencer Tracy. "Run, Forrest, run... mamá tenía razón."'},actress:{name:'Jessica Lange',film:'Blue Sky',imdb:'nm0001446'},tags:['clasico','record']},
+  {n:68,year:'1996',decade:1990,venue:'Dorothy Chandler Pavilion',picture:{film:'Braveheart',dir:'Mel Gibson',imdb:'tt0112573',note:'5 Oscar.'},director:{name:'Mel Gibson',film:'Braveheart'},actor:{name:'Nicolas Cage',film:'Leaving Las Vegas',imdb:'nm0000115'},actress:{name:'Susan Sarandon',film:'Dead Man Walking',imdb:'nm0001634',speech:'Cuarta nominación. Dedicó el premio a los condenados a muerte del mundo.'},tags:['clasico']},
+  {n:69,year:'1997',decade:1990,venue:'Dorothy Chandler Pavilion',picture:{film:'The English Patient',dir:'Anthony Minghella',imdb:'tt0116209',note:'9 Oscar.'},director:{name:'Anthony Minghella',film:'The English Patient'},actor:{name:'Geoffrey Rush',film:'Shine',imdb:'nm0001677'},actress:{name:'Frances McDormand',film:'Fargo',imdb:'nm0000531',speech:'Primera victoria. Agradeció a su hijo adoptivo: "el amor no tiene fronteras."'},tags:['clasico']},
+  {n:70,year:'1998',decade:1990,venue:'Shrine Auditorium',picture:{film:'Titanic',dir:'James Cameron',imdb:'tt0120338',note:'11 Oscar. Récord igualado. Mayor recaudación de la historia hasta entonces.'},director:{name:'James Cameron',film:'Titanic'},actor:{name:'Jack Nicholson',film:'As Good as It Gets',imdb:'nm0000197',speech:'Tercer Oscar de Nicholson, récord entre actores. Llegó con sus gafas de sol.'},actress:{name:'Helen Hunt',film:'As Good as It Gets',imdb:'nm0001435'},tags:['clasico','record']},
+  {n:71,year:'1999',decade:1990,venue:'Dorothy Chandler Pavilion',picture:{film:'Shakespeare in Love',dir:'John Madden',imdb:'tt0138097',note:'7 Oscar. Sorpresa sobre Saving Private Ryan. Atribuida a campaña de Harvey Weinstein.'},director:{name:'Steven Spielberg',film:'Saving Private Ryan'},actor:{name:'Roberto Benigni',film:'Life is Beautiful',imdb:'nm0000905',speech:'Saltó sobre los asientos para llegar al escenario. "Quiero hacer el amor a todo el mundo." Uno de los momentos más recordados.'},actress:{name:'Gwyneth Paltrow',film:'Shakespeare in Love',imdb:'nm0000569',speech:'Llorando varios minutos. El discurso generó más cobertura que la película.'},tags:['clasico','emotivo','iconico']},
+  {n:72,year:'2000',decade:2000,venue:'Shrine Auditorium',picture:{film:'American Beauty',dir:'Sam Mendes',imdb:'tt0169547',note:'5 Oscar.'},director:{name:'Sam Mendes',film:'American Beauty'},actor:{name:'Kevin Spacey',film:'American Beauty',imdb:'nm0000228',speech:'Segundo Oscar. "Mamá, lo logramos."'},actress:{name:'Hilary Swank',film:'Boys Don\'t Cry',imdb:'nm0005476',speech:'Había trabajado de camarera mientras perseguía su carrera. "No puedo creer que esto sea real."'},tags:['clasico']},
+  {n:73,year:'2001',decade:2000,venue:'Shrine Auditorium',picture:{film:'Gladiator',dir:'Ridley Scott',imdb:'tt0172495',note:'5 Oscar.'},director:{name:'Steven Soderbergh',film:'Traffic'},actor:{name:'Russell Crowe',film:'Gladiator',imdb:'nm0001807',speech:'Leyó un poema propio antes de los agradecimientos. Le cortaron el micrófono.'},actress:{name:'Julia Roberts',film:'Erin Brockovich',imdb:'nm0000210',speech:'Agradeció a "doscientas personas" en 5 minutos.'},tags:['clasico']},
+  {n:74,year:'2002',decade:2000,venue:'Kodak Theatre',picture:{film:'A Beautiful Mind',dir:'Ron Howard',imdb:'tt0268978',note:'4 Oscar.'},director:{name:'Ron Howard',film:'A Beautiful Mind'},actor:{name:'Denzel Washington',film:'Training Day',imdb:'nm0000243',speech:'Primera victoria en protagonista. "Cuarenta años después de que Sidney ganara aquí, miro hacia arriba y él está aquí." Sidney Poitier recibía un Oscar honorífico la misma noche.'},actress:{name:'Halle Berry',film:'Monster\'s Ball',imdb:'nm0000897',speech:'Primera mujer negra en ganar Mejor Actriz en 74 años de historia. Lloró 4 minutos. "Esta noche es para todas las mujeres de color que ahora tienen una oportunidad porque esta puerta esta noche ha sido abierta."'},tags:['emotivo','historico','reciente','record']},
+  {n:75,year:'2003',decade:2000,venue:'Kodak Theatre',picture:{film:'Chicago',dir:'Rob Marshall',imdb:'tt0299658',note:'6 Oscar. Primer musical en ganar desde Oliver! (1969).'},director:{name:'Roman Polanski',film:'The Pianist'},actor:{name:'Adrien Brody',film:'The Pianist',imdb:'nm0004970',speech:'Besó a Halle Berry, la presentadora, antes de dar su discurso. Dedicó el premio a los soldados en Irak, en plena invasión.'},actress:{name:'Nicole Kidman',film:'The Hours',imdb:'nm0000173',speech:'"Los actores somos personas que buscamos la verdad del corazón humano."'},tags:['clasico']},
+  {n:76,year:'2004',decade:2000,venue:'Kodak Theatre',picture:{film:'The Lord of the Rings: The Return of the King',dir:'Peter Jackson',imdb:'tt0167260',note:'11 Oscar de 11 nominaciones. El único film en ganar el 100% de sus nominaciones.'},director:{name:'Peter Jackson',film:'The Return of the King'},actor:{name:'Sean Penn',film:'Mystic River',imdb:'nm0000228',speech:'Primer Oscar de Penn. Defendió a Tim Robbins, su rival: "Si no pudieron ver a Tim Robbins aquí esta noche, la actuación que merecía estar aquí es la de Tim Robbins."'},actress:{name:'Charlize Theron',film:'Monster',imdb:'nm0000234',speech:'Transformación radical. "Las mujeres más bellas del mundo no son las más perfectas."'},tags:['clasico','record']},
+  {n:77,year:'2005',decade:2000,venue:'Kodak Theatre',picture:{film:'Million Dollar Baby',dir:'Clint Eastwood',imdb:'tt0405159',note:'4 Oscar.'},director:{name:'Clint Eastwood',film:'Million Dollar Baby'},actor:{name:'Jamie Foxx',film:'Ray',imdb:'nm0004950',speech:'"No soy nada sin ti, abuela." Llorando al mencionar a quien le crió.'},actress:{name:'Hilary Swank',film:'Million Dollar Baby',imdb:'nm0005476',speech:'Segunda victoria. Se olvidó de agradecer a su marido Chad Lowe. El olvido fue ampliamente comentado.'},tags:['clasico']},
+  {n:78,year:'2006',decade:2000,venue:'Kodak Theatre',picture:{film:'Crash',dir:'Paul Haggis',imdb:'tt0375679',note:'3 Oscar. Venció sobre Brokeback Mountain. Una de las mayores polémicas históricas.'},director:{name:'Ang Lee',film:'Brokeback Mountain'},actor:{name:'Philip Seymour Hoffman',film:'Capote',imdb:'nm0000453',speech:'"Mamá, lo logramos. Desde que tenía 22 años soñé con esto."'},actress:{name:'Reese Witherspoon',film:'Walk the Line',imdb:'nm0000702',speech:'"Gracias a June Carter Cash por mostrar al mundo cómo se ama a un hombre."'},tags:['clasico']},
+  {n:79,year:'2007',decade:2000,venue:'Kodak Theatre',picture:{film:'The Departed',dir:'Martin Scorsese',imdb:'tt0407887',note:'4 Oscar. Primer Oscar de Scorsese como director, tras 5 nominaciones.'},director:{name:'Martin Scorsese',film:'The Departed'},actor:{name:'Forest Whitaker',film:'The Last King of Scotland',imdb:'nm0001845',speech:'"Cuando un actor interpreta a alguien así, aprende que todos tenemos una sombra. Deben acogerse y reconocerse."'},actress:{name:'Helen Mirren',film:'The Queen',imdb:'nm0000226',speech:'"Su Majestad" —mirando hacia arriba—"ha hecho posible esto." El discurso más citado de 2007.'},tags:['clasico','iconico']},
+  {n:80,year:'2008',decade:2000,venue:'Kodak Theatre',picture:{film:'No Country for Old Men',dir:'Coen Brothers',imdb:'tt0477348',note:'4 Oscar.'},director:{name:'Joel & Ethan Coen',film:'No Country for Old Men'},actor:{name:'Daniel Day-Lewis',film:'There Will Be Blood',imdb:'nm0000358',speech:'Segundo Oscar. "Compartir esto con Paul Thomas Anderson es como ganarlo dos veces."'},actress:{name:'Marion Cotillard',film:'La Vie en rose',imdb:'nm0182839',speech:'Film completamente en francés. "Es la historia de amor más bella que he vivido."'},tags:['clasico']},
+  {n:81,year:'2009',decade:2000,venue:'Kodak Theatre',picture:{film:'Slumdog Millionaire',dir:'Danny Boyle',imdb:'tt1010048',note:'8 Oscar.'},director:{name:'Danny Boyle',film:'Slumdog Millionaire'},actor:{name:'Sean Penn',film:'Milk',imdb:'nm0000228',speech:'Segundo Oscar. Mensaje contra la Proposición 8 de California. "Gracias por esta incurable bondad."'},actress:{name:'Kate Winslet',film:'The Reader',imdb:'nm0000701',speech:'En un sketch de Extras había predicho que ganaría por una película sobre el Holocausto. Ganó por exactamente eso. Lo mencionó en el escenario.'},tags:['clasico','politico']},
+  {n:82,year:'2010',decade:2010,venue:'Kodak Theatre',picture:{film:'The Hurt Locker',dir:'Kathryn Bigelow',imdb:'tt0887912',note:'6 Oscar. Primera mujer en ganar Mejor Director.'},director:{name:'Kathryn Bigelow',film:'The Hurt Locker'},actor:{name:'Jeff Bridges',film:'Crazy Heart',imdb:'nm0000313',speech:'Primer Oscar. "Agradecer esto a mi padre Lloyd Bridges..."'},actress:{name:'Sandra Bullock',film:'The Blind Side',imdb:'nm0001676',speech:'Agradeció a su madre en alemán. "Du bist immer bei mir."'},tags:['clasico','historico']},
+  {n:83,year:'2011',decade:2010,venue:'Kodak Theatre',picture:{film:'The King\'s Speech',dir:'Tom Hooper',imdb:'tt1504320',note:'4 Oscar.'},director:{name:'Tom Hooper',film:'The King\'s Speech'},actor:{name:'Colin Firth',film:'The King\'s Speech',imdb:'nm0000147',speech:'"Tengo que decir esto antes de que me corten el micrófono: mis padres eran profesores y vivieron toda su vida sin ostentación. Esto es para ellos."'},actress:{name:'Natalie Portman',film:'Black Swan',imdb:'nm0000204',speech:'Embarazada. "El rol más importante de mi vida llega en unas semanas."'},tags:['clasico']},
+  {n:84,year:'2012',decade:2010,venue:'Kodak Theatre',picture:{film:'The Artist',dir:'Michel Hazanavicius',imdb:'tt1655442',note:'5 Oscar. Primer film mudo en ganar desde Wings (1929).'},director:{name:'Michel Hazanavicius',film:'The Artist'},actor:{name:'Jean Dujardin',film:'The Artist',imdb:'nm0241121',speech:'Primer actor francés en ganar. "Merci America!"'},actress:{name:'Meryl Streep',film:'The Iron Lady',imdb:'nm0000658',speech:'Tercer Oscar de Streep, récord absoluto. "Sé que la mitad de América dice: \'Dios, no ella otra vez.\' Y la otra mitad: \'¿Cómo se llama esa mujer?\'"'},tags:['clasico','record','iconico']},
+  {n:85,year:'2013',decade:2010,venue:'Dolby Theatre',picture:{film:'Argo',dir:'Ben Affleck',imdb:'tt1024648',note:'3 Oscar. Affleck no fue nominado a Mejor Director, una de las polémicas del año.'},director:{name:'Ang Lee',film:'Life of Pi'},actor:{name:'Daniel Day-Lewis',film:'Lincoln',imdb:'nm0000358',speech:'Tercer Oscar de Day-Lewis. Récord absoluto de victorias en Mejor Actor. "Tres veces es... demasiado para una sola persona."'},actress:{name:'Jennifer Lawrence',film:'Silver Linings Playbook',imdb:'nm2225369',speech:'Se cayó en las escaleras del escenario. "Gracias. No tengo palabras porque me levantaron cuando me caí."'},tags:['clasico','record','emotivo']},
+  {n:86,year:'2014',decade:2010,venue:'Dolby Theatre',picture:{film:'12 Years a Slave',dir:'Steve McQueen',imdb:'tt2024544',note:'3 Oscar. Primer film dirigido por un hombre negro en ganar Mejor Película.'},director:{name:'Alfonso Cuarón',film:'Gravity'},actor:{name:'Matthew McConaughey',film:'Dallas Buyers Club',imdb:'nm0000190',speech:'"Necesito tres cosas para ser feliz: Dios, mi familia y mi trabajo. Esta noche las tres están aquí."'},actress:{name:'Cate Blanchett',film:'Blue Jasmine',imdb:'nm0000949',speech:'Defendió las películas con protagonistas femeninas: "Las audiencias quieren ver historias de mujeres."'},tags:['clasico','historico','politico']},
+  {n:87,year:'2015',decade:2010,venue:'Dolby Theatre',picture:{film:'Birdman',dir:'Alejandro G. Iñárritu',imdb:'tt2562232',note:'4 Oscar.'},director:{name:'Alejandro G. Iñárritu',film:'Birdman'},actor:{name:'Eddie Redmayne',film:'The Theory of Everything',imdb:'nm1519666'},actress:{name:'Julianne Moore',film:'Still Alice',imdb:'nm0000194',speech:'Quinta nominación. "Para todos aquellos que están perdiendo quiénes son."'},tags:['clasico','emotivo']},
+  {n:88,year:'2016',decade:2010,venue:'Dolby Theatre',picture:{film:'Spotlight',dir:'Tom McCarthy',imdb:'tt1895587',note:'2 Oscar.'},director:{name:'Alejandro G. Iñárritu',film:'The Revenant'},actor:{name:'Leonardo DiCaprio',film:'The Revenant',imdb:'nm0000138',speech:'Sexta nominación, primera victoria. "El cambio climático es real. Está ocurriendo ahora. No es ciencia ficción. Es la amenaza más urgente a la que se enfrenta nuestra especie."'},actress:{name:'Brie Larson',film:'Room',imdb:'nm0488953'},tags:['reciente','politico','iconico']},
+  {n:89,year:'2017',decade:2010,venue:'Dolby Theatre',picture:{film:'Moonlight',dir:'Barry Jenkins',imdb:'tt4975722',note:'3 Oscar. Error histórico: se anunció La La Land por equivocación.'},director:{name:'Damien Chazelle',film:'La La Land'},actor:{name:'Casey Affleck',film:'Manchester by the Sea',imdb:'nm0000729'},actress:{name:'Emma Stone',film:'La La Land',imdb:'nm1297015',speech:'"Esta película me habla sobre los sueños y el precio que pagamos por ellos."'},tags:['reciente','historico','iconico']},
+  {n:90,year:'2018',decade:2010,venue:'Dolby Theatre',picture:{film:'The Shape of Water',dir:'Guillermo del Toro',imdb:'tt5580390',note:'4 Oscar.'},director:{name:'Guillermo del Toro',film:'The Shape of Water'},actor:{name:'Gary Oldman',film:'Darkest Hour',imdb:'nm0001569',speech:'Primer Oscar tras muchos años. "Nunca gané esto antes. Y eso a veces le hace dudar a uno."'},actress:{name:'Frances McDormand',film:'Three Billboards Outside Ebbing, Missouri',imdb:'nm0000531',speech:'"Inclusion riders." Las dos palabras que llegaron a los titulares de todo el mundo. Invitó a todas las nominadas a ponerse en pie.'},tags:['reciente','politico','iconico']},
+  {n:91,year:'2019',decade:2010,venue:'Dolby Theatre',picture:{film:'Green Book',dir:'Peter Farrelly',imdb:'tt6966692',note:'3 Oscar.'},director:{name:'Alfonso Cuarón',film:'Roma'},actor:{name:'Rami Malek',film:'Bohemian Rhapsody',imdb:'nm1785339',speech:'"Gracias a Freddie Mercury por darme la oportunidad de celebrar tu vida frente al mundo entero."'},actress:{name:'Olivia Colman',film:'The Favourite',imdb:'nm1469236',speech:'La sorpresa más divertida de los Oscar modernos. "No me lo esperaba... ¡Glenn Close debería haber ganado esto!"'},tags:['reciente','emotivo','iconico']},
+  {n:92,year:'2020',decade:2020,venue:'Dolby Theatre',picture:{film:'Parasite',dir:'Bong Joon-ho',imdb:'tt6751668',note:'4 Oscar. Primer film no anglófono en ganar. Hito histórico.'},director:{name:'Bong Joon-ho',film:'Parasite'},actor:{name:'Joaquin Phoenix',film:'Joker',imdb:'nm0001618',speech:'Derechos de los animales, veganismo, cambio climático, racismo. Y un verso de su hermano River Phoenix: "Run to the rescue with love and peace will follow."'},actress:{name:'Renée Zellweger',film:'Judy',imdb:'nm0005554',speech:'"Judy Garland no ganó este premio. Pero merecía este reconocimiento."'},tags:['reciente','historico','politico']},
+  {n:93,year:'2021',decade:2020,venue:'Union Station LA',picture:{film:'Nomadland',dir:'Chloé Zhao',imdb:'tt9770150',note:'3 Oscar. Segunda mujer en ganar Mejor Director.'},director:{name:'Chloé Zhao',film:'Nomadland'},actor:{name:'Anthony Hopkins',film:'The Father',imdb:'nm0000164',speech:'No estaba presente. Dormía en Gales. Al día siguiente grabó un vídeo junto al mar con el Oscar: lo dedicó a Chadwick Boseman, que todos esperaban ganara póstumamente.'},actress:{name:'Frances McDormand',film:'Nomadland',imdb:'nm0000531',speech:'Tercer Oscar. Aulló como un lobo para celebrar con "los nómadas de América."'},tags:['reciente','historico','iconico']},
+  {n:94,year:'2022',decade:2020,venue:'Dolby Theatre',picture:{film:'CODA',dir:'Sian Heder',imdb:'tt10366460',note:'3 Oscar. Primer film de Apple TV+ en ganar Mejor Película.'},director:{name:'Jane Campion',film:'The Power of the Dog'},actor:{name:'Will Smith',film:'King Richard',imdb:'nm0000226',speech:'Smith abofeteó al presentador Chris Rock antes de recibir el premio. El mayor escándalo en la historia de los Oscar. Su discurso fue interrumpido por el llanto.'},actress:{name:'Jessica Chastain',film:'The Eyes of Tammy Faye',imdb:'nm1567113',speech:'"Para cualquier persona que sienta que no encaja en este mundo: no estás solo."'},tags:['reciente','politico','historico','iconico']},
+  {n:95,year:'2023',decade:2020,venue:'Dolby Theatre',picture:{film:'Everything Everywhere All at Once',dir:'Daniels',imdb:'tt6710474',note:'7 Oscar. Fenómeno de A24.'},director:{name:'Daniel Kwan & Daniel Scheinert',film:'Everything Everywhere All at Once'},actor:{name:'Brendan Fraser',film:'The Whale',imdb:'nm0000384',speech:'"No pensé que volvería aquí." Había estado alejado de Hollywood durante años por acusaciones de acoso. Llorando.'},actress:{name:'Michelle Yeoh',film:'Everything Everywhere All at Once',imdb:'nm0001875',speech:'Primera mujer asiática en ganar Mejor Actriz. "Para todas las niñas pequeñas que se parecen a mí: este es un faro de posibilidad."'},tags:['reciente','historico','emotivo']},
+  {n:96,year:'2024',decade:2020,venue:'Dolby Theatre',picture:{film:'Oppenheimer',dir:'Christopher Nolan',imdb:'tt15398776',note:'7 Oscar. Primer Oscar de Nolan tras 5 nominaciones.'},director:{name:'Christopher Nolan',film:'Oppenheimer'},actor:{name:'Cillian Murphy',film:'Oppenheimer',imdb:'nm0614165',speech:'"Christopher Nolan me convirtió en actor de cine." Y: "Este premio es para todos los que sueñan con la paz."'},actress:{name:'Emma Stone',film:'Poor Things',imdb:'nm1297015',speech:'Segunda victoria. "Esta película me cambió. Yorgos Lanthimos me cambió. Nunca seré la misma."'},tags:['reciente','emotivo']},
+  {n:97,year:'2025',decade:2020,venue:'Dolby Theatre',picture:{film:'Anora',dir:'Sean Baker',imdb:'tt28607951',note:'5 Oscar. Baker lleva 20 años filmando los márgenes del sueño americano.'},director:{name:'Sean Baker',film:'Anora'},actor:{name:'Adrien Brody',film:'The Brutalist',imdb:'nm0004970',speech:'Segundo Oscar, 22 años después del primero. "Cuando tenía 29 años gané este premio y me pasé 22 años preguntándome si volvería a sentir esto. Ahora sé la respuesta."'},actress:{name:'Mikey Madison',film:'Anora',imdb:'nm6007781',speech:'"No tengo palabras. Mi familia está aquí. Anora está aquí. Sean Baker está aquí."'},tags:['reciente','emotivo']},
+];
+
+// Speech articles for reportaje section
+const SPEECHES = [
+  {id:1,edition:'97ª · 2025',headline:'"Anora" y el discurso de los invisibles: Sean Baker agradece a los que trabajan fuera del sistema',byline:'Mejor Película · Sean Baker',tags:['reciente','emotivo'],pullQuote:'Esta película es sobre personas que viven al margen. Este premio es para ellas.',pullAttr:'Sean Baker · 97ª Ceremonia · 2025',lead:'Cuando Sean Baker subió al escenario del Dolby Theatre el 2 de marzo de 2025, lo hizo con la extraña calma de alguien que lleva veinte años filmando las orillas del sueño americano sin que nadie le preste demasiada atención. "Anora" había ganado cinco estatuillas esa noche.',body:['Baker es una figura atípica en Hollywood. Cineasta indie que financió alguna de sus primeras películas con tarjetas de crédito, conocido por "Tangerine" —rodada íntegramente en un iPhone 5S— y "The Florida Project". Su Oscar era el Oscar de toda una generación de cineastas que eligieron los márgenes antes que los estudios.','Su discurso duró poco más de noventa segundos. Agradeció a su equipo, a Yura Borisov y a Mikey Madison —que también ganó esa noche como Mejor Actriz—, y antes de que la música empezara a sonar, añadió la frase más citada de la noche: una dedicatoria a las personas que trabajan fuera del sistema.','El contraste con las grandes producciones que lo rodeaban en la categoría era absoluto. "Anora" costó alrededor de seis millones de dólares. Compitió contra producciones de diez veces ese presupuesto. Su victoria fue leída por la crítica como una señal de que la Academia, al menos esa noche, apostó por la visión sobre el espectáculo.','En el ecosistema de Google Discover, los artículos sobre su discurso generaron tráfico sostenido durante más de dos semanas, especialmente los que incluían el clip de su agradecimiento a los actores no profesionales con los que trabaja habitualmente.']},
+  {id:2,edition:'96ª · 2024',headline:'Christopher Nolan y la espera más larga de Hollywood: 25 años para decir gracias',byline:'Mejor Director & Película · Christopher Nolan',tags:['reciente','iconico'],pullQuote:'Empecé a hacer películas porque quería contar historias que importaran. Con Oppenheimer, siento que lo hemos conseguido.',pullAttr:'Christopher Nolan · 96ª Ceremonia · 2024',lead:'Pocas carreras generan una narrativa tan cargada de expectativa como la de Nolan y los Oscar. Un director que desde "Memento" ha sido sinónimo de éxito comercial y ambición formal, pero que durante décadas pareció invisible para la Academia.',body:['Los números hablaban solos: antes de la 96ª ceremonia, Nolan había recibido cinco nominaciones a Mejor Director sin ganar ninguna. "Memento", "Inception", "Dunkirk"... cada campaña generaba la misma conversación: ¿cuándo llegará el Oscar de Nolan?','"Oppenheimer" llegó como tormenta perfecta. Tres horas sobre el padre de la bomba atómica, en IMAX con película física, con Cillian Murphy y un presupuesto de cien millones. Recaudó más de novecientos millones — hazaña sin precedentes para un biopic adulto.','Cuando Nolan subió al escenario, agradeció a Emma Thomas con una brevedad que los espectadores leyeron como emoción contenida. Luego habló de los actores, del equipo técnico, y cerró con una referencia a Oppenheimer como figura que cargó con el peso de haber cambiado el mundo.','Los discursos de Nolan esa noche fueron estudiados por su equilibrio entre eficiencia y emotividad. Sin lágrimas, sin listas interminables. Precisión cinematográfica aplicada al discurso de treinta segundos.']},
+  {id:3,edition:'74ª · 2002',headline:'Halle Berry rompe el techo de cristal: el llanto que cambió la conversación sobre Hollywood',byline:'Mejor Actriz · Monster\'s Ball',tags:['emotivo','politico','iconico'],pullQuote:'Esta noche es para todas las mujeres de color que ahora tienen una oportunidad porque esta puerta esta noche ha sido abierta.',pullAttr:'Halle Berry · 74ª Ceremonia · 2002',lead:'El 24 de marzo de 2002, en el Kodak Theatre, algo que llevaba setenta y cuatro años sin ocurrir se produjo por primera vez. Halle Berry se convirtió en la primera mujer negra en ganar el Oscar a Mejor Actriz.',body:['La cifra es contundente: setenta y cuatro años de Academy Awards sin que una mujer negra ganara la categoría principal de interpretación femenina. Dorothy Dandridge había sido nominada en 1955. Diahann Carroll en 1974. Pero el techo seguía intacto.','Berry recibió su estatuilla entre lágrimas que parecían acumuladas durante décadas. Su discurso duró casi cuatro minutos —la música intentó cortarlo en varias ocasiones— y fue una sucesión de agradecimientos entrelazados con declaraciones sobre lo que ese momento significaba para las generaciones de actrices que vinieron antes.','La frase que quedó fue la dedicatoria a "todas las mujeres de color" para quienes, según Berry, la puerta había sido abierta. Viola Davis ganaría en 2017, y el debate sobre representación en Hollywood no terminó esa noche, pero sí encontró un punto de inflexión simbólico.','Desde la perspectiva del análisis de contenidos Discover, el discurso de Berry funciona como "evergreen emocional": genera interés recurrente en cada nueva edición de los Oscar, cada vez que se abre el debate sobre diversidad, y cada vez que otra actriz negra es nominada.']},
+  {id:4,edition:'45ª · 1973',headline:'Marlon Brando rechaza el Oscar: la noche en que Hollywood no supo qué hacer con su espejo',byline:'Mejor Actor · El Padrino · Sacheen Littlefeather',tags:['politico','iconico','clasico'],pullQuote:'El señor Brando no puede aceptar este premio. Las razones son el trato que Hollywood ha dado a los nativos americanos.',pullAttr:'Sacheen Littlefeather en nombre de Marlon Brando · 45ª Ceremonia · 1973',lead:'La noche del 27 de marzo de 1973, cuando el nombre de Marlon Brando fue anunciado como Mejor Actor por El Padrino, la sala esperaba ver al actor más reverenciado de su generación. Subió, en cambio, una joven apache-cherokee vestida con traje tradicional.',body:['Sacheen Littlefeather, activista del Movimiento Indio Americano, tenía 26 años y un papel de actriz menor en su currículum cuando Brando la eligió como representante. Llevaba un discurso de quince páginas que la Academia le prohibió leer completo: le dieron sesenta segundos.','La reacción de la sala fue una mezcla de abucheos y aplausos. John Wayne tuvo que ser retenido entre bambalinas según crónicas de la época. La prensa del día siguiente estuvo dividida entre quienes consideraron el gesto un acto de valentía política y quienes lo describieron como oportunismo.','La Academia tardó cuarenta y nueve años en pedir disculpas formales a Littlefeather, en 2022, reconociendo que había sido sometida a "humillación y crueldad" esa noche. La actriz murió ese mismo año, meses después de recibir la disculpa.','El episodio ocupa un lugar singular: es el único caso conocido en que el ganador no solo no asiste, sino que convierte la ausencia en declaración política. En debates actuales sobre activismo y límites del discurso político en entretenimiento, el gesto de Brando y Littlefeather es regularmente rescatado.']},
+  {id:5,edition:'88ª · 2016',headline:'Leonardo DiCaprio y el cambio climático: el discurso que no era solo un discurso de los Oscar',byline:'Mejor Actor · El Renacido',tags:['politico','reciente','iconico'],pullQuote:'El cambio climático es real. Está ocurriendo ahora mismo. No es ciencia ficción. Es la amenaza más urgente a la que se enfrenta nuestra especie.',pullAttr:'Leonardo DiCaprio · 88ª Ceremonia · 2016',lead:'A la sexta nominación, Leonardo DiCaprio ganó su primer Oscar. El premio era por "El Renacido", una película en la que soportó temperaturas bajo cero y durmió dentro de una carcasa de caballo. Su discurso de aceptación no habló de eso.',body:['La narrativa del "Oscar esquivo de DiCaprio" había alimentado años de memes y teorías. Tras perder con "¿A quién ama Gilbert Grape?", "El aviador", "Pandillas de Nueva York", "Diamante de sangre" y "El lobo de Wall Street", su victoria fue recibida como la corrección tardía de un error histórico.','DiCaprio agradeció brevemente a Iñárritu —que ganó su segundo Oscar consecutivo esa misma noche, también récord histórico— y a su equipo. Pero dedicó la mayor parte del tiempo al cambio climático: una declaración directa, sin metáforas, sobre la realidad de la crisis climática y la necesidad de acción política.','El discurso tuvo dos vidas mediáticas. La primera, inmediata: millones de reproducciones en YouTube, debate sobre si el Oscar era el lugar apropiado para mensajes políticos. La segunda llegó años después, cuando fue citado en contextos de activismo climático y comparado con el discurso de DiCaprio en la ONU.','Lo que hace singular el discurso es la economía de recursos: DiCaprio no necesitó más de tres minutos para decir exactamente lo que quería decir sin perder de vista que era una ceremonia de entretenimiento. La claridad del mensaje y la plataforma global crearon una combinación que muy pocos han sabido gestionar con tanta eficacia.']},
+  {id:6,edition:'48ª · 1976',headline:'Louise Fletcher y el lenguaje de signos: el discurso que nadie había visto antes en el Dolby',byline:'Mejor Actriz · Alguien Voló sobre el Nido del Cuco',tags:['clasico','emotivo','iconico'],pullQuote:'Quiero agradecérselo a mis padres sordos, que me enseñaron a tener una voz aunque ellos no podían oírla.',pullAttr:'Louise Fletcher · 48ª Ceremonia · 1976',lead:'La noche en que Alguien Voló sobre el Nido del Cuco hizo el segundo Big Five Sweep de la historia, el momento más recordado no fue el de ningún trofeo, sino el de Louise Fletcher dedicando su Oscar a sus padres sordos en lenguaje de signos.',body:['Fletcher interpretó a la Enfermera Ratched, uno de los villanos más icónicos del cine. Su actuación fue tan convincente que durante años actores con los que trabajó confesaron haberle tenido miedo genuino. El Oscar era unánime: todos esperaban que ganara.','Lo que nadie esperaba era lo que hizo con el primer minuto de su discurso. En lugar de empezar por los agradecimientos habituales, Fletcher miró a la cámara y comenzó a hablar en lenguaje de signos. Sus padres, sordos de nacimiento, la estaban viendo por televisión.','"Quiero agradecérselo a mis padres sordos, que me enseñaron a tener una voz aunque ellos no podían oírla." La sala quedó en silencio durante unos segundos. Luego, la mayor ovación de la noche.','El momento es citado regularmente en análisis de comunicación no verbal y en debates sobre accesibilidad en los medios. Fue uno de los primeros grandes gestos de visibilidad para la comunidad sorda en televisión en prime time. En Google Discover, el clip reaparece con cada nuevo debate sobre inclusión en Hollywood.']},
+  {id:7,edition:'93ª · 2021',headline:'Anthony Hopkins gana sin estar presente: el Oscar de la pandemia y el discurso del día siguiente',byline:'Mejor Actor · El Padre',tags:['reciente','iconico'],pullQuote:'Estoy muy sorprendido. Quiero rendir homenaje a Chadwick Boseman, que nos dejó demasiado pronto.',pullAttr:'Anthony Hopkins · 93ª Ceremonia · 2021 · desde los acantilados de Gales',lead:'La 93ª ceremonia, celebrada en Union Station de Los Ángeles en plena pandemia, tenía un final escrito de antemano en la mente de todos: Chadwick Boseman, póstumo, ganaría Mejor Actor. La Academia reorganizó el orden para reservar ese momento como cierre. El sobre decía otra cosa.',body:['Hopkins no estaba en Los Ángeles. Estaba en su casa en Gales. Tampoco estaba viendo la ceremonia: según contó después, se había ido a dormir. La cámara buscó a sus representantes, que tampoco estaban en la sala. El momento fue, involuntariamente, uno de los más surrealistas en la historia de los premios.','Al día siguiente, Hopkins grabó un vídeo desde los acantilados de Gales, con el Oscar en la mano y el mar al fondo. Agradeció el premio con visible emoción y dedicó palabras a Boseman. El contraste entre la solemnidad del entorno —la costa galesa, el cielo gris— y la estatuilla dorada tenía algo de involuntariamente poético.','El episodio generó una discusión editorial amplia: la Academia había apostado por una historia y la realidad entregó otra. Una lección sobre la inutilidad de los planes narrativos en una ceremonia en directo.','Los artículos sobre "el Oscar que nadie recogió" y "la victoria de Hopkins que sorprendió al mundo" fueron algunos de los más leídos del ciclo de premios 2021. El clip del vídeo de Hopkins en Gales generó tráfico orgánico durante meses en plataformas de contenido editorial.']},
+  {id:8,edition:'95ª · 2023',headline:'Michelle Yeoh, la primera: un discurso de 60 segundos que representa décadas de exclusión',byline:'Mejor Actriz · Everything Everywhere All at Once',tags:['reciente','historico','emotivo'],pullQuote:'Para todas las niñas pequeñas que se parecen a mí: este es un faro de posibilidad. Sueña grande, y que tus sueños se hagan realidad.',pullAttr:'Michelle Yeoh · 95ª Ceremonia · 2023',lead:'Michelle Yeoh lleva en el cine desde 1984. En ese tiempo rodó películas en Hong Kong, en Hollywood, en Europa, en inglés y en mandarín. Trabajó con James Bond, con George Miller, con los hermanos Wachowski. Y en 2023, a sus 60 años, se convirtió en la primera mujer asiática en ganar el Oscar a Mejor Actriz.',body:['El contexto importa: la Academia tiene 96 años de historia. En esos 96 años, ninguna mujer de origen asiático había ganado la categoría principal de interpretación femenina. Yeoh fue la primera. La cifra tiene un peso específico que va más allá del nombre individual.','Su discurso fue breve —apenas un minuto y medio— y trabajado con precisión. Comenzó con un agradecimiento a su madre, que la estaba viendo desde Malasia. Luego mencionó a sus compañeras de reparto y al equipo de "Everything Everywhere All at Once". Y cerró con la frase que convirtió el discurso en viral.','"Para todas las niñas pequeñas que se parecen a mí: este es un faro de posibilidad." Las redes sociales y los medios especializados reprodujeron el clip durante semanas. En países asiáticos —especialmente en Malasia, donde Yeoh es una figura cultural de primer orden— la cobertura fue comparable a la de un evento deportivo nacional.','Desde el punto de vista del tráfico de contenido editorial, el discurso de Yeoh representa uno de los casos más claros de "hito de representación": un momento que genera cobertura transversal en medios de entretenimiento, medios generales y medios de comunidades específicas simultáneamente.']},
+];
+
+// ── STATE ──
+let currentFilter = 'all';
+let currentSearch = '';
+let currentView = 'table';
+let speechFilter = 'all';
+
+function getDecade(y){return Math.floor(parseInt(y)/10)*10}
+
+function matchesFilter(c){
+  if(currentFilter==='all') return true;
+  if(currentFilter==='speech') return c.actor?.speech||c.actress?.speech||c.director?.speech||c.picture?.speech;
+  if(['record','historico','politico','emotivo','iconico','reciente','clasico','big5'].includes(currentFilter)) return c.tags?.includes(currentFilter);
+  return getDecade(c.year)===parseInt(currentFilter);
+}
+
+function matchesSearch(c){
+  if(!currentSearch) return true;
+  const q=currentSearch.toLowerCase();
+  return [c.picture?.film,c.director?.name,c.actor?.name,c.actress?.name,c.year,c.director?.film,c.actor?.film,c.actress?.film].some(f=>f&&f.toLowerCase().includes(q));
+}
+
+function getFiltered(){return DB.filter(c=>matchesFilter(c)&&matchesSearch(c))}
+
+function setFilter(btn,f){
+  document.querySelectorAll('#filterRow .ftag').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  currentFilter=f;
+  render();
+}
+
+function handleSearch(){
+  currentSearch=document.getElementById('searchInput').value;
+  render();
+}
+
+function setView(v,btn){
+  document.querySelectorAll('.view-btn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  currentView=v;
+  document.getElementById('tableView').style.display=v==='table'?'block':'none';
+  document.getElementById('gridView').style.display=v==='grid'?'block':'none';
+}
+
+function render(){
+  const data=getFiltered();
+  const n=data.length;
+  document.getElementById('resultsCount').textContent=`${n} ceremonia${n!==1?'s':''} encontrada${n!==1?'s':''}`;
+  document.getElementById('noResults').style.display=n===0?'block':'none';
+  renderTable(data);
+  renderGrid(data);
+}
+
+function imdbUrl(id){return id?`https://www.imdb.com/title/${id}/`:'#'}
+function imdbPersonUrl(id){return id?`https://www.imdb.com/name/${id}/`:'#'}
+
+function speechDot(speech,rowId){
+  if(!speech) return '';
+  return `<span class="speech-indicator" title="Ver discurso" onclick="event.stopPropagation();toggleSpeechRow('${rowId}')">●</span>`;
+}
+
+function renderTable(data){
+  const tb=document.getElementById('cerTbody');
+  tb.innerHTML='';
+  data.forEach(c=>{
+    const pid=`sp-${c.n}`;
+    const hasSpeech=c.actor?.speech||c.actress?.speech;
+    // Main row
+    const tr=document.createElement('tr');
+    tr.innerHTML=`
+      <td class="td-n">${c.n}ª</td>
+      <td class="td-year">${c.year}<br><span style="font-size:.5rem;color:var(--gray-light)">${c.venue?.split(',')[0]||''}</span></td>
+      <td class="poster-cell" id="poster-${c.n}"><div class="poster-placeholder">—</div></td>
+      <td class="td-film" id="film-${c.n}"><a href="${imdbUrl(c.picture?.imdb)}" target="_blank">${c.picture?.film||'—'}</a><br><span class="td-person">${c.picture?.dir||''}</span>${c.picture?.note ? '<br><span style="font-size:.75rem;color:var(--gray);font-style:italic">' + c.picture.note + '</span>' : ''}<div class="film-extras" style="margin-top:.3rem"></div></td>
+      <td class="td-person">${c.director?.name||'—'}<br><span style="font-size:.78rem;font-style:italic">${c.director?.film||''}</span></td>
+      <td class="td-person"><a href="${imdbPersonUrl(c.actor?.imdb)}" target="_blank">${c.actor?.name||'—'}</a>${speechDot(c.actor?.speech,pid+'-actor')}<br><span style="font-size:.78rem;font-style:italic">${c.actor?.film||''}</span></td>
+      <td class="td-person"><a href="${imdbPersonUrl(c.actress?.imdb)}" target="_blank">${c.actress?.name||'—'}</a>${speechDot(c.actress?.speech,pid+'-actress')}<br><span style="font-size:.78rem;font-style:italic">${c.actress?.film||''}</span></td>
+      <td><a href="${imdbUrl(c.picture?.imdb)}" target="_blank" style="font-family:'DM Mono',monospace;font-size:.5rem;letter-spacing:.1em;color:var(--gold);text-decoration:none;border:1px solid var(--gold);padding:.2rem .5rem">IMDb ↗</a></td>
+    `;
+    tb.appendChild(tr);
+    // Speech rows
+    if(c.actor?.speech){
+      const sr=document.createElement('tr');
+      sr.className='speech-row';
+      sr.id=pid+'-actor';
+      sr.innerHTML=`<td colspan="8" class="speech-cell"><strong>● Discurso destacado — ${c.actor.name}</strong>${c.actor.speech}</td>`;
+      tb.appendChild(sr);
+    }
+    if(c.actress?.speech){
+      const sr=document.createElement('tr');
+      sr.className='speech-row';
+      sr.id=pid+'-actress';
+      sr.innerHTML=`<td colspan="8" class="speech-cell"><strong>● Discurso destacado — ${c.actress.name}</strong>${c.actress.speech}</td>`;
+      tb.appendChild(sr);
+    }
+  });
+}
+function toggleSpeechRow(id){
+  const el=document.getElementById(id);
+  if(!el) return;
+  el.classList.toggle('open');
+}
+
+function renderGrid(data){
+  const g=document.getElementById('cerGrid');
+  g.innerHTML='';
+  data.forEach(c=>{
+    const card=document.createElement('div');
+    card.className='cer-card';
+    const speeches=[];
+    if(c.actor?.speech) speeches.push(`<div class="winner-line"><span class="winner-label">Actor · discurso</span><span>${c.actor.name}: "${c.actor.speech.substring(0,90)}..."</span></div>`);
+    if(c.actress?.speech) speeches.push(`<div class="winner-line"><span class="winner-label">Actriz · discurso</span><span>${c.actress.name}: "${c.actress.speech.substring(0,90)}..."</span></div>`);
+    card.innerHTML=`
+      <div class="cer-n">${c.n}ª</div>
+      <div class="cer-year">${c.year} · ${c.venue?.split(',')[0]||''}</div>
+      <div class="cer-film"><a href="${imdbUrl(c.picture?.imdb)}" target="_blank" onclick="event.stopPropagation()">${c.picture?.film||'—'}</a></div>
+      <div class="cer-dir">${c.picture?.dir||''}</div>
+      <div class="cer-detail">
+        <div class="winner-line"><span class="winner-label">Director</span><span>${c.director?.name||'—'} — ${c.director?.film||''}</span></div>
+        <div class="winner-line"><span class="winner-label">Actor</span><span><a href="${imdbPersonUrl(c.actor?.imdb)}" target="_blank" onclick="event.stopPropagation()">${c.actor?.name||'—'}</a> — ${c.actor?.film||''}</span></div>
+        <div class="winner-line"><span class="winner-label">Actriz</span><span><a href="${imdbPersonUrl(c.actress?.imdb)}" target="_blank" onclick="event.stopPropagation()">${c.actress?.name||'—'}</a> — ${c.actress?.film||''}</span></div>
+        ${speeches.join('')}
+        ${c.picture?.note ? '<div class="winner-line"><span class="winner-label">Nota histórica</span><span>' + c.picture.note + '</span></div>' : ''}
+        <a href="${imdbUrl(c.picture?.imdb)}" class="art-imdb-link" target="_blank" onclick="event.stopPropagation()">Ver en IMDb ↗</a>
+      </div>
+    `;
+    card.addEventListener('click',()=>{const was=card.classList.contains('expanded');document.querySelectorAll('.cer-card').forEach(c=>c.classList.remove('expanded'));if(!was)card.classList.add('expanded')});
+    g.appendChild(card);
+  });
+}
+
+// SPEECHES ARTICLES
+function renderSpeeches(f='all'){
+  const feed=document.getElementById('speechesFeed');
+  feed.innerHTML='';
+  const filtered=f==='all'?SPEECHES:SPEECHES.filter(s=>s.tags.includes(f));
+  if(!filtered.length){feed.innerHTML='<div style="padding:3rem;color:var(--gray);font-style:italic;text-align:center">No hay reportajes en esta categoría.</div>';return;}
+  filtered.forEach(s=>{
+    const art=document.createElement('div');
+    art.className='speech-art';
+    art.id=`speech-${s.id}`;
+    art.innerHTML=`
+      <div class="speech-art-hdr" onclick="toggleArt(this.parentElement)">
+        <div class="art-edition">${s.edition}</div>
+        <div class="art-headline">${s.headline}</div>
+        <div class="art-byline">${s.byline}</div>
+      </div>
+      <div class="speech-body">
+        <div class="speech-body-grid">
+          <div class="art-text">
+            <div class="art-badge">Reportaje en profundidad</div>
+            <p class="art-lead">${s.lead}</p>
+            ${s.body.map(function(p){return '<p>'+p+'</p>';}).join('')}
+            <div class="art-meta-foot">
+              ${s.tags.map(function(t){return '<span class="art-tag">'+t+'</span>';}).join('')}
+              <span class="art-read">⏱ ${Math.ceil(s.body.join('').length/900)} min lectura</span>
+            </div>
+          </div>
+          <div class="pull-block">
+            <div class="pull-sticky">
+              <div class="pull-quote">
+                <span class="pull-mark">"</span>
+                <div class="pull-text">${s.pullQuote}</div>
+                <span class="pull-attr">${s.pullAttr}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    `;
+    feed.appendChild(art);
+  });
+  // Re-inyectar share buttons si ya se inicializó
+  if(window._shareReady) injectSpeechShareButtons();
+}
+
+function toggleArt(art){const was=art.classList.contains('open');document.querySelectorAll('.speech-art').forEach(a=>a.classList.remove('open'));if(!was)art.classList.add('open')}
+
+function filterSpeeches(btn,f){
+  document.querySelectorAll('[data-sf]').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  renderSpeeches(f);
+}
+
+// AI CHAT
+const SYS=`Eres Oscar IA, asistente editorial especializado en la historia de los Academy Awards desde 1927 hasta 2025. Tienes conocimiento profundo de todos los ganadores, nominados, récords, discursos, controversias y anécdotas de las 97 ceremonias. La 97ª fue en 2025 con "Anora" de Sean Baker ganando 5 Oscar. La 98ª será el 15 de marzo de 2026 con "Sinners" liderando las nominaciones. Responde siempre en español, tono editorial de revista cinematográfica. Preciso, con datos concretos. Máximo 3-4 párrafos.`;
+let history=[];
+
+async function sendMsg(){
+  const inp=document.getElementById('chatInput');
+  const btn=document.getElementById('sendBtn');
+  const msg=inp.value.trim();
+  if(!msg)return;
+  inp.value='';btn.disabled=true;
+  addMsg('user',msg);
+  history.push({role:'user',content:msg});
+  const ld=addLoading();
+  try{
+    const r=await fetch('https://api.anthropic.com/v1/messages',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({model:'claude-sonnet-4-20250514',max_tokens:1000,system:SYS,messages:history})});
+    const d=await r.json();
+    const t=d.content?.[0]?.text||'Error al procesar.';
+    ld.remove();addMsg('ai',t);history.push({role:'assistant',content:t});
+  }catch(e){ld.remove();addMsg('ai','Error de conexión. Inténtalo de nuevo.');}
+  btn.disabled=false;
+}
+
+function addMsg(role,content){
+  const m=document.getElementById('chatMsgs');
+  const d=document.createElement('div');
+  d.className=`msg ${role}`;
+  d.innerHTML=`<span class="msg-role">${role==='user'?'Pregunta':'Oscar IA'}</span><div class="msg-content">${content.replace(/\n/g,'<br>')}</div>`;
+  m.appendChild(d);m.scrollTop=m.scrollHeight;return d;
+}
+function addLoading(){
+  const m=document.getElementById('chatMsgs');
+  const d=document.createElement('div');
+  d.className='msg ai chat-loading';
+  d.innerHTML=`<span class="msg-role">Oscar IA</span><div class="msg-content"><div class="dot"></div><div class="dot"></div><div class="dot"></div><span style="margin-left:.4rem;font-style:italic">Consultando archivo...</span></div>`;
+  m.appendChild(d);m.scrollTop=m.scrollHeight;return d;
+}
+function setQ(btn){document.getElementById('chatInput').value=btn.textContent;document.getElementById('chatInput').focus()}
+function handleKey(e){if(e.key==='Enter'&&!e.shiftKey){e.preventDefault();sendMsg()}}
+
+// ═══════════════════════════════════════════════
+// API SYSTEM — TMDB + OMDb + Wikidata
+// ═══════════════════════════════════════════════
+
+const TMDB_BASE = 'https://api.themoviedb.org/3';
+const TMDB_TOKEN = 'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxNGFjZDc3MWI5YTAzM2RhNDYxNDhlMzZhYTYxZDI2YSIsIm5iZiI6MTY1OTE5MTI0NS4yMzgwMDAyLCJzdWIiOiI2MmU1M2ZjZGYxYjU3MTAwNWUyYTVkNDYiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.iPEMhG3EyZzReYchvXGk2PMFZSE6vvsyqq3eJrGOky4';
+const OMDB_KEY = 'bf691abb';
+const TMDB_IMG  = 'https://image.tmdb.org/t/p/w185';
+const TMDB_IMG_LG = 'https://image.tmdb.org/t/p/w500';
+const OMDB_BASE = 'https://www.omdbapi.com/';
+
+let KEYS = { tmdb: TMDB_TOKEN, omdb: OMDB_KEY };
+let TMDB_CACHE = {};
+let OMDB_CACHE = {};
+
+function loadKeys(){
+  // Keys ya integradas — mostrar estado activo
+  updateDots();
+}
+
+function saveApiKeys(){
+  // Permite sobreescribir si el usuario quiere usar sus propias keys
+  const t = document.getElementById('inputTMDB').value.trim();
+  const o = document.getElementById('inputOMDB').value.trim();
+  if(t) KEYS.tmdb = t;
+  if(o) KEYS.omdb = o;
+  closeApiModal();
+  updateDots();
+  enrichTableWithAPIs();
+}
+
+function openApiModal(){ /* panel eliminado */ }
+function closeApiModal(){ /* panel eliminado */ }
+
+function updateDots(){ /* APIs siempre activas */ }
+
+// ── Formatear millones ──
+function fmtRevenue(n){
+  if(!n || n === 0) return null;
+  if(n >= 1e9) return `$${(n/1e9).toFixed(1)}B`;
+  if(n >= 1e6) return `$${Math.round(n/1e6)}M`;
+  return `$${n.toLocaleString()}`;
+}
+
+// ── Enriquecer tabla completa en lotes ──
+async function enrichTableWithAPIs(){
+  const visible = DB.filter(c => c.picture?.imdb);
+  // Mostrar indicador de carga en la barra
+  const btn = document.querySelector('.api-btn');
+  if(btn) btn.textContent = '⟳ Cargando datos...';
+  let loaded = 0;
+  const BATCH = 4;
+  for(let i = 0; i < visible.length; i += BATCH){
+    const batch = visible.slice(i, i + BATCH);
+    await Promise.all(batch.map(c => enrichRow(c)));
+    loaded += batch.length;
+    if(btn) btn.textContent = `⟳ ${loaded}/${visible.length} películas`;
+    await new Promise(r => setTimeout(r, 250));
+  }
+  if(btn) btn.textContent = '✓ APIs activas';
+}
+
+async function enrichRow(c){
+  const imdbId = c.picture?.imdb;
+  if(!imdbId) return;
+
+  const [tmdb, omdb] = await Promise.all([
+    fetchTMDB(imdbId),
+    fetchOMDB(imdbId)
+  ]);
+
+  // Poster
+  const posterCell = document.getElementById(`poster-${c.n}`);
+  if(posterCell && tmdb?.poster){
+    posterCell.innerHTML = `<img class="poster-thumb" src="${tmdb.poster}" alt="${c.picture.film}"
+      onclick="openPoster('${tmdb.posterLg}','${c.picture.film.replace(/'/g,"\\'")}','${c.year} · Dir: ${(c.director?.name||'').replace(/'/g,"\\'")}${tmdb.revenue ? ' · ' + fmtRevenue(tmdb.revenue) : ''}')">`;
+  }
+
+  // Ratings + recaudación bajo el título
+  const filmCell = document.getElementById(`film-${c.n}`);
+  if(filmCell){
+    const rating = omdb?.imdbRating && omdb.imdbRating !== 'N/A' ? omdb.imdbRating : tmdb?.rating;
+    const rt = omdb?.rtRating;
+    const revenue = fmtRevenue(tmdb?.revenue);
+    let extras = '';
+    if(rating) extras += `<span class="rating-badge">⭐ ${rating}</span> `;
+    if(rt) extras += `<span class="rating-badge">🍅 ${rt}</span> `;
+    if(revenue) extras += `<span class="boxoffice">📦 ${revenue}</span>`;
+    const extrasDiv = filmCell.querySelector('.film-extras');
+    if(extrasDiv && extras) extrasDiv.innerHTML = extras;
+  }
+}
+
+// ── TMDB: buscar por IMDb ID con Bearer token ──
+async function fetchTMDB(imdbId){
+  if(!KEYS.tmdb || !imdbId) return null;
+  if(TMDB_CACHE[imdbId]) return TMDB_CACHE[imdbId];
+  try {
+    const headers = { 'Authorization': `Bearer ${KEYS.tmdb}`, 'accept': 'application/json' };
+    const r = await fetch(`${TMDB_BASE}/find/${imdbId}?external_source=imdb_id&language=es-ES`, { headers });
+    if(!r.ok) return null;
+    const d = await r.json();
+    const m = d.movie_results?.[0];
+    if(!m) return null;
+    const data = {
+      poster: m.poster_path ? TMDB_IMG + m.poster_path : null,
+      posterLg: m.poster_path ? TMDB_IMG_LG + m.poster_path : null,
+      rating: m.vote_average?.toFixed(1),
+      votes: m.vote_count,
+      overview: m.overview,
+      tmdbId: m.id
+    };
+    // Detalles (recaudación, presupuesto)
+    try {
+      const r2 = await fetch(`${TMDB_BASE}/movie/${m.id}?language=es-ES`, { headers });
+      if(r2.ok){
+        const d2 = await r2.json();
+        data.revenue = d2.revenue;
+        data.budget = d2.budget;
+        data.runtime = d2.runtime;
+        data.tagline = d2.tagline;
+      }
+    } catch(e){}
+    TMDB_CACHE[imdbId] = data;
+    return data;
+  } catch(e){ return null; }
+}
+
+// ── OMDb: buscar por IMDb ID ──
+async function fetchOMDB(imdbId){
+  if(!KEYS.omdb || !imdbId) return null;
+  if(OMDB_CACHE[imdbId]) return OMDB_CACHE[imdbId];
+  try {
+    const r = await fetch(`${OMDB_BASE}?i=${imdbId}&apikey=${KEYS.omdb}`);
+    if(!r.ok) return null;
+    const d = await r.json();
+    if(d.Response === 'False') return null;
+    const data = {
+      imdbRating: d.imdbRating,
+      rtRating: d.Ratings?.find(r=>r.Source==='Rotten Tomatoes')?.Value,
+      awards: d.Awards,
+      genre: d.Genre,
+      country: d.Country
+    };
+    OMDB_CACHE[imdbId] = data;
+    return data;
+  } catch(e){ return null; }
+}
+
+// ── Formatear millones ──
+function fmtRevenue(n){
+  if(!n || n === 0) return null;
+  if(n >= 1e9) return `$${(n/1e9).toFixed(1)}B`;
+  if(n >= 1e6) return `$${Math.round(n/1e6)}M`;
+  return `$${n.toLocaleString()}`;
+}
+
+
+
+// ── Lightbox de poster ──
+function openPoster(src, title, meta){
+  document.getElementById('posterModalImg').src = src;
+  document.getElementById('posterModalTitle').textContent = title;
+  document.getElementById('posterModalMeta').textContent = meta;
+  document.getElementById('posterOverlay').classList.add('open');
+}
+function closePosterModal(){
+  document.getElementById('posterOverlay').classList.remove('open');
+}
+document.addEventListener('keydown', e => { if(e.key==='Escape') closePosterModal(); });
+
+// ═══════════════════════════════════════════════
+// URL ROUTING — URLs limpias para Vercel
+// Tipos: /pelicula/:slug  /discurso/:slug  /ceremonia/:n  /buscar?q=&decada=
+// ═══════════════════════════════════════════════
+
+function slugify(str){
+  return str.toLowerCase()
+    .normalize('NFD').replace(/[\u0300-\u036f]/g,'')
+    .replace(/[^a-z0-9\s-]/g,'')
+    .trim().replace(/\s+/g,'-')
+    .replace(/-+/g,'-');
+}
+
+function movieUrl(c){
+  if(!c) return '#';
+  const slug = slugify(c.picture?.film || '');
+  return `/pelicula/${slug}-${c.year}`;
+}
+
+function ceremonyUrl(c){
+  return `/ceremonia/${c.n}`;
+}
+
+function speechUrl(sp){
+  const slug = slugify(sp.byline + '-' + sp.edition.split('·')[0].trim());
+  return `/discurso/${slug}`;
+}
+
+function searchUrl(q='', decade='', tag=''){
+  const params = new URLSearchParams();
+  if(q) params.set('q', q);
+  if(decade) params.set('decada', decade);
+  if(tag) params.set('tag', tag);
+  const qs = params.toString();
+  return qs ? `/buscar?${qs}` : '/buscar';
+}
+
+// ── Copiar URL al portapapeles con feedback visual ──
+function copyUrl(url, btnEl){
+  const full = window.location.origin + url;
+  navigator.clipboard.writeText(full).then(() => {
+    const orig = btnEl.textContent;
+    btnEl.textContent = '✓ Copiada';
+    btnEl.style.color = '#4caf50';
+    setTimeout(() => { btnEl.textContent = orig; btnEl.style.color = ''; }, 1800);
+  }).catch(() => {
+    prompt('Copia esta URL:', full);
+  });
+}
+
+// ── Leer ruta actual y hacer scroll / abrir el contenido correcto ──
+function parseRoute(){
+  const path = window.location.pathname;
+  const search = window.location.search;
+
+  // /ceremonia/:n
+  const cerMatch = path.match(/^\/ceremonia\/(\d+)/);
+  if(cerMatch){
+    const n = parseInt(cerMatch[1]);
+    const c = DB.find(x => x.n === n);
+    if(c){
+      setTimeout(() => {
+        document.getElementById('ceremonias')?.scrollIntoView({ behavior:'smooth' });
+        // Highlight la fila
+        const row = document.querySelector(`#cerTbody tr:nth-child(${DB.length - n + 1})`);
+        if(row){ row.style.background='rgba(201,168,76,0.15)'; setTimeout(()=>row.style.background='',3000); }
+      }, 800);
+    }
+    return;
+  }
+
+  // /pelicula/:slug
+  const pelMatch = path.match(/^\/pelicula\/(.+)/);
+  if(pelMatch){
+    const slug = pelMatch[1];
+    // Extraer año del final del slug
+    const yearMatch = slug.match(/-(\d{4})$/);
+    if(yearMatch){
+      const year = parseInt(yearMatch[1]);
+      const c = DB.find(x => x.year === year);
+      if(c){
+        setTimeout(() => {
+          document.getElementById('ceremonias')?.scrollIntoView({ behavior:'smooth' });
+        }, 600);
+      }
+    }
+    return;
+  }
+
+  // /discurso/:slug
+  const disMatch = path.match(/^\/discurso\/(.+)/);
+  if(disMatch){
+    setTimeout(() => {
+      document.getElementById('discursos')?.scrollIntoView({ behavior:'smooth' });
+    }, 600);
+    return;
+  }
+
+  // /buscar?q=&decada=&tag=
+  if(path.startsWith('/buscar') || search){
+    const params = new URLSearchParams(search);
+    const q = params.get('q') || '';
+    const decade = params.get('decada') || '';
+    const tag = params.get('tag') || '';
+    setTimeout(() => {
+      if(q){
+        const si = document.getElementById('searchInput');
+        if(si){ si.value = q; }
+      }
+      if(decade){
+        document.querySelectorAll('.dec-btn').forEach(b => {
+          if(b.dataset.dec === decade) b.click();
+        });
+      }
+      if(tag){
+        document.querySelectorAll('.filter-btn').forEach(b => {
+          if(b.dataset.tag === tag) b.click();
+        });
+      }
+      document.getElementById('ceremonias')?.scrollIntoView({ behavior:'smooth' });
+    }, 700);
+    return;
+  }
+}
+
+// ── Inyectar botón de compartir URL en cada fila de la tabla ──
+function injectShareButtons(){
+  DB.forEach(c => {
+    const filmCell = document.getElementById(`film-${c.n}`);
+    if(!filmCell) return;
+    const url = movieUrl(c);
+    const cerUrl = ceremonyUrl(c);
+    const shareDiv = document.createElement('div');
+    shareDiv.style.cssText = 'margin-top:.4rem;display:flex;gap:.4rem;flex-wrap:wrap;align-items:center';
+    shareDiv.innerHTML = `
+      <button onclick="copyUrl('${url}',this)" style="font-family:'DM Mono',monospace;font-size:.48rem;letter-spacing:.08em;background:transparent;border:1px solid rgba(201,168,76,.4);color:var(--gold);padding:.15rem .4rem;cursor:pointer">🔗 Película</button>
+      <button onclick="copyUrl('${cerUrl}',this)" style="font-family:'DM Mono',monospace;font-size:.48rem;letter-spacing:.08em;background:transparent;border:1px solid rgba(194,189,180,.3);color:var(--gray-light);padding:.15rem .4rem;cursor:pointer">🔗 Ceremonia</button>
+    `;
+    filmCell.appendChild(shareDiv);
+  });
+}
+
+// ── Inyectar botón de compartir en cada artículo de discursos ──
+function injectSpeechShareButtons(){
+  SPEECHES.forEach(sp => {
+    const card = document.getElementById(`speech-${sp.id}`);
+    if(!card) return;
+    const url = speechUrl(sp);
+    const btn = document.createElement('button');
+    btn.onclick = () => copyUrl(url, btn);
+    btn.style.cssText = "font-family:'DM Mono',monospace;font-size:.5rem;letter-spacing:.1em;background:transparent;border:1px solid rgba(201,168,76,.4);color:var(--gold);padding:.2rem .5rem;cursor:pointer;margin-top:.5rem";
+    btn.textContent = '🔗 Compartir artículo';
+    card.appendChild(btn);
+  });
+}
+
+// INIT
+render();
+renderSpeeches();
+loadKeys();
+parseRoute();
+setTimeout(() => {
+  window._shareReady = true;
+  injectShareButtons();
+  injectSpeechShareButtons();
+}, 200);
+if(KEYS.tmdb) setTimeout(enrichTableWithAPIs, 600);
+</script>
+</body>
+</html>

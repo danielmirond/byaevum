@@ -1,0 +1,3034 @@
+[
+  {
+    "n": 1,
+    "year": "1929",
+    "decade": 1920,
+    "venue": "Hollywood Roosevelt Hotel",
+    "picture": {
+      "film": "Wings",
+      "dir": "William Wellman",
+      "imdb": "tt0018578"
+    },
+    "director": {
+      "name": "Frank Borzage",
+      "film": "Seventh Heaven"
+    },
+    "actor": {
+      "name": "Emil Jannings",
+      "film": "The Last Command",
+      "imdb": "nm0001394",
+      "speech": "Recogió su estatuilla antes de la ceremonia porque regresaba a Alemania. Primer y único ganador en recibir el Oscar antes de la gala."
+    },
+    "actress": {
+      "name": "Janet Gaynor",
+      "film": "7th Heaven / Sunrise",
+      "imdb": "nm0310733",
+      "speech": "Ganó por tres películas simultáneamente, práctica que se eliminó enseguida."
+    },
+    "tags": [
+      "clasico"
+    ]
+  },
+  {
+    "n": 2,
+    "year": "1930",
+    "decade": 1920,
+    "venue": "Cocoanut Grove",
+    "picture": {
+      "film": "The Broadway Melody",
+      "dir": "Harry Beaumont",
+      "imdb": "tt0019762"
+    },
+    "director": {
+      "name": "Frank Lloyd",
+      "film": "The Divine Lady"
+    },
+    "actor": {
+      "name": "Warner Baxter",
+      "film": "In Old Arizona",
+      "imdb": "nm0000870"
+    },
+    "actress": {
+      "name": "Mary Pickford",
+      "film": "Coquette",
+      "imdb": "nm0681933",
+      "speech": "Se rumoreó que invitó a los votantes a su mansión Pickfair antes de la ceremonia."
+    },
+    "tags": [
+      "clasico"
+    ]
+  },
+  {
+    "n": 3,
+    "year": "1931",
+    "decade": 1930,
+    "venue": "Fiesta Room, Ambassador Hotel",
+    "picture": {
+      "film": "All Quiet on the Western Front",
+      "dir": "Lewis Milestone",
+      "imdb": "tt0020629",
+      "note": "Primer film antibélico en ganar."
+    },
+    "director": {
+      "name": "Lewis Milestone",
+      "film": "All Quiet on the Western Front"
+    },
+    "actor": {
+      "name": "George Arliss",
+      "film": "Disraeli",
+      "imdb": "nm0000769"
+    },
+    "actress": {
+      "name": "Norma Shearer",
+      "film": "The Divorcee",
+      "imdb": "nm0789823"
+    },
+    "tags": [
+      "clasico"
+    ]
+  },
+  {
+    "n": 4,
+    "year": "1932",
+    "decade": 1930,
+    "venue": "Biltmore Hotel",
+    "picture": {
+      "film": "Cimarron",
+      "dir": "Wesley Ruggles",
+      "imdb": "tt0021746",
+      "note": "Primer western en ganar."
+    },
+    "director": {
+      "name": "Norman Taurog",
+      "film": "Skippy"
+    },
+    "actor": {
+      "name": "Lionel Barrymore",
+      "film": "A Free Soul",
+      "imdb": "nm0000867"
+    },
+    "actress": {
+      "name": "Marie Dressler",
+      "film": "Min and Bill",
+      "imdb": "nm0237720"
+    },
+    "tags": [
+      "clasico"
+    ]
+  },
+  {
+    "n": 5,
+    "year": "1933",
+    "decade": 1930,
+    "venue": "Ambassador Hotel",
+    "picture": {
+      "film": "Grand Hotel",
+      "dir": "Edmund Goulding",
+      "imdb": "tt0022958",
+      "note": "Único film en ganar sin ninguna otra nominación en la historia."
+    },
+    "director": {
+      "name": "Frank Borzage",
+      "film": "Bad Girl"
+    },
+    "actor": {
+      "name": "Fredric March",
+      "film": "Dr. Jekyll and Mr. Hyde",
+      "imdb": "nm0001501",
+      "speech": "Empató con Wallace Beery. Único empate en Mejor Actor."
+    },
+    "actress": {
+      "name": "Helen Hayes",
+      "film": "The Sin of Madelon Claudet",
+      "imdb": "nm0001329"
+    },
+    "tags": [
+      "clasico",
+      "record"
+    ]
+  },
+  {
+    "n": 6,
+    "year": "1934",
+    "decade": 1930,
+    "venue": "Fiesta Room, Ambassador Hotel",
+    "picture": {
+      "film": "Cavalcade",
+      "dir": "Frank Lloyd",
+      "imdb": "tt0023876"
+    },
+    "director": {
+      "name": "Frank Lloyd",
+      "film": "Cavalcade"
+    },
+    "actor": {
+      "name": "Charles Laughton",
+      "film": "The Private Life of Henry VIII",
+      "imdb": "nm0000473",
+      "speech": "Primer ganador británico."
+    },
+    "actress": {
+      "name": "Katharine Hepburn",
+      "film": "Morning Glory",
+      "imdb": "nm0000031",
+      "speech": "Primera de sus cuatro victorias. Llamativamente, no asistió a la ceremonia. Nunca asistió."
+    },
+    "tags": [
+      "clasico",
+      "record"
+    ]
+  },
+  {
+    "n": 7,
+    "year": "1935",
+    "decade": 1930,
+    "venue": "Biltmore Bowl",
+    "picture": {
+      "film": "It Happened One Night",
+      "dir": "Frank Capra",
+      "imdb": "tt0025316",
+      "note": "Primer Big Five Sweep de la historia. No se repetiría hasta 1975."
+    },
+    "director": {
+      "name": "Frank Capra",
+      "film": "It Happened One Night"
+    },
+    "actor": {
+      "name": "Clark Gable",
+      "film": "It Happened One Night",
+      "imdb": "nm0000023",
+      "speech": "\"Esto es demasiado para un tipo como yo.\" Consideró rechazarlo pero no lo hizo."
+    },
+    "actress": {
+      "name": "Claudette Colbert",
+      "film": "It Happened One Night",
+      "imdb": "nm0000092",
+      "speech": "Estaba en un tren a Nueva York. Bajó del tren, fue a la ceremonia en traje de viaje y volvió al tren. Discurso de 20 segundos."
+    },
+    "tags": [
+      "clasico",
+      "record",
+      "big5"
+    ]
+  },
+  {
+    "n": 8,
+    "year": "1936",
+    "decade": 1930,
+    "venue": "Biltmore Bowl",
+    "picture": {
+      "film": "Mutiny on the Bounty",
+      "dir": "Frank Lloyd",
+      "imdb": "tt0026752"
+    },
+    "director": {
+      "name": "John Ford",
+      "film": "The Informer"
+    },
+    "actor": {
+      "name": "Victor McLaglen",
+      "film": "The Informer",
+      "imdb": "nm0570960"
+    },
+    "actress": {
+      "name": "Bette Davis",
+      "film": "Dangerous",
+      "imdb": "nm0000016",
+      "speech": "\"Lo gané de consolación por no haberlo ganado el año anterior.\" Davis lo dijo públicamente."
+    },
+    "tags": [
+      "clasico"
+    ]
+  },
+  {
+    "n": 9,
+    "year": "1937",
+    "decade": 1930,
+    "venue": "Biltmore Bowl",
+    "picture": {
+      "film": "The Great Ziegfeld",
+      "dir": "Robert Z. Leonard",
+      "imdb": "tt0027698"
+    },
+    "director": {
+      "name": "Frank Capra",
+      "film": "Mr. Deeds Goes to Town"
+    },
+    "actor": {
+      "name": "Paul Muni",
+      "film": "The Story of Louis Pasteur",
+      "imdb": "nm0612050"
+    },
+    "actress": {
+      "name": "Luise Rainer",
+      "film": "The Great Ziegfeld",
+      "imdb": "nm0707372",
+      "speech": "Primera de dos victorias consecutivas, récord que tardó décadas en igualarse."
+    },
+    "tags": [
+      "clasico",
+      "record"
+    ]
+  },
+  {
+    "n": 10,
+    "year": "1938",
+    "decade": 1930,
+    "venue": "Biltmore Bowl",
+    "picture": {
+      "film": "The Life of Emile Zola",
+      "dir": "William Dieterle",
+      "imdb": "tt0029135"
+    },
+    "director": {
+      "name": "Leo McCarey",
+      "film": "The Awful Truth"
+    },
+    "actor": {
+      "name": "Spencer Tracy",
+      "film": "Captains Courageous",
+      "imdb": "nm0000075",
+      "speech": "Primera de dos victorias consecutivas. En la segunda confundió \"Dick Tracy\" con su nombre."
+    },
+    "actress": {
+      "name": "Luise Rainer",
+      "film": "The Good Earth",
+      "imdb": "nm0707372",
+      "speech": "Segunda victoria consecutiva, récord absoluto de la época."
+    },
+    "tags": [
+      "clasico",
+      "record"
+    ]
+  },
+  {
+    "n": 11,
+    "year": "1939",
+    "decade": 1930,
+    "venue": "Biltmore Bowl",
+    "picture": {
+      "film": "You Can't Take It with You",
+      "dir": "Frank Capra",
+      "imdb": "tt0030993"
+    },
+    "director": {
+      "name": "Frank Capra",
+      "film": "You Can't Take It with You"
+    },
+    "actor": {
+      "name": "Spencer Tracy",
+      "film": "Boys Town",
+      "imdb": "nm0000075",
+      "speech": "Segunda victoria consecutiva. Spencer Tracy es el único actor en lograrlo."
+    },
+    "actress": {
+      "name": "Bette Davis",
+      "film": "Jezebel",
+      "imdb": "nm0000016"
+    },
+    "tags": [
+      "clasico",
+      "record"
+    ]
+  },
+  {
+    "n": 12,
+    "year": "1940",
+    "decade": 1940,
+    "venue": "Cocoanut Grove",
+    "picture": {
+      "film": "Gone with the Wind",
+      "dir": "Victor Fleming",
+      "imdb": "tt0031381",
+      "note": "8 Oscar. Hattie McDaniel primera persona negra en ganar un Oscar."
+    },
+    "director": {
+      "name": "Victor Fleming",
+      "film": "Gone with the Wind"
+    },
+    "actor": {
+      "name": "Robert Donat",
+      "film": "Goodbye, Mr. Chips",
+      "imdb": "nm0001152",
+      "speech": "Ganó sobre Clark Gable. Padecía asma severa y raramente asistía a actos públicos."
+    },
+    "actress": {
+      "name": "Vivien Leigh",
+      "film": "Gone with the Wind",
+      "imdb": "nm0000046",
+      "speech": "Primera de dos victorias. Leigh agradeció a Laurence Olivier, presente en la sala."
+    },
+    "tags": [
+      "clasico",
+      "record",
+      "historico"
+    ]
+  },
+  {
+    "n": 13,
+    "year": "1941",
+    "decade": 1940,
+    "venue": "Biltmore Bowl",
+    "picture": {
+      "film": "Rebecca",
+      "dir": "Alfred Hitchcock",
+      "imdb": "tt0032976",
+      "note": "Único Oscar de Hitchcock. Paradójicamente, él no fue nominado como director."
+    },
+    "director": {
+      "name": "John Ford",
+      "film": "The Grapes of Wrath"
+    },
+    "actor": {
+      "name": "James Stewart",
+      "film": "The Philadelphia Story",
+      "imdb": "nm0000071",
+      "speech": "\"Mi mejor actuación fue en Mr. Smith y no lo gané. Esto no lo entiendo.\""
+    },
+    "actress": {
+      "name": "Ginger Rogers",
+      "film": "Kitty Foyle",
+      "imdb": "nm0001691",
+      "speech": "Conocida por comedias musicales, ganó por un drama."
+    },
+    "tags": [
+      "clasico"
+    ]
+  },
+  {
+    "n": 14,
+    "year": "1942",
+    "decade": 1940,
+    "venue": "Biltmore Bowl",
+    "picture": {
+      "film": "How Green Was My Valley",
+      "dir": "John Ford",
+      "imdb": "tt0033729",
+      "note": "Derrotó a Citizen Kane. La mayor polémica de los Oscar clásicos."
+    },
+    "director": {
+      "name": "John Ford",
+      "film": "How Green Was My Valley"
+    },
+    "actor": {
+      "name": "Gary Cooper",
+      "film": "Sergeant York",
+      "imdb": "nm0000007",
+      "speech": "No asistió. James Stewart recogió el premio en su nombre."
+    },
+    "actress": {
+      "name": "Joan Fontaine",
+      "film": "Suspicion",
+      "imdb": "nm0284516",
+      "speech": "Su hermana Olivia de Havilland estaba nominada el mismo año. Fontaine ganó. La rivalidad entre ambas fue legendaria durante décadas."
+    },
+    "tags": [
+      "clasico",
+      "historico"
+    ]
+  },
+  {
+    "n": 15,
+    "year": "1943",
+    "decade": 1940,
+    "venue": "Cocoanut Grove",
+    "picture": {
+      "film": "Mrs. Miniver",
+      "dir": "William Wyler",
+      "imdb": "tt0035093"
+    },
+    "director": {
+      "name": "William Wyler",
+      "film": "Mrs. Miniver"
+    },
+    "actor": {
+      "name": "James Cagney",
+      "film": "Yankee Doodle Dandy",
+      "imdb": "nm0000010",
+      "speech": "Era conocido por su incomodidad en actos públicos. Fue llevado al escenario casi a la fuerza."
+    },
+    "actress": {
+      "name": "Greer Garson",
+      "film": "Mrs. Miniver",
+      "imdb": "nm0000077",
+      "speech": "Discurso de entre 5 y 7 minutos. El más largo de la historia. La Academia estableció límites de tiempo directamente a causa de esto."
+    },
+    "tags": [
+      "clasico",
+      "record"
+    ]
+  },
+  {
+    "n": 16,
+    "year": "1944",
+    "decade": 1940,
+    "venue": "Grauman's Chinese Theatre",
+    "picture": {
+      "film": "Casablanca",
+      "dir": "Michael Curtiz",
+      "imdb": "tt0034583"
+    },
+    "director": {
+      "name": "Michael Curtiz",
+      "film": "Casablanca"
+    },
+    "actor": {
+      "name": "Paul Lukas",
+      "film": "Watch on the Rhine",
+      "imdb": "nm0525832"
+    },
+    "actress": {
+      "name": "Jennifer Jones",
+      "film": "The Song of Bernadette",
+      "imdb": "nm0000019",
+      "speech": "Jones lloraba tan intensamente que apenas podía hablar. David O. Selznick había orquestado una campaña sin precedentes."
+    },
+    "tags": [
+      "clasico"
+    ]
+  },
+  {
+    "n": 17,
+    "year": "1945",
+    "decade": 1940,
+    "venue": "Grauman's Chinese Theatre",
+    "picture": {
+      "film": "Going My Way",
+      "dir": "Leo McCarey",
+      "imdb": "tt0036872"
+    },
+    "director": {
+      "name": "Leo McCarey",
+      "film": "Going My Way"
+    },
+    "actor": {
+      "name": "Bing Crosby",
+      "film": "Going My Way",
+      "imdb": "nm0000095"
+    },
+    "actress": {
+      "name": "Ingrid Bergman",
+      "film": "Gaslight",
+      "imdb": "nm0000006",
+      "speech": "Agradeció en inglés, sueco y francés."
+    },
+    "tags": [
+      "clasico"
+    ]
+  },
+  {
+    "n": 18,
+    "year": "1946",
+    "decade": 1940,
+    "venue": "Grauman's Chinese Theatre",
+    "picture": {
+      "film": "The Lost Weekend",
+      "dir": "Billy Wilder",
+      "imdb": "tt0037884"
+    },
+    "director": {
+      "name": "Billy Wilder",
+      "film": "The Lost Weekend"
+    },
+    "actor": {
+      "name": "Ray Milland",
+      "film": "The Lost Weekend",
+      "imdb": "nm0001539",
+      "speech": "Recibió el premio en silencio absoluto, algo inusual."
+    },
+    "actress": {
+      "name": "Joan Crawford",
+      "film": "Mildred Pierce",
+      "imdb": "nm0000026",
+      "speech": "No asistió, alegando enfermedad. Recibió el Oscar en cama con cámaras presentes. Muchos consideraron que fue táctica de relaciones públicas."
+    },
+    "tags": [
+      "clasico"
+    ]
+  },
+  {
+    "n": 19,
+    "year": "1947",
+    "decade": 1940,
+    "venue": "Shrine Auditorium",
+    "picture": {
+      "film": "The Best Years of Our Lives",
+      "dir": "William Wyler",
+      "imdb": "tt0036868",
+      "note": "7 Oscar. Película sobre veteranos de WWII."
+    },
+    "director": {
+      "name": "William Wyler",
+      "film": "The Best Years of Our Lives"
+    },
+    "actor": {
+      "name": "Fredric March",
+      "film": "The Best Years of Our Lives",
+      "imdb": "nm0001501"
+    },
+    "actress": {
+      "name": "Olivia de Havilland",
+      "film": "To Each His Own",
+      "imdb": "nm0000014",
+      "speech": "Primera de dos victorias. Había ganado un pleito histórico contra Warner Bros. que cambió las leyes laborales de Hollywood."
+    },
+    "tags": [
+      "clasico"
+    ]
+  },
+  {
+    "n": 20,
+    "year": "1948",
+    "decade": 1940,
+    "venue": "Shrine Auditorium",
+    "picture": {
+      "film": "Gentleman's Agreement",
+      "dir": "Elia Kazan",
+      "imdb": "tt0039416"
+    },
+    "director": {
+      "name": "Elia Kazan",
+      "film": "Gentleman's Agreement"
+    },
+    "actor": {
+      "name": "Ronald Colman",
+      "film": "A Double Life",
+      "imdb": "nm0001057"
+    },
+    "actress": {
+      "name": "Loretta Young",
+      "film": "The Farmer's Daughter",
+      "imdb": "nm0001873",
+      "speech": "Llegó con un vestido verde esmeralda que se convirtió en portada de todas las revistas."
+    },
+    "tags": [
+      "clasico"
+    ]
+  },
+  {
+    "n": 21,
+    "year": "1949",
+    "decade": 1940,
+    "venue": "Academy Award Theatre",
+    "picture": {
+      "film": "Hamlet",
+      "dir": "Laurence Olivier",
+      "imdb": "tt0040506",
+      "note": "Primer film británico en ganar Mejor Película."
+    },
+    "director": {
+      "name": "John Huston",
+      "film": "The Treasure of the Sierra Madre"
+    },
+    "actor": {
+      "name": "Laurence Olivier",
+      "film": "Hamlet",
+      "imdb": "nm0000059",
+      "speech": "Ganó también como productor. Uno de los pocos en ganar actor y película el mismo año."
+    },
+    "actress": {
+      "name": "Jane Wyman",
+      "film": "Johnny Belinda",
+      "imdb": "nm0001875",
+      "speech": "Interpretó a una mujer sordomuda. \"Gracias a todos con quienes no pude hablar.\""
+    },
+    "tags": [
+      "clasico"
+    ]
+  },
+  {
+    "n": 22,
+    "year": "1950",
+    "decade": 1940,
+    "venue": "RKO Pantages Theatre",
+    "picture": {
+      "film": "All the King's Men",
+      "dir": "Robert Rossen",
+      "imdb": "tt0041113"
+    },
+    "director": {
+      "name": "Joseph L. Mankiewicz",
+      "film": "A Letter to Three Wives"
+    },
+    "actor": {
+      "name": "Broderick Crawford",
+      "film": "All the King's Men",
+      "imdb": "nm0000264"
+    },
+    "actress": {
+      "name": "Olivia de Havilland",
+      "film": "The Heiress",
+      "imdb": "nm0000014",
+      "speech": "Segunda victoria. La única en ganar dos veces en categoría principal durante los años 40."
+    },
+    "tags": [
+      "clasico"
+    ]
+  },
+  {
+    "n": 23,
+    "year": "1951",
+    "decade": 1950,
+    "venue": "RKO Pantages Theatre",
+    "picture": {
+      "film": "All About Eve",
+      "dir": "Joseph L. Mankiewicz",
+      "imdb": "tt0042192",
+      "note": "14 nominaciones. Récord histórico que duró hasta 1997."
+    },
+    "director": {
+      "name": "Joseph L. Mankiewicz",
+      "film": "All About Eve"
+    },
+    "actor": {
+      "name": "José Ferrer",
+      "film": "Cyrano de Bergerac",
+      "imdb": "nm0001213",
+      "speech": "Primer hispano en ganar Mejor Actor."
+    },
+    "actress": {
+      "name": "Judy Holliday",
+      "film": "Born Yesterday",
+      "imdb": "nm0001361",
+      "speech": "Ganó sobre Bette Davis y Anne Baxter, ambas nominadas por All About Eve. Una de las mayores sorpresas de los Oscar clásicos."
+    },
+    "tags": [
+      "clasico",
+      "record"
+    ]
+  },
+  {
+    "n": 24,
+    "year": "1952",
+    "decade": 1950,
+    "venue": "RKO Pantages Theatre",
+    "picture": {
+      "film": "An American in Paris",
+      "dir": "Vincente Minnelli",
+      "imdb": "tt0043378",
+      "note": "Derrotó a A Streetcar Named Desire."
+    },
+    "director": {
+      "name": "George Stevens",
+      "film": "A Place in the Sun"
+    },
+    "actor": {
+      "name": "Humphrey Bogart",
+      "film": "The African Queen",
+      "imdb": "nm0000007",
+      "speech": "\"No entiendo qué es todo esto. Solo hago mi trabajo.\""
+    },
+    "actress": {
+      "name": "Vivien Leigh",
+      "film": "A Streetcar Named Desire",
+      "imdb": "nm0000046",
+      "speech": "Segunda victoria. Leigh y Brando perdieron Mejor Película pese a actuar en el mismo film."
+    },
+    "tags": [
+      "clasico"
+    ]
+  },
+  {
+    "n": 25,
+    "year": "1953",
+    "decade": 1950,
+    "venue": "RKO Pantages Theatre",
+    "picture": {
+      "film": "The Greatest Show on Earth",
+      "dir": "Cecil B. DeMille",
+      "imdb": "tt0044672",
+      "note": "Considerada la peor ganadora en encuestas de crítica."
+    },
+    "director": {
+      "name": "John Ford",
+      "film": "The Quiet Man"
+    },
+    "actor": {
+      "name": "Gary Cooper",
+      "film": "High Noon",
+      "imdb": "nm0000007",
+      "speech": "No asistió. John Wayne recogió el premio."
+    },
+    "actress": {
+      "name": "Shirley Booth",
+      "film": "Come Back, Little Sheba",
+      "imdb": "nm0095349",
+      "speech": "Lloró durante todo el discurso. Había llegado a Hollywood desde Broadway a los 55 años."
+    },
+    "tags": [
+      "clasico"
+    ]
+  },
+  {
+    "n": 26,
+    "year": "1954",
+    "decade": 1950,
+    "venue": "RKO Pantages Theatre",
+    "picture": {
+      "film": "From Here to Eternity",
+      "dir": "Fred Zinnemann",
+      "imdb": "tt0045793",
+      "note": "8 Oscar de 13 nominaciones."
+    },
+    "director": {
+      "name": "Fred Zinnemann",
+      "film": "From Here to Eternity"
+    },
+    "actor": {
+      "name": "William Holden",
+      "film": "Stalag 17",
+      "imdb": "nm0000034",
+      "speech": "\"Thank you. Thank you.\" El discurso más corto hasta esa fecha."
+    },
+    "actress": {
+      "name": "Audrey Hepburn",
+      "film": "Roman Holiday",
+      "imdb": "nm0000030",
+      "speech": "Primera victoria. Había ganado también el Tony y el Emmy ese año — triple corona sin precedentes."
+    },
+    "tags": [
+      "clasico",
+      "record"
+    ]
+  },
+  {
+    "n": 27,
+    "year": "1955",
+    "decade": 1950,
+    "venue": "RKO Pantages Theatre",
+    "picture": {
+      "film": "On the Waterfront",
+      "dir": "Elia Kazan",
+      "imdb": "tt0047296",
+      "note": "8 Oscar."
+    },
+    "director": {
+      "name": "Elia Kazan",
+      "film": "On the Waterfront"
+    },
+    "actor": {
+      "name": "Marlon Brando",
+      "film": "On the Waterfront",
+      "imdb": "nm0000008",
+      "speech": "Primera victoria de Brando. Elegante y breve, en contraste radical con su rechazo de 1973."
+    },
+    "actress": {
+      "name": "Grace Kelly",
+      "film": "The Country Girl",
+      "imdb": "nm0000038",
+      "speech": "Kelly ganó sobre Judy Garland en A Star Is Born. Considerado uno de los mayores robos de los Oscar."
+    },
+    "tags": [
+      "clasico"
+    ]
+  },
+  {
+    "n": 28,
+    "year": "1956",
+    "decade": 1950,
+    "venue": "RKO Pantages Theatre",
+    "picture": {
+      "film": "Marty",
+      "dir": "Delbert Mann",
+      "imdb": "tt0048356",
+      "note": "Primer film de bajo presupuesto en ganar. También ganó la Palma de Oro en Cannes."
+    },
+    "director": {
+      "name": "Delbert Mann",
+      "film": "Marty"
+    },
+    "actor": {
+      "name": "Ernest Borgnine",
+      "film": "Marty",
+      "imdb": "nm0000308",
+      "speech": "\"Mamá, conseguí el trabajo que me pediste que encontrara.\""
+    },
+    "actress": {
+      "name": "Anna Magnani",
+      "film": "The Rose Tattoo",
+      "imdb": "nm0536885",
+      "speech": "No asistió. Estaba en Roma rodando. Recibió la noticia por teléfono: \"Bien. Ahora puedo dormir.\""
+    },
+    "tags": [
+      "clasico"
+    ]
+  },
+  {
+    "n": 29,
+    "year": "1957",
+    "decade": 1950,
+    "venue": "RKO Pantages Theatre",
+    "picture": {
+      "film": "Around the World in 80 Days",
+      "dir": "Michael Anderson",
+      "imdb": "tt0048960"
+    },
+    "director": {
+      "name": "George Stevens",
+      "film": "Giant"
+    },
+    "actor": {
+      "name": "Yul Brynner",
+      "film": "The King and I",
+      "imdb": "nm0000267"
+    },
+    "actress": {
+      "name": "Ingrid Bergman",
+      "film": "Anastasia",
+      "imdb": "nm0000006",
+      "speech": "Estaba en Europa. Cary Grant recogió el premio y bromeó: \"la única persona que merece esto más que ella soy yo.\""
+    },
+    "tags": [
+      "clasico"
+    ]
+  },
+  {
+    "n": 30,
+    "year": "1958",
+    "decade": 1950,
+    "venue": "RKO Pantages Theatre",
+    "picture": {
+      "film": "The Bridge on the River Kwai",
+      "dir": "David Lean",
+      "imdb": "tt0050212",
+      "note": "7 Oscar."
+    },
+    "director": {
+      "name": "David Lean",
+      "film": "The Bridge on the River Kwai"
+    },
+    "actor": {
+      "name": "Alec Guinness",
+      "film": "The Bridge on the River Kwai",
+      "imdb": "nm0000096",
+      "speech": "Declaró después estar \"ligeramente asqueado\" de haber ganado por ese papel."
+    },
+    "actress": {
+      "name": "Joanne Woodward",
+      "film": "The Three Faces of Eve",
+      "imdb": "nm0942418",
+      "speech": "Llegó con un vestido que ella misma había cosido. La prensa de moda se escandalizó."
+    },
+    "tags": [
+      "clasico"
+    ]
+  },
+  {
+    "n": 31,
+    "year": "1959",
+    "decade": 1950,
+    "venue": "RKO Pantages Theatre",
+    "picture": {
+      "film": "Gigi",
+      "dir": "Vincente Minnelli",
+      "imdb": "tt0051658",
+      "note": "9 Oscar de 9 nominaciones. Sweep perfecto."
+    },
+    "director": {
+      "name": "Vincente Minnelli",
+      "film": "Gigi"
+    },
+    "actor": {
+      "name": "David Niven",
+      "film": "Separate Tables",
+      "imdb": "nm0000555",
+      "speech": "\"I really need this Oscar, unlike most people here tonight.\""
+    },
+    "actress": {
+      "name": "Susan Hayward",
+      "film": "I Want to Live!",
+      "imdb": "nm0001331",
+      "speech": "Cuarta nominación sin ganar. \"Llevo 15 años peleando para que me dierais esto.\""
+    },
+    "tags": [
+      "clasico"
+    ]
+  },
+  {
+    "n": 32,
+    "year": "1960",
+    "decade": 1960,
+    "venue": "RKO Pantages Theatre",
+    "picture": {
+      "film": "Ben-Hur",
+      "dir": "William Wyler",
+      "imdb": "tt0052618",
+      "note": "11 Oscar de 12 nominaciones. Récord histórico compartido con Titanic y El Retorno del Rey."
+    },
+    "director": {
+      "name": "William Wyler",
+      "film": "Ben-Hur"
+    },
+    "actor": {
+      "name": "Charlton Heston",
+      "film": "Ben-Hur",
+      "imdb": "nm0000032",
+      "speech": "\"Supongo que esto es resultado de tener el mejor director, el mejor elenco y los mejores caballos del mundo.\""
+    },
+    "actress": {
+      "name": "Simone Signoret",
+      "film": "Room at the Top",
+      "imdb": "nm0798880",
+      "speech": "Primera actriz francesa en ganar. \"Merci. Et mille fois merci.\" La sala estalló."
+    },
+    "tags": [
+      "clasico",
+      "record"
+    ]
+  },
+  {
+    "n": 33,
+    "year": "1961",
+    "decade": 1960,
+    "venue": "Santa Monica Civic Auditorium",
+    "picture": {
+      "film": "The Apartment",
+      "dir": "Billy Wilder",
+      "imdb": "tt0053604",
+      "note": "Última película en B&N en ganar hasta The Artist en 2012."
+    },
+    "director": {
+      "name": "Billy Wilder",
+      "film": "The Apartment"
+    },
+    "actor": {
+      "name": "Burt Lancaster",
+      "film": "Elmer Gantry",
+      "imdb": "nm0000044",
+      "speech": "\"Right now I feel like I even love Jack Lemmon.\" Lemmon había competido contra él."
+    },
+    "actress": {
+      "name": "Elizabeth Taylor",
+      "film": "BUtterfield 8",
+      "imdb": "nm0000072",
+      "speech": "Taylor había estado a punto de morir semanas antes. Muchos creen ganó por simpatía."
+    },
+    "tags": [
+      "clasico"
+    ]
+  },
+  {
+    "n": 34,
+    "year": "1962",
+    "decade": 1960,
+    "venue": "Santa Monica Civic Auditorium",
+    "picture": {
+      "film": "West Side Story",
+      "dir": "Robert Wise",
+      "imdb": "tt0055614",
+      "note": "10 Oscar. Récord de victorias para un musical."
+    },
+    "director": {
+      "name": "Robert Wise / Jerome Robbins",
+      "film": "West Side Story"
+    },
+    "actor": {
+      "name": "Maximilian Schell",
+      "film": "Judgment at Nuremberg",
+      "imdb": "nm0001700"
+    },
+    "actress": {
+      "name": "Sophia Loren",
+      "film": "Two Women",
+      "imdb": "nm0000047",
+      "speech": "Primera en ganar por un film en idioma extranjero. No asistió. Lloraba en Roma."
+    },
+    "tags": [
+      "clasico",
+      "record"
+    ]
+  },
+  {
+    "n": 35,
+    "year": "1963",
+    "decade": 1960,
+    "venue": "Santa Monica Civic Auditorium",
+    "picture": {
+      "film": "Lawrence of Arabia",
+      "dir": "David Lean",
+      "imdb": "tt0056172",
+      "note": "7 Oscar de 10 nominaciones."
+    },
+    "director": {
+      "name": "David Lean",
+      "film": "Lawrence of Arabia"
+    },
+    "actor": {
+      "name": "Gregory Peck",
+      "film": "To Kill a Mockingbird",
+      "imdb": "nm0000060",
+      "speech": "Dedicó el Oscar a Harper Lee, autora de la novela. Lee, en la sala, subió y le abrazó."
+    },
+    "actress": {
+      "name": "Anne Bancroft",
+      "film": "The Miracle Worker",
+      "imdb": "nm0000842",
+      "speech": "Estaba en Broadway. Patty Duke, coprotagonista también ganadora, recogió el premio."
+    },
+    "tags": [
+      "clasico"
+    ]
+  },
+  {
+    "n": 36,
+    "year": "1964",
+    "decade": 1960,
+    "venue": "Santa Monica Civic Auditorium",
+    "picture": {
+      "film": "Tom Jones",
+      "dir": "Tony Richardson",
+      "imdb": "tt0057590"
+    },
+    "director": {
+      "name": "Tony Richardson",
+      "film": "Tom Jones"
+    },
+    "actor": {
+      "name": "Sidney Poitier",
+      "film": "Lilies of the Field",
+      "imdb": "nm0001632",
+      "speech": "Primer hombre negro en ganar Mejor Actor. \"Dedico esto a todos los hombres que me mostraron el camino.\" Ovación de toda la sala."
+    },
+    "actress": {
+      "name": "Patricia Neal",
+      "film": "Hud",
+      "imdb": "nm0624543",
+      "speech": "Su recuperación tras un ictus fue cubierta por todos los medios."
+    },
+    "tags": [
+      "clasico",
+      "historico"
+    ]
+  },
+  {
+    "n": 37,
+    "year": "1965",
+    "decade": 1960,
+    "venue": "Santa Monica Civic Auditorium",
+    "picture": {
+      "film": "My Fair Lady",
+      "dir": "George Cukor",
+      "imdb": "tt0058385",
+      "note": "8 Oscar de 12 nominaciones."
+    },
+    "director": {
+      "name": "George Cukor",
+      "film": "My Fair Lady"
+    },
+    "actor": {
+      "name": "Rex Harrison",
+      "film": "My Fair Lady",
+      "imdb": "nm0000031",
+      "speech": "\"Gracias a dos grandes damas: Audrey Hepburn y Jack Warner.\" La ausencia de Hepburn en las nominaciones había generado polémica."
+    },
+    "actress": {
+      "name": "Julie Andrews",
+      "film": "Mary Poppins",
+      "imdb": "nm0000267",
+      "speech": "\"Debo agradecerle a Jack Warner por hacerme posible este premio.\" (Hepburn interpretó Eliza en la película pero Andrews la sustituyó en el film)."
+    },
+    "tags": [
+      "clasico"
+    ]
+  },
+  {
+    "n": 38,
+    "year": "1966",
+    "decade": 1960,
+    "venue": "Santa Monica Civic Auditorium",
+    "picture": {
+      "film": "The Sound of Music",
+      "dir": "Robert Wise",
+      "imdb": "tt0059742",
+      "note": "5 Oscar."
+    },
+    "director": {
+      "name": "Robert Wise",
+      "film": "The Sound of Music"
+    },
+    "actor": {
+      "name": "Lee Marvin",
+      "film": "Cat Ballou",
+      "imdb": "nm0001513",
+      "speech": "Su discurso fue notoriamente desinhibido según los reportes."
+    },
+    "actress": {
+      "name": "Julie Christie",
+      "film": "Darling",
+      "imdb": "nm0000927",
+      "speech": "Llegó en minifalda. Fue la primera en aparecer así en los Oscar."
+    },
+    "tags": [
+      "clasico"
+    ]
+  },
+  {
+    "n": 39,
+    "year": "1967",
+    "decade": 1960,
+    "venue": "Santa Monica Civic Auditorium",
+    "picture": {
+      "film": "A Man for All Seasons",
+      "dir": "Fred Zinnemann",
+      "imdb": "tt0060665"
+    },
+    "director": {
+      "name": "Fred Zinnemann",
+      "film": "A Man for All Seasons"
+    },
+    "actor": {
+      "name": "Paul Scofield",
+      "film": "A Man for All Seasons",
+      "imdb": "nm0776556"
+    },
+    "actress": {
+      "name": "Elizabeth Taylor",
+      "film": "Who's Afraid of Virginia Woolf?",
+      "imdb": "nm0000072",
+      "speech": "Segunda victoria. Ella y Burton nominados el mismo año por el mismo film."
+    },
+    "tags": [
+      "clasico"
+    ]
+  },
+  {
+    "n": 40,
+    "year": "1968",
+    "decade": 1960,
+    "venue": "Santa Monica Civic Auditorium",
+    "picture": {
+      "film": "In the Heat of the Night",
+      "dir": "Norman Jewison",
+      "imdb": "tt0061811"
+    },
+    "director": {
+      "name": "Mike Nichols",
+      "film": "The Graduate"
+    },
+    "actor": {
+      "name": "Rod Steiger",
+      "film": "In the Heat of the Night",
+      "imdb": "nm0001760",
+      "speech": "Dedicó el Oscar a Martin Luther King, asesinado dos días antes de la ceremonia."
+    },
+    "actress": {
+      "name": "Katharine Hepburn",
+      "film": "Guess Who's Coming to Dinner",
+      "imdb": "nm0000031",
+      "speech": "Segunda victoria. No asistió. \"Las galas me parecen teatro de vanidad.\""
+    },
+    "tags": [
+      "clasico",
+      "historico"
+    ]
+  },
+  {
+    "n": 41,
+    "year": "1969",
+    "decade": 1960,
+    "venue": "Dorothy Chandler Pavilion",
+    "picture": {
+      "film": "Oliver!",
+      "dir": "Carol Reed",
+      "imdb": "tt0063385",
+      "note": "5 Oscar. Último musical en ganar hasta Chicago (2003)."
+    },
+    "director": {
+      "name": "Carol Reed",
+      "film": "Oliver!"
+    },
+    "actor": {
+      "name": "Cliff Robertson",
+      "film": "Charly",
+      "imdb": "nm0001678"
+    },
+    "actress": {
+      "name": "Katharine Hepburn / Barbra Streisand",
+      "film": "The Lion in Winter / Funny Girl",
+      "imdb": "nm0000031",
+      "speech": "Empate histórico entre Hepburn y Streisand. El único en la categoría. Streisand: \"Hello, gorgeous.\" Hepburn no asistió."
+    },
+    "tags": [
+      "clasico",
+      "record",
+      "historico"
+    ]
+  },
+  {
+    "n": 42,
+    "year": "1970",
+    "decade": 1970,
+    "venue": "Dorothy Chandler Pavilion",
+    "picture": {
+      "film": "Midnight Cowboy",
+      "dir": "John Schlesinger",
+      "imdb": "tt0064665",
+      "note": "Único film X/NC-17 en ganar Mejor Película."
+    },
+    "director": {
+      "name": "John Schlesinger",
+      "film": "Midnight Cowboy"
+    },
+    "actor": {
+      "name": "John Wayne",
+      "film": "True Grit",
+      "imdb": "nm0000078",
+      "speech": "\"Debí haberme puesto antes un parche en el ojo.\" Única victoria de Wayne. Ovación de pie."
+    },
+    "actress": {
+      "name": "Maggie Smith",
+      "film": "The Prime of Miss Jean Brodie",
+      "imdb": "nm0001749",
+      "speech": "Comenzó con un agudo \"Oh dear!\" que arrancó carcajadas."
+    },
+    "tags": [
+      "clasico",
+      "record"
+    ]
+  },
+  {
+    "n": 43,
+    "year": "1971",
+    "decade": 1970,
+    "venue": "Dorothy Chandler Pavilion",
+    "picture": {
+      "film": "Patton",
+      "dir": "Franklin J. Schaffner",
+      "imdb": "tt0065234",
+      "note": "7 Oscar."
+    },
+    "director": {
+      "name": "Franklin J. Schaffner",
+      "film": "Patton"
+    },
+    "actor": {
+      "name": "George C. Scott",
+      "film": "Patton",
+      "imdb": "nm0001716",
+      "speech": "Rechazó el premio activamente, declarando que los Oscar eran \"una feria de carne humana degradante\". Único actor en rechazarlo en vida. Dormía en su casa cuando se anunció."
+    },
+    "actress": {
+      "name": "Glenda Jackson",
+      "film": "Women in Love",
+      "imdb": "nm0001413",
+      "speech": "Fue directamente al teatro a actuar después de la gala."
+    },
+    "tags": [
+      "clasico",
+      "historico"
+    ]
+  },
+  {
+    "n": 44,
+    "year": "1972",
+    "decade": 1970,
+    "venue": "Dorothy Chandler Pavilion",
+    "picture": {
+      "film": "The French Connection",
+      "dir": "William Friedkin",
+      "imdb": "tt0067116",
+      "note": "Primera clasificada R en ganar."
+    },
+    "director": {
+      "name": "William Friedkin",
+      "film": "The French Connection"
+    },
+    "actor": {
+      "name": "Gene Hackman",
+      "film": "The French Connection",
+      "imdb": "nm0000432"
+    },
+    "actress": {
+      "name": "Jane Fonda",
+      "film": "Klute",
+      "imdb": "nm0000404",
+      "speech": "Llegó con pelo corto y traje pantalón como señal de activismo. Discurso de 30 segundos."
+    },
+    "tags": [
+      "clasico"
+    ]
+  },
+  {
+    "n": 45,
+    "year": "1973",
+    "decade": 1970,
+    "venue": "Dorothy Chandler Pavilion",
+    "picture": {
+      "film": "The Godfather",
+      "dir": "Francis Ford Coppola",
+      "imdb": "tt0068646",
+      "note": "3 Oscar. Considerada frecuentemente la mejor película de la historia."
+    },
+    "director": {
+      "name": "Bob Fosse",
+      "film": "Cabaret"
+    },
+    "actor": {
+      "name": "Marlon Brando",
+      "film": "The Godfather",
+      "imdb": "nm0000008",
+      "speech": "Rechazó el premio enviando a Sacheen Littlefeather. La Academia tardó 49 años en disculparse. La noche más política de la historia de los Oscar hasta ese momento."
+    },
+    "actress": {
+      "name": "Liza Minnelli",
+      "film": "Cabaret",
+      "imdb": "nm0000214",
+      "speech": "\"Esto es para mamá.\" Judy Garland, su madre, nunca ganó el Oscar."
+    },
+    "tags": [
+      "clasico",
+      "historico",
+      "politico"
+    ]
+  },
+  {
+    "n": 46,
+    "year": "1974",
+    "decade": 1970,
+    "venue": "Dorothy Chandler Pavilion",
+    "picture": {
+      "film": "The Sting",
+      "dir": "George Roy Hill",
+      "imdb": "tt0070735",
+      "note": "7 Oscar."
+    },
+    "director": {
+      "name": "George Roy Hill",
+      "film": "The Sting"
+    },
+    "actor": {
+      "name": "Jack Lemmon",
+      "film": "Save the Tiger",
+      "imdb": "nm0000474",
+      "speech": "Segundo Oscar de Lemmon. Una de las mayores ovaciones de la noche."
+    },
+    "actress": {
+      "name": "Glenda Jackson",
+      "film": "A Touch of Class",
+      "imdb": "nm0001413",
+      "speech": "Segunda victoria en cuatro años. \"Los Oscar no cambiaron nada en mi vida.\""
+    },
+    "tags": [
+      "clasico"
+    ]
+  },
+  {
+    "n": 47,
+    "year": "1975",
+    "decade": 1970,
+    "venue": "Dorothy Chandler Pavilion",
+    "picture": {
+      "film": "The Godfather Part II",
+      "dir": "Francis Ford Coppola",
+      "imdb": "tt0071562",
+      "note": "6 Oscar. Primera secuela en ganar Mejor Película."
+    },
+    "director": {
+      "name": "Francis Ford Coppola",
+      "film": "The Godfather Part II"
+    },
+    "actor": {
+      "name": "Art Carney",
+      "film": "Harry and Tonto",
+      "imdb": "nm0001023",
+      "speech": "Ganó sobre Nicholson, Pacino y Hoffman. Una de las mayores sorpresas de la historia."
+    },
+    "actress": {
+      "name": "Ellen Burstyn",
+      "film": "Alice Doesn't Live Here Anymore",
+      "imdb": "nm0000108",
+      "speech": "\"Gracias a Scorsese por hacer una película sobre nosotras, las mujeres.\""
+    },
+    "tags": [
+      "clasico",
+      "record"
+    ]
+  },
+  {
+    "n": 48,
+    "year": "1976",
+    "decade": 1970,
+    "venue": "Dorothy Chandler Pavilion",
+    "picture": {
+      "film": "One Flew Over the Cuckoo's Nest",
+      "dir": "Milos Forman",
+      "imdb": "tt0073486",
+      "note": "Segundo Big Five Sweep. Solo tres en 97 años."
+    },
+    "director": {
+      "name": "Milos Forman",
+      "film": "One Flew Over the Cuckoo's Nest"
+    },
+    "actor": {
+      "name": "Jack Nicholson",
+      "film": "One Flew Over the Cuckoo's Nest",
+      "imdb": "nm0000197",
+      "speech": "Primer Oscar de Nicholson. \"Gracias a Fred Roos que confió en mí cuando nadie más lo hacía.\""
+    },
+    "actress": {
+      "name": "Louise Fletcher",
+      "film": "One Flew Over the Cuckoo's Nest",
+      "imdb": "nm0001226",
+      "speech": "Dedicó su discurso en lenguaje de signos a sus padres sordos que la estaban viendo por televisión. Uno de los momentos más emotivos de la historia de los Oscar."
+    },
+    "tags": [
+      "clasico",
+      "record",
+      "emotivo",
+      "big5"
+    ]
+  },
+  {
+    "n": 49,
+    "year": "1977",
+    "decade": 1970,
+    "venue": "Dorothy Chandler Pavilion",
+    "picture": {
+      "film": "Rocky",
+      "dir": "John G. Avildsen",
+      "imdb": "tt0075148",
+      "note": "Derrotó a Network y Taxi Driver."
+    },
+    "director": {
+      "name": "John G. Avildsen",
+      "film": "Rocky"
+    },
+    "actor": {
+      "name": "Peter Finch",
+      "film": "Network",
+      "imdb": "nm0000396",
+      "speech": "Finch murió dos meses antes de la gala. Primer ganador póstumo de la historia."
+    },
+    "actress": {
+      "name": "Faye Dunaway",
+      "film": "Network",
+      "imdb": "nm0000386"
+    },
+    "tags": [
+      "clasico",
+      "historico"
+    ]
+  },
+  {
+    "n": 50,
+    "year": "1978",
+    "decade": 1970,
+    "venue": "Dorothy Chandler Pavilion",
+    "picture": {
+      "film": "Annie Hall",
+      "dir": "Woody Allen",
+      "imdb": "tt0075686",
+      "note": "Allen venció a Star Wars. Allen ni asistió: prefirió tocar el clarinete en un club."
+    },
+    "director": {
+      "name": "Woody Allen",
+      "film": "Annie Hall"
+    },
+    "actor": {
+      "name": "Richard Dreyfuss",
+      "film": "The Goodbye Girl",
+      "imdb": "nm0000401",
+      "speech": "Tenía 29 años, el más joven en ganar. Llegó al escenario \"no del todo sobrio\", según él mismo."
+    },
+    "actress": {
+      "name": "Diane Keaton",
+      "film": "Annie Hall",
+      "imdb": "nm0000424",
+      "speech": "Su look —pantalón, chaleco, corbata— se convirtió en símbolo de moda."
+    },
+    "tags": [
+      "clasico"
+    ]
+  },
+  {
+    "n": 51,
+    "year": "1979",
+    "decade": 1970,
+    "venue": "Dorothy Chandler Pavilion",
+    "picture": {
+      "film": "The Deer Hunter",
+      "dir": "Michael Cimino",
+      "imdb": "tt0077416",
+      "note": "5 Oscar."
+    },
+    "director": {
+      "name": "Michael Cimino",
+      "film": "The Deer Hunter"
+    },
+    "actor": {
+      "name": "Jon Voight",
+      "film": "Coming Home",
+      "imdb": "nm0000685"
+    },
+    "actress": {
+      "name": "Jane Fonda",
+      "film": "Coming Home",
+      "imdb": "nm0000404",
+      "speech": "Segunda victoria. La noche de Vietnam: ella, Voight, Deer Hunter. Todo alrededor de la guerra."
+    },
+    "tags": [
+      "clasico"
+    ]
+  },
+  {
+    "n": 52,
+    "year": "1980",
+    "decade": 1980,
+    "venue": "Dorothy Chandler Pavilion",
+    "picture": {
+      "film": "Kramer vs. Kramer",
+      "dir": "Robert Benton",
+      "imdb": "tt0079417",
+      "note": "5 Oscar."
+    },
+    "director": {
+      "name": "Robert Benton",
+      "film": "Kramer vs. Kramer"
+    },
+    "actor": {
+      "name": "Dustin Hoffman",
+      "film": "Kramer vs. Kramer",
+      "imdb": "nm0000453",
+      "speech": "\"Esta película es por todos los padres que no saben cómo decir adiós a sus hijos.\" Agradeció a su ex mujer en el escenario."
+    },
+    "actress": {
+      "name": "Sally Field",
+      "film": "Norma Rae",
+      "imdb": "nm0001236",
+      "speech": "Primera victoria de Field."
+    },
+    "tags": [
+      "clasico"
+    ]
+  },
+  {
+    "n": 53,
+    "year": "1981",
+    "decade": 1980,
+    "venue": "Dorothy Chandler Pavilion",
+    "picture": {
+      "film": "Ordinary People",
+      "dir": "Robert Redford",
+      "imdb": "tt0081283",
+      "note": "4 Oscar."
+    },
+    "director": {
+      "name": "Robert Redford",
+      "film": "Ordinary People"
+    },
+    "actor": {
+      "name": "Robert De Niro",
+      "film": "Raging Bull",
+      "imdb": "nm0000134",
+      "speech": "\"Este premio es para Jake LaMotta, que vive la vida en sus propios términos.\" Engordó 25 kilos para el papel."
+    },
+    "actress": {
+      "name": "Sissy Spacek",
+      "film": "Coal Miner's Daughter",
+      "imdb": "nm0000820"
+    },
+    "tags": [
+      "clasico"
+    ]
+  },
+  {
+    "n": 54,
+    "year": "1982",
+    "decade": 1980,
+    "venue": "Dorothy Chandler Pavilion",
+    "picture": {
+      "film": "Chariots of Fire",
+      "dir": "Hugh Hudson",
+      "imdb": "tt0082158"
+    },
+    "director": {
+      "name": "Warren Beatty",
+      "film": "Reds"
+    },
+    "actor": {
+      "name": "Henry Fonda",
+      "film": "On Golden Pond",
+      "imdb": "nm0000437",
+      "speech": "76 años. El más mayor en ganar Mejor Actor. Gravemente enfermo. Su hija Jane Fonda recogió el premio llorando. Murió 5 meses después."
+    },
+    "actress": {
+      "name": "Katharine Hepburn",
+      "film": "On Golden Pond",
+      "imdb": "nm0000031",
+      "speech": "Cuarta y última victoria de Hepburn. Récord absoluto. Hepburn y Fonda ganaron el mismo año por el mismo film — algo sin precedentes en la historia."
+    },
+    "tags": [
+      "clasico",
+      "record",
+      "emotivo"
+    ]
+  },
+  {
+    "n": 55,
+    "year": "1983",
+    "decade": 1980,
+    "venue": "Dorothy Chandler Pavilion",
+    "picture": {
+      "film": "Gandhi",
+      "dir": "Richard Attenborough",
+      "imdb": "tt0083987",
+      "note": "8 Oscar."
+    },
+    "director": {
+      "name": "Richard Attenborough",
+      "film": "Gandhi"
+    },
+    "actor": {
+      "name": "Ben Kingsley",
+      "film": "Gandhi",
+      "imdb": "nm0001426",
+      "speech": "\"El mundo necesita a Gandhi más hoy que cuando vivía.\""
+    },
+    "actress": {
+      "name": "Meryl Streep",
+      "film": "Sophie's Choice",
+      "imdb": "nm0000658",
+      "speech": "Segunda victoria de Streep, pero primera como protagonista. Agradeció en polaco, el idioma de su personaje."
+    },
+    "tags": [
+      "clasico"
+    ]
+  },
+  {
+    "n": 56,
+    "year": "1984",
+    "decade": 1980,
+    "venue": "Dorothy Chandler Pavilion",
+    "picture": {
+      "film": "Terms of Endearment",
+      "dir": "James L. Brooks",
+      "imdb": "tt0086879",
+      "note": "5 Oscar."
+    },
+    "director": {
+      "name": "James L. Brooks",
+      "film": "Terms of Endearment"
+    },
+    "actor": {
+      "name": "Robert Duvall",
+      "film": "Tender Mercies",
+      "imdb": "nm0000380",
+      "speech": "Había aprendido guitarra para el papel. Tocó unos acordes en el escenario."
+    },
+    "actress": {
+      "name": "Shirley MacLaine",
+      "film": "Terms of Endearment",
+      "imdb": "nm0000517",
+      "speech": "Quinta nominación. \"I deserve this.\" Sin más. La sala estalló."
+    },
+    "tags": [
+      "clasico"
+    ]
+  },
+  {
+    "n": 57,
+    "year": "1985",
+    "decade": 1980,
+    "venue": "Dorothy Chandler Pavilion",
+    "picture": {
+      "film": "Amadeus",
+      "dir": "Milos Forman",
+      "imdb": "tt0086879",
+      "note": "8 Oscar."
+    },
+    "director": {
+      "name": "Milos Forman",
+      "film": "Amadeus"
+    },
+    "actor": {
+      "name": "F. Murray Abraham",
+      "film": "Amadeus",
+      "imdb": "nm0000757",
+      "speech": "Agradeció a Mozart. Solo a Mozart."
+    },
+    "actress": {
+      "name": "Sally Field",
+      "film": "Places in the Heart",
+      "imdb": "nm0001236",
+      "speech": "\"You like me. Right now, you like me.\" El discurso más citado de la era moderna. Field aclaró después que era una broma sobre el sistema de votación, no una petición de aprobación."
+    },
+    "tags": [
+      "clasico",
+      "iconico"
+    ]
+  },
+  {
+    "n": 58,
+    "year": "1986",
+    "decade": 1980,
+    "venue": "Dorothy Chandler Pavilion",
+    "picture": {
+      "film": "Out of Africa",
+      "dir": "Sydney Pollack",
+      "imdb": "tt0089755",
+      "note": "7 Oscar."
+    },
+    "director": {
+      "name": "Sydney Pollack",
+      "film": "Out of Africa"
+    },
+    "actor": {
+      "name": "William Hurt",
+      "film": "Kiss of the Spider Woman",
+      "imdb": "nm0001385",
+      "speech": "Ganó por uno de los primeros grandes papeles LGBTQ+ del cine mainstream."
+    },
+    "actress": {
+      "name": "Geraldine Page",
+      "film": "The Trip to Bountiful",
+      "imdb": "nm0001587",
+      "speech": "Séptima nominación. \"Está bien llegar tarde a veces.\""
+    },
+    "tags": [
+      "clasico"
+    ]
+  },
+  {
+    "n": 59,
+    "year": "1987",
+    "decade": 1980,
+    "venue": "Dorothy Chandler Pavilion",
+    "picture": {
+      "film": "Platoon",
+      "dir": "Oliver Stone",
+      "imdb": "tt0091763",
+      "note": "4 Oscar."
+    },
+    "director": {
+      "name": "Oliver Stone",
+      "film": "Platoon"
+    },
+    "actor": {
+      "name": "Paul Newman",
+      "film": "The Color of Money",
+      "imdb": "nm0000056",
+      "speech": "Octava nominación. \"Esta es mi octava vez. Gracias por vuestra persistencia.\" El discurso más aplaudido de la noche."
+    },
+    "actress": {
+      "name": "Marlee Matlin",
+      "film": "Children of a Lesser God",
+      "imdb": "nm0001508",
+      "speech": "Sorda. Discurso en lenguaje de signos. Única actriz sorda en ganar. Tenía 21 años, la más joven en ganar esa categoría."
+    },
+    "tags": [
+      "clasico",
+      "historico"
+    ]
+  },
+  {
+    "n": 60,
+    "year": "1988",
+    "decade": 1980,
+    "venue": "Shrine Auditorium",
+    "picture": {
+      "film": "The Last Emperor",
+      "dir": "Bernardo Bertolucci",
+      "imdb": "tt0093389",
+      "note": "9 Oscar de 9 nominaciones. Segundo sweep perfecto."
+    },
+    "director": {
+      "name": "Bernardo Bertolucci",
+      "film": "The Last Emperor"
+    },
+    "actor": {
+      "name": "Michael Douglas",
+      "film": "Wall Street",
+      "imdb": "nm0000140",
+      "speech": "\"Gracias a mi padre Kirk Douglas por enseñarme que en Hollywood, como en Wall Street, el dinero nunca duerme.\""
+    },
+    "actress": {
+      "name": "Cher",
+      "film": "Moonstruck",
+      "imdb": "nm0000333",
+      "speech": "\"Cuando era niña vivía en un coche con mi madre y nunca pensé que estaría aquí.\""
+    },
+    "tags": [
+      "clasico"
+    ]
+  },
+  {
+    "n": 61,
+    "year": "1989",
+    "decade": 1980,
+    "venue": "Shrine Auditorium",
+    "picture": {
+      "film": "Rain Man",
+      "dir": "Barry Levinson",
+      "imdb": "tt0095953",
+      "note": "4 Oscar."
+    },
+    "director": {
+      "name": "Barry Levinson",
+      "film": "Rain Man"
+    },
+    "actor": {
+      "name": "Dustin Hoffman",
+      "film": "Rain Man",
+      "imdb": "nm0000453",
+      "speech": "\"Este premio es de las personas autistas con las que pasé meses investigando.\""
+    },
+    "actress": {
+      "name": "Jodie Foster",
+      "film": "The Accused",
+      "imdb": "nm0000149",
+      "speech": "Primera victoria. 26 años. Había estudiado en Yale entre rodaje y rodaje."
+    },
+    "tags": [
+      "clasico"
+    ]
+  },
+  {
+    "n": 62,
+    "year": "1990",
+    "decade": 1990,
+    "venue": "Dorothy Chandler Pavilion",
+    "picture": {
+      "film": "Driving Miss Daisy",
+      "dir": "Bruce Beresford",
+      "imdb": "tt0097239",
+      "note": "4 Oscar."
+    },
+    "director": {
+      "name": "Oliver Stone",
+      "film": "Born on the Fourth of July"
+    },
+    "actor": {
+      "name": "Daniel Day-Lewis",
+      "film": "My Left Foot",
+      "imdb": "nm0000358",
+      "speech": "Primera victoria. Permaneció en silla de ruedas durante todo el rodaje. \"No tengo palabras para esto.\""
+    },
+    "actress": {
+      "name": "Jessica Tandy",
+      "film": "Driving Miss Daisy",
+      "imdb": "nm0000670",
+      "speech": "80 años. La más mayor en ganar Mejor Actriz. \"Soy la mujer más afortunada del mundo.\""
+    },
+    "tags": [
+      "clasico",
+      "record"
+    ]
+  },
+  {
+    "n": 63,
+    "year": "1991",
+    "decade": 1990,
+    "venue": "Dorothy Chandler Pavilion",
+    "picture": {
+      "film": "Dances with Wolves",
+      "dir": "Kevin Costner",
+      "imdb": "tt0099348",
+      "note": "7 Oscar. Sorpresa histórica sobre Goodfellas."
+    },
+    "director": {
+      "name": "Kevin Costner",
+      "film": "Dances with Wolves"
+    },
+    "actor": {
+      "name": "Jeremy Irons",
+      "film": "Reversal of Fortune",
+      "imdb": "nm0000460"
+    },
+    "actress": {
+      "name": "Kathy Bates",
+      "film": "Misery",
+      "imdb": "nm0000870",
+      "speech": "\"No me lo esperaba. Realmente no me lo esperaba.\""
+    },
+    "tags": [
+      "clasico"
+    ]
+  },
+  {
+    "n": 64,
+    "year": "1992",
+    "decade": 1990,
+    "venue": "Dorothy Chandler Pavilion",
+    "picture": {
+      "film": "The Silence of the Lambs",
+      "dir": "Jonathan Demme",
+      "imdb": "tt0102926",
+      "note": "Tercer y último Big Five Sweep de la historia."
+    },
+    "director": {
+      "name": "Jonathan Demme",
+      "film": "The Silence of the Lambs"
+    },
+    "actor": {
+      "name": "Anthony Hopkins",
+      "film": "The Silence of the Lambs",
+      "imdb": "nm0000164",
+      "speech": "\"Gracias al público por haber soportado a Hannibal Lecter.\" Solo 16 minutos en pantalla."
+    },
+    "actress": {
+      "name": "Jodie Foster",
+      "film": "The Silence of the Lambs",
+      "imdb": "nm0000149",
+      "speech": "Segunda victoria. Dedicado a \"todas las mujeres que han tenido miedo en la oscuridad y lo han superado.\""
+    },
+    "tags": [
+      "clasico",
+      "record",
+      "big5"
+    ]
+  },
+  {
+    "n": 65,
+    "year": "1993",
+    "decade": 1990,
+    "venue": "Dorothy Chandler Pavilion",
+    "picture": {
+      "film": "Unforgiven",
+      "dir": "Clint Eastwood",
+      "imdb": "tt0105695",
+      "note": "4 Oscar."
+    },
+    "director": {
+      "name": "Clint Eastwood",
+      "film": "Unforgiven"
+    },
+    "actor": {
+      "name": "Al Pacino",
+      "film": "Scent of a Woman",
+      "imdb": "nm0000199",
+      "speech": "Séptima nominación. \"Tardé mucho en llegar aquí.\" Ovación."
+    },
+    "actress": {
+      "name": "Emma Thompson",
+      "film": "Howards End",
+      "imdb": "nm0001767",
+      "speech": "Llegó con un Oscar de plástico de un programa de televisión. \"Como ven, tengo práctica.\""
+    },
+    "tags": [
+      "clasico"
+    ]
+  },
+  {
+    "n": 66,
+    "year": "1994",
+    "decade": 1990,
+    "venue": "Dorothy Chandler Pavilion",
+    "picture": {
+      "film": "Schindler's List",
+      "dir": "Steven Spielberg",
+      "imdb": "tt0108052",
+      "note": "7 Oscar. Primer Oscar de Spielberg como director."
+    },
+    "director": {
+      "name": "Steven Spielberg",
+      "film": "Schindler's List"
+    },
+    "actor": {
+      "name": "Tom Hanks",
+      "film": "Philadelphia",
+      "imdb": "nm0000158",
+      "speech": "Primer Oscar de Hanks. Agradeció a dos personas reales que le ayudaron a entender lo que significaba ser gay. Provocó una ola de artículos sobre visibilidad LGBTQ+."
+    },
+    "actress": {
+      "name": "Holly Hunter",
+      "film": "The Piano",
+      "imdb": "nm0001767",
+      "speech": "\"Ada me enseñó que el silencio tiene su propio idioma.\""
+    },
+    "tags": [
+      "clasico",
+      "emotivo"
+    ]
+  },
+  {
+    "n": 67,
+    "year": "1995",
+    "decade": 1990,
+    "venue": "Shrine Auditorium",
+    "picture": {
+      "film": "Forrest Gump",
+      "dir": "Robert Zemeckis",
+      "imdb": "tt0109830",
+      "note": "6 Oscar. Derrotó a Pulp Fiction y Shawshank Redemption."
+    },
+    "director": {
+      "name": "Robert Zemeckis",
+      "film": "Forrest Gump"
+    },
+    "actor": {
+      "name": "Tom Hanks",
+      "film": "Forrest Gump",
+      "imdb": "nm0000158",
+      "speech": "Segundo Oscar consecutivo. El primero en lograrlo desde Spencer Tracy. \"Run, Forrest, run... mamá tenía razón.\""
+    },
+    "actress": {
+      "name": "Jessica Lange",
+      "film": "Blue Sky",
+      "imdb": "nm0001446"
+    },
+    "tags": [
+      "clasico",
+      "record"
+    ]
+  },
+  {
+    "n": 68,
+    "year": "1996",
+    "decade": 1990,
+    "venue": "Dorothy Chandler Pavilion",
+    "picture": {
+      "film": "Braveheart",
+      "dir": "Mel Gibson",
+      "imdb": "tt0112573",
+      "note": "5 Oscar."
+    },
+    "director": {
+      "name": "Mel Gibson",
+      "film": "Braveheart"
+    },
+    "actor": {
+      "name": "Nicolas Cage",
+      "film": "Leaving Las Vegas",
+      "imdb": "nm0000115"
+    },
+    "actress": {
+      "name": "Susan Sarandon",
+      "film": "Dead Man Walking",
+      "imdb": "nm0001634",
+      "speech": "Cuarta nominación. Dedicó el premio a los condenados a muerte del mundo."
+    },
+    "tags": [
+      "clasico"
+    ]
+  },
+  {
+    "n": 69,
+    "year": "1997",
+    "decade": 1990,
+    "venue": "Dorothy Chandler Pavilion",
+    "picture": {
+      "film": "The English Patient",
+      "dir": "Anthony Minghella",
+      "imdb": "tt0116209",
+      "note": "9 Oscar."
+    },
+    "director": {
+      "name": "Anthony Minghella",
+      "film": "The English Patient"
+    },
+    "actor": {
+      "name": "Geoffrey Rush",
+      "film": "Shine",
+      "imdb": "nm0001677"
+    },
+    "actress": {
+      "name": "Frances McDormand",
+      "film": "Fargo",
+      "imdb": "nm0000531",
+      "speech": "Primera victoria. Agradeció a su hijo adoptivo: \"el amor no tiene fronteras.\""
+    },
+    "tags": [
+      "clasico"
+    ]
+  },
+  {
+    "n": 70,
+    "year": "1998",
+    "decade": 1990,
+    "venue": "Shrine Auditorium",
+    "picture": {
+      "film": "Titanic",
+      "dir": "James Cameron",
+      "imdb": "tt0120338",
+      "note": "11 Oscar. Récord igualado. Mayor recaudación de la historia hasta entonces."
+    },
+    "director": {
+      "name": "James Cameron",
+      "film": "Titanic"
+    },
+    "actor": {
+      "name": "Jack Nicholson",
+      "film": "As Good as It Gets",
+      "imdb": "nm0000197",
+      "speech": "Tercer Oscar de Nicholson, récord entre actores. Llegó con sus gafas de sol."
+    },
+    "actress": {
+      "name": "Helen Hunt",
+      "film": "As Good as It Gets",
+      "imdb": "nm0001435"
+    },
+    "tags": [
+      "clasico",
+      "record"
+    ]
+  },
+  {
+    "n": 71,
+    "year": "1999",
+    "decade": 1990,
+    "venue": "Dorothy Chandler Pavilion",
+    "picture": {
+      "film": "Shakespeare in Love",
+      "dir": "John Madden",
+      "imdb": "tt0138097",
+      "note": "7 Oscar. Sorpresa sobre Saving Private Ryan. Atribuida a campaña de Harvey Weinstein."
+    },
+    "director": {
+      "name": "Steven Spielberg",
+      "film": "Saving Private Ryan"
+    },
+    "actor": {
+      "name": "Roberto Benigni",
+      "film": "Life is Beautiful",
+      "imdb": "nm0000905",
+      "speech": "Saltó sobre los asientos para llegar al escenario. \"Quiero hacer el amor a todo el mundo.\" Uno de los momentos más recordados."
+    },
+    "actress": {
+      "name": "Gwyneth Paltrow",
+      "film": "Shakespeare in Love",
+      "imdb": "nm0000569",
+      "speech": "Llorando varios minutos. El discurso generó más cobertura que la película."
+    },
+    "tags": [
+      "clasico",
+      "emotivo",
+      "iconico"
+    ]
+  },
+  {
+    "n": 72,
+    "year": "2000",
+    "decade": 2000,
+    "venue": "Shrine Auditorium",
+    "picture": {
+      "film": "American Beauty",
+      "dir": "Sam Mendes",
+      "imdb": "tt0169547",
+      "note": "5 Oscar."
+    },
+    "director": {
+      "name": "Sam Mendes",
+      "film": "American Beauty"
+    },
+    "actor": {
+      "name": "Kevin Spacey",
+      "film": "American Beauty",
+      "imdb": "nm0000228",
+      "speech": "Segundo Oscar. \"Mamá, lo logramos.\""
+    },
+    "actress": {
+      "name": "Hilary Swank",
+      "film": "Boys Don't Cry",
+      "imdb": "nm0005476",
+      "speech": "Había trabajado de camarera mientras perseguía su carrera. \"No puedo creer que esto sea real.\""
+    },
+    "tags": [
+      "clasico"
+    ]
+  },
+  {
+    "n": 73,
+    "year": "2001",
+    "decade": 2000,
+    "venue": "Shrine Auditorium",
+    "picture": {
+      "film": "Gladiator",
+      "dir": "Ridley Scott",
+      "imdb": "tt0172495",
+      "note": "5 Oscar."
+    },
+    "director": {
+      "name": "Steven Soderbergh",
+      "film": "Traffic"
+    },
+    "actor": {
+      "name": "Russell Crowe",
+      "film": "Gladiator",
+      "imdb": "nm0001807",
+      "speech": "Leyó un poema propio antes de los agradecimientos. Le cortaron el micrófono."
+    },
+    "actress": {
+      "name": "Julia Roberts",
+      "film": "Erin Brockovich",
+      "imdb": "nm0000210",
+      "speech": "Agradeció a \"doscientas personas\" en 5 minutos."
+    },
+    "tags": [
+      "clasico"
+    ]
+  },
+  {
+    "n": 74,
+    "year": "2002",
+    "decade": 2000,
+    "venue": "Kodak Theatre",
+    "picture": {
+      "film": "A Beautiful Mind",
+      "dir": "Ron Howard",
+      "imdb": "tt0268978",
+      "note": "4 Oscar."
+    },
+    "director": {
+      "name": "Ron Howard",
+      "film": "A Beautiful Mind"
+    },
+    "actor": {
+      "name": "Denzel Washington",
+      "film": "Training Day",
+      "imdb": "nm0000243",
+      "speech": "Primera victoria en protagonista. \"Cuarenta años después de que Sidney ganara aquí, miro hacia arriba y él está aquí.\" Sidney Poitier recibía un Oscar honorífico la misma noche."
+    },
+    "actress": {
+      "name": "Halle Berry",
+      "film": "Monster's Ball",
+      "imdb": "nm0000897",
+      "speech": "Primera mujer negra en ganar Mejor Actriz en 74 años de historia. Lloró 4 minutos. \"Esta noche es para todas las mujeres de color que ahora tienen una oportunidad porque esta puerta esta noche ha sido abierta.\""
+    },
+    "tags": [
+      "emotivo",
+      "historico",
+      "reciente",
+      "record"
+    ]
+  },
+  {
+    "n": 75,
+    "year": "2003",
+    "decade": 2000,
+    "venue": "Kodak Theatre",
+    "picture": {
+      "film": "Chicago",
+      "dir": "Rob Marshall",
+      "imdb": "tt0299658",
+      "note": "6 Oscar. Primer musical en ganar desde Oliver! (1969)."
+    },
+    "director": {
+      "name": "Roman Polanski",
+      "film": "The Pianist"
+    },
+    "actor": {
+      "name": "Adrien Brody",
+      "film": "The Pianist",
+      "imdb": "nm0004970",
+      "speech": "Besó a Halle Berry, la presentadora, antes de dar su discurso. Dedicó el premio a los soldados en Irak, en plena invasión."
+    },
+    "actress": {
+      "name": "Nicole Kidman",
+      "film": "The Hours",
+      "imdb": "nm0000173",
+      "speech": "\"Los actores somos personas que buscamos la verdad del corazón humano.\""
+    },
+    "tags": [
+      "clasico"
+    ]
+  },
+  {
+    "n": 76,
+    "year": "2004",
+    "decade": 2000,
+    "venue": "Kodak Theatre",
+    "picture": {
+      "film": "The Lord of the Rings: The Return of the King",
+      "dir": "Peter Jackson",
+      "imdb": "tt0167260",
+      "note": "11 Oscar de 11 nominaciones. El único film en ganar el 100% de sus nominaciones."
+    },
+    "director": {
+      "name": "Peter Jackson",
+      "film": "The Return of the King"
+    },
+    "actor": {
+      "name": "Sean Penn",
+      "film": "Mystic River",
+      "imdb": "nm0000228",
+      "speech": "Primer Oscar de Penn. Defendió a Tim Robbins, su rival: \"Si no pudieron ver a Tim Robbins aquí esta noche, la actuación que merecía estar aquí es la de Tim Robbins.\""
+    },
+    "actress": {
+      "name": "Charlize Theron",
+      "film": "Monster",
+      "imdb": "nm0000234",
+      "speech": "Transformación radical. \"Las mujeres más bellas del mundo no son las más perfectas.\""
+    },
+    "tags": [
+      "clasico",
+      "record"
+    ]
+  },
+  {
+    "n": 77,
+    "year": "2005",
+    "decade": 2000,
+    "venue": "Kodak Theatre",
+    "picture": {
+      "film": "Million Dollar Baby",
+      "dir": "Clint Eastwood",
+      "imdb": "tt0405159",
+      "note": "4 Oscar."
+    },
+    "director": {
+      "name": "Clint Eastwood",
+      "film": "Million Dollar Baby"
+    },
+    "actor": {
+      "name": "Jamie Foxx",
+      "film": "Ray",
+      "imdb": "nm0004950",
+      "speech": "\"No soy nada sin ti, abuela.\" Llorando al mencionar a quien le crió."
+    },
+    "actress": {
+      "name": "Hilary Swank",
+      "film": "Million Dollar Baby",
+      "imdb": "nm0005476",
+      "speech": "Segunda victoria. Se olvidó de agradecer a su marido Chad Lowe. El olvido fue ampliamente comentado."
+    },
+    "tags": [
+      "clasico"
+    ]
+  },
+  {
+    "n": 78,
+    "year": "2006",
+    "decade": 2000,
+    "venue": "Kodak Theatre",
+    "picture": {
+      "film": "Crash",
+      "dir": "Paul Haggis",
+      "imdb": "tt0375679",
+      "note": "3 Oscar. Venció sobre Brokeback Mountain. Una de las mayores polémicas históricas."
+    },
+    "director": {
+      "name": "Ang Lee",
+      "film": "Brokeback Mountain"
+    },
+    "actor": {
+      "name": "Philip Seymour Hoffman",
+      "film": "Capote",
+      "imdb": "nm0000453",
+      "speech": "\"Mamá, lo logramos. Desde que tenía 22 años soñé con esto.\""
+    },
+    "actress": {
+      "name": "Reese Witherspoon",
+      "film": "Walk the Line",
+      "imdb": "nm0000702",
+      "speech": "\"Gracias a June Carter Cash por mostrar al mundo cómo se ama a un hombre.\""
+    },
+    "tags": [
+      "clasico"
+    ]
+  },
+  {
+    "n": 79,
+    "year": "2007",
+    "decade": 2000,
+    "venue": "Kodak Theatre",
+    "picture": {
+      "film": "The Departed",
+      "dir": "Martin Scorsese",
+      "imdb": "tt0407887",
+      "note": "4 Oscar. Primer Oscar de Scorsese como director, tras 5 nominaciones."
+    },
+    "director": {
+      "name": "Martin Scorsese",
+      "film": "The Departed"
+    },
+    "actor": {
+      "name": "Forest Whitaker",
+      "film": "The Last King of Scotland",
+      "imdb": "nm0001845",
+      "speech": "\"Cuando un actor interpreta a alguien así, aprende que todos tenemos una sombra. Deben acogerse y reconocerse.\""
+    },
+    "actress": {
+      "name": "Helen Mirren",
+      "film": "The Queen",
+      "imdb": "nm0000226",
+      "speech": "\"Su Majestad\" —mirando hacia arriba—\"ha hecho posible esto.\" El discurso más citado de 2007."
+    },
+    "tags": [
+      "clasico",
+      "iconico"
+    ]
+  },
+  {
+    "n": 80,
+    "year": "2008",
+    "decade": 2000,
+    "venue": "Kodak Theatre",
+    "picture": {
+      "film": "No Country for Old Men",
+      "dir": "Coen Brothers",
+      "imdb": "tt0477348",
+      "note": "4 Oscar."
+    },
+    "director": {
+      "name": "Joel & Ethan Coen",
+      "film": "No Country for Old Men"
+    },
+    "actor": {
+      "name": "Daniel Day-Lewis",
+      "film": "There Will Be Blood",
+      "imdb": "nm0000358",
+      "speech": "Segundo Oscar. \"Compartir esto con Paul Thomas Anderson es como ganarlo dos veces.\""
+    },
+    "actress": {
+      "name": "Marion Cotillard",
+      "film": "La Vie en rose",
+      "imdb": "nm0182839",
+      "speech": "Film completamente en francés. \"Es la historia de amor más bella que he vivido.\""
+    },
+    "tags": [
+      "clasico"
+    ]
+  },
+  {
+    "n": 81,
+    "year": "2009",
+    "decade": 2000,
+    "venue": "Kodak Theatre",
+    "picture": {
+      "film": "Slumdog Millionaire",
+      "dir": "Danny Boyle",
+      "imdb": "tt1010048",
+      "note": "8 Oscar."
+    },
+    "director": {
+      "name": "Danny Boyle",
+      "film": "Slumdog Millionaire"
+    },
+    "actor": {
+      "name": "Sean Penn",
+      "film": "Milk",
+      "imdb": "nm0000228",
+      "speech": "Segundo Oscar. Mensaje contra la Proposición 8 de California. \"Gracias por esta incurable bondad.\""
+    },
+    "actress": {
+      "name": "Kate Winslet",
+      "film": "The Reader",
+      "imdb": "nm0000701",
+      "speech": "En un sketch de Extras había predicho que ganaría por una película sobre el Holocausto. Ganó por exactamente eso. Lo mencionó en el escenario."
+    },
+    "tags": [
+      "clasico",
+      "politico"
+    ]
+  },
+  {
+    "n": 82,
+    "year": "2010",
+    "decade": 2010,
+    "venue": "Kodak Theatre",
+    "picture": {
+      "film": "The Hurt Locker",
+      "dir": "Kathryn Bigelow",
+      "imdb": "tt0887912",
+      "note": "6 Oscar. Primera mujer en ganar Mejor Director."
+    },
+    "director": {
+      "name": "Kathryn Bigelow",
+      "film": "The Hurt Locker"
+    },
+    "actor": {
+      "name": "Jeff Bridges",
+      "film": "Crazy Heart",
+      "imdb": "nm0000313",
+      "speech": "Primer Oscar. \"Agradecer esto a mi padre Lloyd Bridges...\""
+    },
+    "actress": {
+      "name": "Sandra Bullock",
+      "film": "The Blind Side",
+      "imdb": "nm0001676",
+      "speech": "Agradeció a su madre en alemán. \"Du bist immer bei mir.\""
+    },
+    "tags": [
+      "clasico",
+      "historico"
+    ]
+  },
+  {
+    "n": 83,
+    "year": "2011",
+    "decade": 2010,
+    "venue": "Kodak Theatre",
+    "picture": {
+      "film": "The King's Speech",
+      "dir": "Tom Hooper",
+      "imdb": "tt1504320",
+      "note": "4 Oscar."
+    },
+    "director": {
+      "name": "Tom Hooper",
+      "film": "The King's Speech"
+    },
+    "actor": {
+      "name": "Colin Firth",
+      "film": "The King's Speech",
+      "imdb": "nm0000147",
+      "speech": "\"Tengo que decir esto antes de que me corten el micrófono: mis padres eran profesores y vivieron toda su vida sin ostentación. Esto es para ellos.\""
+    },
+    "actress": {
+      "name": "Natalie Portman",
+      "film": "Black Swan",
+      "imdb": "nm0000204",
+      "speech": "Embarazada. \"El rol más importante de mi vida llega en unas semanas.\""
+    },
+    "tags": [
+      "clasico"
+    ]
+  },
+  {
+    "n": 84,
+    "year": "2012",
+    "decade": 2010,
+    "venue": "Kodak Theatre",
+    "picture": {
+      "film": "The Artist",
+      "dir": "Michel Hazanavicius",
+      "imdb": "tt1655442",
+      "note": "5 Oscar. Primer film mudo en ganar desde Wings (1929)."
+    },
+    "director": {
+      "name": "Michel Hazanavicius",
+      "film": "The Artist"
+    },
+    "actor": {
+      "name": "Jean Dujardin",
+      "film": "The Artist",
+      "imdb": "nm0241121",
+      "speech": "Primer actor francés en ganar. \"Merci America!\""
+    },
+    "actress": {
+      "name": "Meryl Streep",
+      "film": "The Iron Lady",
+      "imdb": "nm0000658",
+      "speech": "Tercer Oscar de Streep, récord absoluto. \"Sé que la mitad de América dice: 'Dios, no ella otra vez.' Y la otra mitad: '¿Cómo se llama esa mujer?'\""
+    },
+    "tags": [
+      "clasico",
+      "record",
+      "iconico"
+    ]
+  },
+  {
+    "n": 85,
+    "year": "2013",
+    "decade": 2010,
+    "venue": "Dolby Theatre",
+    "picture": {
+      "film": "Argo",
+      "dir": "Ben Affleck",
+      "imdb": "tt1024648",
+      "note": "3 Oscar. Affleck no fue nominado a Mejor Director, una de las polémicas del año."
+    },
+    "director": {
+      "name": "Ang Lee",
+      "film": "Life of Pi"
+    },
+    "actor": {
+      "name": "Daniel Day-Lewis",
+      "film": "Lincoln",
+      "imdb": "nm0000358",
+      "speech": "Tercer Oscar de Day-Lewis. Récord absoluto de victorias en Mejor Actor. \"Tres veces es... demasiado para una sola persona.\""
+    },
+    "actress": {
+      "name": "Jennifer Lawrence",
+      "film": "Silver Linings Playbook",
+      "imdb": "nm2225369",
+      "speech": "Se cayó en las escaleras del escenario. \"Gracias. No tengo palabras porque me levantaron cuando me caí.\""
+    },
+    "tags": [
+      "clasico",
+      "record",
+      "emotivo"
+    ]
+  },
+  {
+    "n": 86,
+    "year": "2014",
+    "decade": 2010,
+    "venue": "Dolby Theatre",
+    "picture": {
+      "film": "12 Years a Slave",
+      "dir": "Steve McQueen",
+      "imdb": "tt2024544",
+      "note": "3 Oscar. Primer film dirigido por un hombre negro en ganar Mejor Película."
+    },
+    "director": {
+      "name": "Alfonso Cuarón",
+      "film": "Gravity"
+    },
+    "actor": {
+      "name": "Matthew McConaughey",
+      "film": "Dallas Buyers Club",
+      "imdb": "nm0000190",
+      "speech": "\"Necesito tres cosas para ser feliz: Dios, mi familia y mi trabajo. Esta noche las tres están aquí.\""
+    },
+    "actress": {
+      "name": "Cate Blanchett",
+      "film": "Blue Jasmine",
+      "imdb": "nm0000949",
+      "speech": "Defendió las películas con protagonistas femeninas: \"Las audiencias quieren ver historias de mujeres.\""
+    },
+    "tags": [
+      "clasico",
+      "historico",
+      "politico"
+    ]
+  },
+  {
+    "n": 87,
+    "year": "2015",
+    "decade": 2010,
+    "venue": "Dolby Theatre",
+    "picture": {
+      "film": "Birdman",
+      "dir": "Alejandro G. Iñárritu",
+      "imdb": "tt2562232",
+      "note": "4 Oscar."
+    },
+    "director": {
+      "name": "Alejandro G. Iñárritu",
+      "film": "Birdman"
+    },
+    "actor": {
+      "name": "Eddie Redmayne",
+      "film": "The Theory of Everything",
+      "imdb": "nm1519666"
+    },
+    "actress": {
+      "name": "Julianne Moore",
+      "film": "Still Alice",
+      "imdb": "nm0000194",
+      "speech": "Quinta nominación. \"Para todos aquellos que están perdiendo quiénes son.\""
+    },
+    "tags": [
+      "clasico",
+      "emotivo"
+    ]
+  },
+  {
+    "n": 88,
+    "year": "2016",
+    "decade": 2010,
+    "venue": "Dolby Theatre",
+    "picture": {
+      "film": "Spotlight",
+      "dir": "Tom McCarthy",
+      "imdb": "tt1895587",
+      "note": "2 Oscar."
+    },
+    "director": {
+      "name": "Alejandro G. Iñárritu",
+      "film": "The Revenant"
+    },
+    "actor": {
+      "name": "Leonardo DiCaprio",
+      "film": "The Revenant",
+      "imdb": "nm0000138",
+      "speech": "Sexta nominación, primera victoria. \"El cambio climático es real. Está ocurriendo ahora. No es ciencia ficción. Es la amenaza más urgente a la que se enfrenta nuestra especie.\""
+    },
+    "actress": {
+      "name": "Brie Larson",
+      "film": "Room",
+      "imdb": "nm0488953"
+    },
+    "tags": [
+      "reciente",
+      "politico",
+      "iconico"
+    ]
+  },
+  {
+    "n": 89,
+    "year": "2017",
+    "decade": 2010,
+    "venue": "Dolby Theatre",
+    "picture": {
+      "film": "Moonlight",
+      "dir": "Barry Jenkins",
+      "imdb": "tt4975722",
+      "note": "3 Oscar. Error histórico: se anunció La La Land por equivocación."
+    },
+    "director": {
+      "name": "Damien Chazelle",
+      "film": "La La Land"
+    },
+    "actor": {
+      "name": "Casey Affleck",
+      "film": "Manchester by the Sea",
+      "imdb": "nm0000729"
+    },
+    "actress": {
+      "name": "Emma Stone",
+      "film": "La La Land",
+      "imdb": "nm1297015",
+      "speech": "\"Esta película me habla sobre los sueños y el precio que pagamos por ellos.\""
+    },
+    "tags": [
+      "reciente",
+      "historico",
+      "iconico"
+    ]
+  },
+  {
+    "n": 90,
+    "year": "2018",
+    "decade": 2010,
+    "venue": "Dolby Theatre",
+    "picture": {
+      "film": "The Shape of Water",
+      "dir": "Guillermo del Toro",
+      "imdb": "tt5580390",
+      "note": "4 Oscar."
+    },
+    "director": {
+      "name": "Guillermo del Toro",
+      "film": "The Shape of Water"
+    },
+    "actor": {
+      "name": "Gary Oldman",
+      "film": "Darkest Hour",
+      "imdb": "nm0001569",
+      "speech": "Primer Oscar tras muchos años. \"Nunca gané esto antes. Y eso a veces le hace dudar a uno.\""
+    },
+    "actress": {
+      "name": "Frances McDormand",
+      "film": "Three Billboards Outside Ebbing, Missouri",
+      "imdb": "nm0000531",
+      "speech": "\"Inclusion riders.\" Las dos palabras que llegaron a los titulares de todo el mundo. Invitó a todas las nominadas a ponerse en pie."
+    },
+    "tags": [
+      "reciente",
+      "politico",
+      "iconico"
+    ]
+  },
+  {
+    "n": 91,
+    "year": "2019",
+    "decade": 2010,
+    "venue": "Dolby Theatre",
+    "picture": {
+      "film": "Green Book",
+      "dir": "Peter Farrelly",
+      "imdb": "tt6966692",
+      "note": "3 Oscar."
+    },
+    "director": {
+      "name": "Alfonso Cuarón",
+      "film": "Roma"
+    },
+    "actor": {
+      "name": "Rami Malek",
+      "film": "Bohemian Rhapsody",
+      "imdb": "nm1785339",
+      "speech": "\"Gracias a Freddie Mercury por darme la oportunidad de celebrar tu vida frente al mundo entero.\""
+    },
+    "actress": {
+      "name": "Olivia Colman",
+      "film": "The Favourite",
+      "imdb": "nm1469236",
+      "speech": "La sorpresa más divertida de los Oscar modernos. \"No me lo esperaba... ¡Glenn Close debería haber ganado esto!\""
+    },
+    "tags": [
+      "reciente",
+      "emotivo",
+      "iconico"
+    ]
+  },
+  {
+    "n": 92,
+    "year": "2020",
+    "decade": 2020,
+    "venue": "Dolby Theatre",
+    "picture": {
+      "film": "Parasite",
+      "dir": "Bong Joon-ho",
+      "imdb": "tt6751668",
+      "note": "4 Oscar. Primer film no anglófono en ganar. Hito histórico."
+    },
+    "director": {
+      "name": "Bong Joon-ho",
+      "film": "Parasite"
+    },
+    "actor": {
+      "name": "Joaquin Phoenix",
+      "film": "Joker",
+      "imdb": "nm0001618",
+      "speech": "Derechos de los animales, veganismo, cambio climático, racismo. Y un verso de su hermano River Phoenix: \"Run to the rescue with love and peace will follow.\""
+    },
+    "actress": {
+      "name": "Renée Zellweger",
+      "film": "Judy",
+      "imdb": "nm0005554",
+      "speech": "\"Judy Garland no ganó este premio. Pero merecía este reconocimiento.\""
+    },
+    "tags": [
+      "reciente",
+      "historico",
+      "politico"
+    ]
+  },
+  {
+    "n": 93,
+    "year": "2021",
+    "decade": 2020,
+    "venue": "Union Station LA",
+    "picture": {
+      "film": "Nomadland",
+      "dir": "Chloé Zhao",
+      "imdb": "tt9770150",
+      "note": "3 Oscar. Segunda mujer en ganar Mejor Director."
+    },
+    "director": {
+      "name": "Chloé Zhao",
+      "film": "Nomadland"
+    },
+    "actor": {
+      "name": "Anthony Hopkins",
+      "film": "The Father",
+      "imdb": "nm0000164",
+      "speech": "No estaba presente. Dormía en Gales. Al día siguiente grabó un vídeo junto al mar con el Oscar: lo dedicó a Chadwick Boseman, que todos esperaban ganara póstumamente."
+    },
+    "actress": {
+      "name": "Frances McDormand",
+      "film": "Nomadland",
+      "imdb": "nm0000531",
+      "speech": "Tercer Oscar. Aulló como un lobo para celebrar con \"los nómadas de América.\""
+    },
+    "tags": [
+      "reciente",
+      "historico",
+      "iconico"
+    ]
+  },
+  {
+    "n": 94,
+    "year": "2022",
+    "decade": 2020,
+    "venue": "Dolby Theatre",
+    "picture": {
+      "film": "CODA",
+      "dir": "Sian Heder",
+      "imdb": "tt10366460",
+      "note": "3 Oscar. Primer film de Apple TV+ en ganar Mejor Película."
+    },
+    "director": {
+      "name": "Jane Campion",
+      "film": "The Power of the Dog"
+    },
+    "actor": {
+      "name": "Will Smith",
+      "film": "King Richard",
+      "imdb": "nm0000226",
+      "speech": "Smith abofeteó al presentador Chris Rock antes de recibir el premio. El mayor escándalo en la historia de los Oscar. Su discurso fue interrumpido por el llanto."
+    },
+    "actress": {
+      "name": "Jessica Chastain",
+      "film": "The Eyes of Tammy Faye",
+      "imdb": "nm1567113",
+      "speech": "\"Para cualquier persona que sienta que no encaja en este mundo: no estás solo.\""
+    },
+    "tags": [
+      "reciente",
+      "politico",
+      "historico",
+      "iconico"
+    ]
+  },
+  {
+    "n": 95,
+    "year": "2023",
+    "decade": 2020,
+    "venue": "Dolby Theatre",
+    "picture": {
+      "film": "Everything Everywhere All at Once",
+      "dir": "Daniels",
+      "imdb": "tt6710474",
+      "note": "7 Oscar. Fenómeno de A24."
+    },
+    "director": {
+      "name": "Daniel Kwan & Daniel Scheinert",
+      "film": "Everything Everywhere All at Once"
+    },
+    "actor": {
+      "name": "Brendan Fraser",
+      "film": "The Whale",
+      "imdb": "nm0000384",
+      "speech": "\"No pensé que volvería aquí.\" Había estado alejado de Hollywood durante años por acusaciones de acoso. Llorando."
+    },
+    "actress": {
+      "name": "Michelle Yeoh",
+      "film": "Everything Everywhere All at Once",
+      "imdb": "nm0001875",
+      "speech": "Primera mujer asiática en ganar Mejor Actriz. \"Para todas las niñas pequeñas que se parecen a mí: este es un faro de posibilidad.\""
+    },
+    "tags": [
+      "reciente",
+      "historico",
+      "emotivo"
+    ]
+  },
+  {
+    "n": 96,
+    "year": "2024",
+    "decade": 2020,
+    "venue": "Dolby Theatre",
+    "picture": {
+      "film": "Oppenheimer",
+      "dir": "Christopher Nolan",
+      "imdb": "tt15398776",
+      "note": "7 Oscar. Primer Oscar de Nolan tras 5 nominaciones."
+    },
+    "director": {
+      "name": "Christopher Nolan",
+      "film": "Oppenheimer"
+    },
+    "actor": {
+      "name": "Cillian Murphy",
+      "film": "Oppenheimer",
+      "imdb": "nm0614165",
+      "speech": "\"Christopher Nolan me convirtió en actor de cine.\" Y: \"Este premio es para todos los que sueñan con la paz.\""
+    },
+    "actress": {
+      "name": "Emma Stone",
+      "film": "Poor Things",
+      "imdb": "nm1297015",
+      "speech": "Segunda victoria. \"Esta película me cambió. Yorgos Lanthimos me cambió. Nunca seré la misma.\""
+    },
+    "tags": [
+      "reciente",
+      "emotivo"
+    ]
+  },
+  {
+    "n": 97,
+    "year": "2025",
+    "decade": 2020,
+    "venue": "Dolby Theatre",
+    "picture": {
+      "film": "Anora",
+      "dir": "Sean Baker",
+      "imdb": "tt28607951",
+      "note": "5 Oscar. Baker lleva 20 años filmando los márgenes del sueño americano."
+    },
+    "director": {
+      "name": "Sean Baker",
+      "film": "Anora"
+    },
+    "actor": {
+      "name": "Adrien Brody",
+      "film": "The Brutalist",
+      "imdb": "nm0004970",
+      "speech": "Segundo Oscar, 22 años después del primero. \"Cuando tenía 29 años gané este premio y me pasé 22 años preguntándome si volvería a sentir esto. Ahora sé la respuesta.\""
+    },
+    "actress": {
+      "name": "Mikey Madison",
+      "film": "Anora",
+      "imdb": "nm6007781",
+      "speech": "\"No tengo palabras. Mi familia está aquí. Anora está aquí. Sean Baker está aquí.\""
+    },
+    "tags": [
+      "reciente",
+      "emotivo"
+    ]
+  }
+]

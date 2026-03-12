@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /
+
+Sitemap: https://premios-oscar.com/sitemap.xml
+Sitemap: https://premios-oscar.com/news-sitemap.xml

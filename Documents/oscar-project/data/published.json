@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "slug": "sean-baker-2025",
+    "publishedAt": "2026-03-12T11:45:34.603Z",
+    "headline": "\"Anora\" y el discurso de los invisibles: Sean Baker agradece a los que trabajan fuera del sistema"
+  },
+  {
+    "id": 2,
+    "slug": "christopher-nolan-2024",
+    "publishedAt": "2026-03-12T11:35:34.603Z",
+    "headline": "Christopher Nolan y la espera más larga de Hollywood: 25 años para decir gracias"
+  },
+  {
+    "id": 8,
+    "slug": "everything-everywhere-all-at-once-2023",
+    "publishedAt": "2026-03-12T11:25:34.603Z",
+    "headline": "Michelle Yeoh, la primera: un discurso de 60 segundos que representa décadas de exclusión"
+  },
+  {
+    "id": 5,
+    "slug": "el-renacido-2016",
+    "publishedAt": "2026-03-12T11:15:34.603Z",
+    "headline": "Leonardo DiCaprio y el cambio climático: el discurso que no era solo un discurso de los Oscar"
+  },
+  {
+    "id": 3,
+    "slug": "monsters-ball-2002",
+    "publishedAt": "2026-03-12T11:05:34.603Z",
+    "headline": "Halle Berry rompe el techo de cristal: el llanto que cambió la conversación sobre Hollywood"
+  },
+  {
+    "id": 7,
+    "slug": "el-padre-2021",
+    "publishedAt": "2026-03-12T10:55:34.603Z",
+    "headline": "Anthony Hopkins gana sin estar presente: el Oscar de la pandemia y el discurso del día siguiente"
+  },
+  {
+    "id": 4,
+    "slug": "el-padrino-1973",
+    "publishedAt": "2026-03-12T10:45:34.603Z",
+    "headline": "Marlon Brando rechaza el Oscar: la noche en que Hollywood no supo qué hacer con su espejo"
+  },
+  {
+    "id": 6,
+    "slug": "alguien-volo-sobre-el-nido-del-cuco-1976",
+    "publishedAt": "2026-03-12T10:35:34.603Z",
+    "headline": "Louise Fletcher y el lenguaje de signos: el discurso que nadie había visto antes en el Dolby"
+  }
+]
