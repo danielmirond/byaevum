@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "papa-dev",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--prefix", "/Users/danielmd/visita-papa-espana"],
+      "port": 3001,
+      "autoPort": true
+    }
+  ]
+}
