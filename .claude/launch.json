@@ -6,6 +6,18 @@
       "runtimeExecutable": "npm",
       "runtimeArgs": ["run", "dev"],
       "port": 3000
+    },
+    {
+      "name": "ficha-mockup",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "4174", "-d", "/tmp/ficha-mockup"],
+      "port": 4174
+    },
+    {
+      "name": "playasdeespana",
+      "runtimeExecutable": "/bin/sh",
+      "runtimeArgs": ["-c", "cd /tmp/playasdeespana && npm run dev -- --port 4175"],
+      "port": 4175
     }
   ]
 }

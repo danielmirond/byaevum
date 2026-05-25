@@ -1,6 +1,7 @@
 import { NextIntlClientProvider } from 'next-intl'
 import { getMessages } from 'next-intl/server'
 import { instrumentSerif, ibmPlexSans, ibmPlexMono } from '@/lib/fonts'
+import FloatingBoatCTA from '@/components/FloatingBoatCTA'
 import '@/app/globals.css'
 
 export const metadata = {
@@ -24,6 +25,7 @@ export default async function LocaleLayout({
       >
         <NextIntlClientProvider messages={messages}>
           {children}
+          <FloatingBoatCTA />
         </NextIntlClientProvider>
       </body>
     </html>
